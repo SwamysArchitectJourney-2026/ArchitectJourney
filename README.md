@@ -13,6 +13,7 @@ A comprehensive learning and reference repository for aspiring software architec
 ## 📘 Table of Contents
 
 - [Overview](#-overview)
+- [Organization Context](#-organization-context)
 - [What You'll Find](#-what-youll-find)
 - [The Unified Journey](#-the-unified-journey-two-complementary-tracks)
 - [Roadmap — The 9 Levels](#-roadmap--the-9-levels-of-architectjourney)
@@ -33,6 +34,30 @@ A comprehensive learning and reference repository for aspiring software architec
 - **DevOps & Observability** — CI/CD, Infrastructure-as-Code, monitoring, and SRE practices  
 - **Enterprise Architecture** — System design, integration strategies, and high-availability patterns  
 - **Leadership & Strategy** — Technology vision, organizational design, and business acumen  
+
+---
+
+## 🏢 Organization Context
+
+This repository is part of the **SwamysArchitectJourney-2026** GitHub organization, which hosts:
+- **Educational Content** (this repository) - Language-agnostic documentation and learning materials
+- **Code Repositories** - Language-specific implementations (coming soon)
+
+**Organization**: [SwamysArchitectJourney-2026](https://github.com/SwamysArchitectJourney-2026)
+
+### 🔗 Code Repositories
+
+All code implementations are organized by language/domain:
+
+* 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (coming soon)
+* 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (coming soon)
+* 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (coming soon)
+* ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (coming soon)
+* 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (coming soon)
+* ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (coming soon)
+* 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (coming soon)
+
+> **Note**: Code repositories will be created as implementations are developed. This repository contains only educational content and documentation.
 
 ---
 
