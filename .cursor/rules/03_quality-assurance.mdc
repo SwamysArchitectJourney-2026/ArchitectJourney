@@ -31,7 +31,7 @@
 - [ ] **No broken references**: All YAML and markdown links resolve correctly
 - [ ] Markdownlint passes: `npx markdownlint-cli2 "file.md"`
 - [ ] Lychee link check passes: `docker run --rm -v "${PWD}:/workspace" lycheeverse/lychee "file.md"`
-- [ ] Numbering consistent (01_, 02_, etc., never 00_)
+- [ ] **Numbering consistent**: Uses `01_`, `02_`, etc. - **NEVER `00_`** (applies to ALL files including `docs/`)
 - [ ] Code fences have language specified
 - [ ] Blank lines proper (MD022/031/032)
 - [ ] 2-space list indentation (MD007)
