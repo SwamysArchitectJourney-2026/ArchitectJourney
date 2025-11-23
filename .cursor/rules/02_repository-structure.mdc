@@ -1,0 +1,104 @@
+# Repository Structure & Context
+
+**Version**: 1.0  
+**Last Updated**: November 6, 2025
+
+---
+
+## 🧭 Repository Context
+
+**ArchitectJourney** is a comprehensive learning and reference repository for aspiring software architects. It provides:
+
+- Structured learning roadmap from foundational programming to architectural mastery
+- Reference materials for design patterns, principles, and best practices
+- Practical project examples and implementation guides
+- Leadership and strategic frameworks for technical decision-making
+
+**Target Audience**: Developers → Software Architects → Lead Architects → Technology Directors
+
+**Learning Framework**: 9-stage unified progression combining core architecture fundamentals with leadership development
+
+---
+
+## 📁 Repository Structure
+
+```
+ArchitectJourney/
+├── .copilot/                              # Copilot configuration
+│   └── settings.json
+├── .cursor/                               # Cursor AI configuration
+│   └── rules/                             # Project rules (this directory)
+├── .github/                               # GitHub configuration
+│   ├── copilot-instructions.md            # GitHub Copilot instructions
+│   └── prompts/                           # Reusable prompt templates
+├── docs/                                  # Documentation hub
+│   ├── 01_UnifiedArchitectMasteryRoadmap.md
+│   ├── 02_RepositoryStructure.md
+│   └── debugging/                         # Command references
+├── Reference/                             # Static knowledge base (compliant content)
+│   ├── 01_Development/
+│   ├── 02_AI-and-ML/
+│   └── [other domains...]
+├── Learning/                              # Progressive learning paths (compliant content)
+│   ├── 01_Core-Architecture-Path/        # Created as needed when learning content is ready
+│   └── 02_Lead-Architect-Path/            # Created as needed when learning content is ready
+├── source-materials/                      # Staging area (git-ignored, non-compliant)
+│   └── [source content before transformation]
+└── tools/                                 # Automation and utilities
+    └── psscripts/                         # PowerShell scripts
+```
+
+---
+
+## 📁 Source Materials Staging Area
+
+**Location**: `source-materials/` (git-ignored)
+
+**Purpose**: **Staging folder for migration** - Permanent staging area where source content is placed before review and transformation into ArchitectJourney educational content.
+
+**Critical Workflow**:
+
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder
+2. **Review and migrate**: AI assistant reviews ALL files, identifies unique content, and migrates/transforms following Educational Content Rules
+3. **Verify migration**: Confirm all unique content has been migrated to `Reference/` or `Learning/`
+4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
+
+**Important**: 
+- Files in `source-materials/` are **NOT required to be compliant** - they are raw source materials
+- The `source-materials/` folder itself is **permanent** - it's a staging area for ongoing migrations
+- After migration, **keep source files** in `source-materials/` folder - user will delete manually
+
+### Learning Paths Structure
+
+**Important**: `Learning/` folders are created **as needed** when learning content is ready to be added. Empty folders are acceptable and expected.
+
+**Policy**:
+- ✅ Create `Learning/` folder structure when you have content ready to add
+- ✅ Empty folders are acceptable - they indicate planned content
+- ✅ Do not create empty folder hierarchies in advance
+- ✅ Add content following Educational Content Rules when ready
+- ✅ Create folders progressively as learning progresses
+
+**Current Status**: `Learning/01_Core-Architecture-Path/` and `Learning/02_Lead-Architect-Path/` exist but are empty, which is acceptable per this policy.
+
+## 📞 Support & Escalation
+
+**Questions about content placement?** → Check `docs/02_RepositoryStructure.md`
+
+**Content too long?** → Create multi-part structure (Part 1, Part 2, Part N)
+
+**Encoding issues?** → Search for, replace with Unicode equivalents
+
+**Link broken?** → Update URLs or fix internal file references
+
+**Structure outdated?** → Update `.github/copilot-instructions.md` and `README.md` immediately
+
+---
+
+## For More Information
+
+- **Repository**: <https://github.com/Swamy-s-Tech-Skills-Academy/ArchitectJourney>
+- **Master Roadmap**: `docs/01_UnifiedArchitectMasteryRoadmap.md`
+- **Structure Reference**: `docs/02_RepositoryStructure.md`
+- **GitHub Copilot Instructions**: `.github/copilot-instructions.md`
+- **Automation Scripts**: `tools/psscripts/README.md`
