@@ -224,6 +224,36 @@ ArchitectJourney/
 
 ## 📋 Educational Content Rules (ArchitectJourney Knowledge Base)
 
+### 🚨 CRITICAL: Repository Purpose & Code Separation
+
+**This repository (`ArchitectJourney`) is EXCLUSIVELY for educational content:**
+
+- ✅ **Educational Content Only**: Markdown documentation, learning materials, concepts, and illustrative code examples
+- ✅ **Minimal Code Examples**: Code snippets in educational content should be minimal, illustrative, and focused on teaching concepts
+- ❌ **NO Full Implementations**: Complete, runnable code projects are NOT stored in this repository
+- ❌ **NO Code Repositories**: This repository does not contain language-specific code implementations
+
+**Code Implementations Location:**
+
+All full code implementations, projects, and runnable examples are stored in **separate GitHub repositories** within the same organization (`SwamysArchitectJourney-2026`):
+
+- `Python` - Python implementations
+- `CSharp` - C# and .NET projects
+- `JavaScript` - JavaScript/TypeScript projects
+- `Java` - Java and Spring Boot
+- `Go` - Go projects
+- `Cloud` - Infrastructure as Code
+- `AI-ML` - AI/ML implementations
+
+**Code Examples in Educational Content:**
+
+When including code examples in educational content:
+- ✅ Use minimal, illustrative snippets to demonstrate concepts
+- ✅ Focus on teaching, not complete implementations
+- ✅ Reference full implementations in separate code repositories
+- ❌ Do not include complete, production-ready code
+- ❌ Do not create runnable projects in this repository
+
 ### 🚫 Zero-Copy Policy (Non-Negotiable)
 
 **CRITICAL**: All educational content must be transformative, not reformative.
@@ -304,9 +334,21 @@ related_topics:
 #### Numbering Convention
 
 ✅ **ALWAYS** use zero-padded numeric prefixes starting at `01_`  
-❌ **NEVER** use `00_` prefixes  
+❌ **NEVER** use `00_` prefixes - **NO EXCEPTIONS**  
 ✅ Keep numbering stable; add new numbers rather than renumbering widely  
 ✅ Use hyphens for multi-word names: `01_Software-Design-Principles/`
+
+**CRITICAL**: This rule applies to **ALL files** in the repository:
+- ✅ Educational content files (`01_Reference/`, `02_Learning/`)
+- ✅ Documentation files (`docs/`)
+- ✅ Any numbered files anywhere in the repository
+- ❌ **NO EXCEPTIONS** - `00_` is NEVER allowed, even for meta/documentation files
+
+**Why This Rule Exists**:
+- Maintains consistent numbering across the repository
+- Prevents confusion about file ordering
+- Ensures predictable file organization
+- `01_` clearly indicates the first item, `00_` is ambiguous
 
 #### Learning Order Requirements (CRITICAL)
 
@@ -460,9 +502,10 @@ Before committing:
 
 ##### 3. File Naming Review
 - [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
-- [ ] Never uses `00_` prefix
+- [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
 - [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
 - [ ] Hyphens used for multi-word names
+- [ ] Rule applies to educational content AND documentation files
 
 ##### 4. File References Review
 - [ ] All `enables:` references point to existing files

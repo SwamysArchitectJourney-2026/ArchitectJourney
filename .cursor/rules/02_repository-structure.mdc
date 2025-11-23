@@ -1,7 +1,7 @@
 # Repository Structure & Context
 
-**Version**: 1.0  
-**Last Updated**: November 6, 2025
+**Version**: 1.1  
+**Last Updated**: November 23, 2025
 
 ---
 
@@ -18,11 +18,42 @@
 
 **Learning Framework**: 9-stage unified progression combining core architecture fundamentals with leadership development
 
+### 🚨 CRITICAL: Repository Purpose & Code Separation
+
+**This repository (`ArchitectJourney`) is EXCLUSIVELY for educational content:**
+
+- ✅ **Educational Content Only**: Markdown documentation, learning materials, concepts, and illustrative code examples
+- ✅ **Minimal Code Examples**: Code snippets in educational content should be minimal, illustrative, and focused on teaching concepts
+- ❌ **NO Full Implementations**: Complete, runnable code projects are NOT stored in this repository
+- ❌ **NO Code Repositories**: This repository does not contain language-specific code implementations
+
+**Code Implementations Location:**
+
+All full code implementations, projects, and runnable examples are stored in **separate GitHub repositories** within the same organization (`SwamysArchitectJourney-2026`):
+
+- `Python` - Python implementations
+- `CSharp` - C# and .NET projects
+- `JavaScript` - JavaScript/TypeScript projects
+- `Java` - Java and Spring Boot
+- `Go` - Go projects
+- `Cloud` - Infrastructure as Code
+- `AI-ML` - AI/ML implementations
+
+**Code Examples in Educational Content:**
+
+When including code examples in educational content:
+
+- ✅ Use minimal, illustrative snippets to demonstrate concepts
+- ✅ Focus on teaching, not complete implementations
+- ✅ Reference full implementations in separate code repositories
+- ❌ Do not include complete, production-ready code
+- ❌ Do not create runnable projects in this repository
+
 ---
 
 ## 📁 Repository Structure
 
-```
+```text
 ArchitectJourney/
 ├── .copilot/                              # Copilot configuration
 │   └── settings.json
@@ -63,7 +94,8 @@ ArchitectJourney/
 3. **Verify migration**: Confirm all unique content has been migrated to `Reference/` or `Learning/`
 4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
 
-**Important**: 
+**Important**:
+
 - Files in `source-materials/` are **NOT required to be compliant** - they are raw source materials
 - The `source-materials/` folder itself is **permanent** - it's a staging area for ongoing migrations
 - After migration, **keep source files** in `source-materials/` folder - user will delete manually
@@ -73,6 +105,7 @@ ArchitectJourney/
 **Important**: `Learning/` folders are created **as needed** when learning content is ready to be added. Empty folders are acceptable and expected.
 
 **Policy**:
+
 - ✅ Create `Learning/` folder structure when you have content ready to add
 - ✅ Empty folders are acceptable - they indicate planned content
 - ✅ Do not create empty folder hierarchies in advance
