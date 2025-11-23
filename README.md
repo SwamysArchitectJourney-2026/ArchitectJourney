@@ -324,6 +324,22 @@ git config --global user.name "Viswanatha Swamy"
 
 You only need to run these commands once per machine.
 
+### 🐍 Python & pip Usage (Windows)
+
+On Windows, prefer invoking `pip` via the Python launcher so it targets the correct Python installation:
+
+```bash
+py -m pip
+```
+
+This shows the available `pip` commands and options.
+
+To install the `uv` package using this pattern:
+
+```bash
+py -m pip install uv
+```
+
 ---
 
 ## 📜 License
