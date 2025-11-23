@@ -19,6 +19,7 @@ A comprehensive learning and reference repository for aspiring software architec
 - [Roadmap — The 9 Levels](#-roadmap--the-9-levels-of-architectjourney)
 - [Learning Domains](#-learning-domains-covered)
 - [Repository Structure](#-repository-structure)
+ - [Developer Git Setup](#-developer-git-setup)
 - [License](#-license)
 
 ---
@@ -309,6 +310,19 @@ This design serves different learning modalities and supports professionals at a
 | **tools/psscripts/** | 🏗️ Planned | Automation scripts - to be created as needed |
 
 > **Current Phase**: Clean slate setup with comprehensive rules and guidelines. Content development will begin following the established educational content rules and repository structure.
+
+---
+
+## 🧑‍💻 Developer Git Setup
+
+For consistent commit authorship across machines, configure your global Git identity:
+
+```bash
+git config --global user.email "vishipayyallore@yahoo.com"
+git config --global user.name "Viswanatha Swamy"
+```
+
+You only need to run these commands once per machine.
 
 ---
 
