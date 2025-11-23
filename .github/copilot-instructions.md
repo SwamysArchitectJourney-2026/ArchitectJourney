@@ -1,7 +1,7 @@
 ﻿# GitHub Copilot Instructions for ArchitectJourney
 
-**Version**: 3.1  
-**Last Updated**: November 7, 2025  
+**Version**: 3.2  
+**Last Updated**: November 23, 2025  
 **Critical Principle**: Update this file IMMEDIATELY when repository structure changes
 
 ---
@@ -139,32 +139,48 @@ Interleave thinking with action in iterative cycles:
 
 ---
 
-## 📁 Current Repository Structure (AS OF OCT 30, 2025)
+## 📁 Current Repository Structure (AS OF NOVEMBER 23, 2025)
 
-### **Actual Structure** (verify with: `tree /F /A | Select-Object -First 50`)
+### **Actual Current Structure** (verify with: `tree /F /A`)
 
 ```text
 ArchitectJourney/
 ├── .copilot/                              # Copilot configuration
 │   └── settings.json
+├── .cursor/                               # Cursor AI configuration
+│   └── rules/                             # Project rules and guidelines
+│       ├── 01_educational-content-rules.mdc
+│       ├── 02_repository-structure.mdc
+│       ├── 03_quality-assurance.mdc
+│       ├── 04_markdown-standards.mdc
+│       ├── 05_primary-directives.mdc
+│       ├── 06_cross-domain-integration.mdc
+│       └── README.md
 ├── .github/                               # GitHub configuration
 │   ├── copilot-instructions.md            # THIS FILE - Update when structure changes
 │   └── prompts/                           # Reusable prompt templates
+│       ├── smart-prompt-framework-guide.md
+│       └── task-prompt.md
 ├── docs/                                  # Documentation hub
-│   ├── 01_UnifiedArchitectMasteryRoadmap.md  # Master learning document (682 lines)
-│   ├── 02_RepositoryStructure.md             # Repository organization reference (329 lines)
-│   ├── debugging/                         # Command references and troubleshooting
-│   │   ├── README.md                      # Quick reference entry point
-│   │   ├── command-reference/             # Crisp command guides (4 files)
-│   │   │   ├── git-commands.md
-│   │   │   ├── file-operations.md
-│   │   │   ├── markdown-linting.md
-│   │   │   └── repository-analysis.md
-│   │   └── sessions/                      # Major debugging sessions (when needed)
+│   ├── 01_GitHub-Organization-Strategy.md  # GitHub organization setup guide
+│   ├── 02_Workspace-Review-2025-11-23.md   # Workspace review and recommendations
 │   └── images/                            # Architecture diagrams and assets
+│       └── .gitkeep
+├── LICENSE                                 # MIT License
+├── README.md                               # Main repository documentation
+└── .gitignore                             # Git ignore rules
+```
+
+### **Planned Structure** (To Be Implemented)
+
+The following structure is planned and will be created incrementally as content is developed:
+
+```text
+ArchitectJourney/
 ├── 01_Reference/                         # Reference library (static knowledge)
 │   ├── 01_Development/                   # Software development fundamentals
-│   └── 02_AI-and-ML/                     # AI/ML knowledge base
+│   ├── 02_AI-and-ML/                     # AI/ML knowledge base
+│   └── [other domains...]                # Additional reference domains
 ├── 02_Learning/                          # Learning paths content
 │   ├── 01_Core-Architecture-Path/         # Levels 1-9: Developer to Architect
 │   └── 02_Lead-Architect-Path/            # Phases 1-9: Architect to Enterprise Leader
