@@ -553,7 +553,6 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [System Design Questions](./04_System-Design-Questions.md) - TPM-focused system design questions
-- [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
-
+* [System Design Questions](./04_System-Design-Questions.md) - TPM-focused system design questions
+* [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
+* [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide

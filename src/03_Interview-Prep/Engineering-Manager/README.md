@@ -7,18 +7,21 @@
 ## 📚 Content Areas (Planned)
 
 ### People Management
+
 - Team building and scaling
 - Performance management
 - Career development
 - Hiring and retention
 
 ### Engineering Culture
+
 - Building engineering culture
 - Technical excellence
 - Innovation and experimentation
 - Knowledge sharing
 
 ### Leadership
+
 - Leading technical teams
 - Influencing without authority
 - Strategic thinking
@@ -37,4 +40,3 @@
 
 **Status**: Ready for content  
 **Last Updated**: November 24, 2025
-

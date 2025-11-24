@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["ML platform architecture", "Enterprise system design", "DevOps practices"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand enterprise ML platform design principles"
+  - "Review self-service, security, and governance strategies"
+  - "Prepare for Senior PSE system design interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Enterprise-Scale ML Platform Design Summary
 
 **Interview/portal-ready design** for Senior PSE roles that balances developer self-service, security, governance, and operational scale.

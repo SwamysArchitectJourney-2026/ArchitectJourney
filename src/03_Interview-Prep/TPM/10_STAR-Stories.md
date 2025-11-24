@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["STAR method understanding", "TPM experience"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review 7 premium STAR stories for TPM interviews"
+  - "Understand story structure and key themes"
+  - "Prepare behavioral interview responses"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Premium STAR Stories for TPM Interviews
 
 **7 high-quality, interview-ready STAR stories** covering delivery, incident management, conflict resolution, performance issues, architecture, process improvement, and cost/time savings.

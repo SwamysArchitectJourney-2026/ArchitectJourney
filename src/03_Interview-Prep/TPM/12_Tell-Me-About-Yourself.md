@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["TPM role understanding", "Personal experience summary"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Prepare three versions of 'Tell Me About Yourself'"
+  - "Tailor responses for different interview styles"
+  - "Align with leadership principles and TPM expectations"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Tell Me About Yourself - TPM Interview Scripts
 
 **Three premium "Tell Me About Yourself" (TMAY) versions** tailored specifically for Technical Project Manager (TPM) interviews.

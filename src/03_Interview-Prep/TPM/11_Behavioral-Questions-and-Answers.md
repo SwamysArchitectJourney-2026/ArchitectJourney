@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["STAR method", "TPM interview preparation"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review comprehensive behavioral question bank"
+  - "Understand STAR-formatted answer structure"
+  - "Prepare for behavioral interview rounds"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # TPM Behavioral Interview Questions and Answers
 
 **Complete behavioral interview preparation** for Technical Project Manager roles, including question banks and STAR-formatted answers.

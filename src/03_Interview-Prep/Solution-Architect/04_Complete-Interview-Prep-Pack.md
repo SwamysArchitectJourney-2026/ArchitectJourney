@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["Azure Data Engineering", "Databricks", "PySpark", "AI/ML"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Complete interview prep with 150+ Q&A"
+  - "Review cheat sheets, study plans, and case studies"
+  - "Prepare comprehensively for Principal Consultant interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Complete Principal Consultant Interview Prep Pack
 
 **Full interview preparation pack** for Principal Consultant / Staff Engineer roles (Azure Data Engineering, Databricks, Fabric, PySpark, AI).

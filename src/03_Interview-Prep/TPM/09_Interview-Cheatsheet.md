@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["TPM interview preparation", "Question bank review"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Quick reference for TPM interview key points"
+  - "Memorize high-impact talking points"
+  - "Prepare for quick recall during interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # TPM Interview Cheatsheet
 
 **High-impact, memorizable quick reference** for your interview this week. Use this for quick recall during the interview — 1–2 minutes per subject.

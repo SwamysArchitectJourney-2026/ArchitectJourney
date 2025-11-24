@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["System architecture", "Azure services", "GenAI platforms"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review visual architecture diagrams (GenAI, Lakehouse, ADF+Databricks)"
+  - "Practice mock interview scenarios"
+  - "Understand architecture design patterns"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Architecture Diagrams & Mock Interview
 
 **Visual architecture diagrams and Principal/Staff-level mock interview** with questions and ideal answers.
