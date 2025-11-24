@@ -7,14 +7,18 @@
 ## 📁 Folder Structure
 
 ### 📂 Common
+
 **Shared interview content applicable to all roles:**
+
 - Behavioral questions (STAR method)
 - General Agile/Scrum basics
 - Common interview tips
 - General system design fundamentals
 
 ### 📂 TPM (Technical Project Manager)
+
 **TPM-specific interview preparation:**
+
 - TPM question banks (Easy → Expert)
 - Model answers for TPM role
 - System design from TPM perspective
@@ -23,14 +27,18 @@
 - Technical topics for TPMs
 
 ### 📂 Architect
+
 **Software Architect interview preparation:**
+
 - Architecture-focused questions
 - System design from architect perspective
 - Design patterns and principles
 - Technical architecture deep-dives
 
 ### 📂 Solution-Architect
+
 **Solution Architect interview preparation:**
+
 - Cloud architecture questions
 - Enterprise solution design
 - Multi-cloud strategies
@@ -38,7 +46,9 @@
 - Solution architecture scenarios
 
 ### 📂 Engineering-Manager
+
 **Engineering Manager interview preparation:**
+
 - People management questions
 - Team scaling strategies
 - Engineering culture
@@ -89,4 +99,3 @@
 ---
 
 **Last Updated**: November 24, 2025
-
