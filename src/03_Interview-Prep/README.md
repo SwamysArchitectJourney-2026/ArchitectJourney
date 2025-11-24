@@ -26,7 +26,7 @@
 - Mock interview questions
 - Technical topics for TPMs
 
-### 📂 Architect
+### 📂 Software-Architect
 
 **Software Architect interview preparation:**
 
@@ -55,6 +55,17 @@
 - Leadership scenarios
 - Performance management
 
+### 📂 PrincipalConsultant-Data
+
+**Principal Consultant - Data interview preparation:**
+
+- Data engineering interview prep (Azure Data Engineering, Databricks, Fabric, PySpark)
+- Data platform architecture
+- Big data technologies (Spark, Databricks, Fabric)
+- Data pipeline design
+- Data governance and compliance
+- ML/AI data engineering
+
 ---
 
 ## 🎯 Quick Start
@@ -62,8 +73,11 @@
 **For TPM Interview:**
 → Start with `TPM/01_Interview-Overview.md`
 
-**For Architect Interview:**
-→ Start with `Architect/` folder (content coming soon)
+**For Software Architect Interview:**
+→ Start with `Software-Architect/` folder (content coming soon)
+
+**For Principal Consultant - Data Interview:**
+→ Start with `PrincipalConsultant-Data/` folder (content coming soon)
 
 **For Solution Architect Interview:**
 → Start with `Solution-Architect/` folder (content coming soon)
@@ -81,10 +95,11 @@
 | Folder | Status | Description |
 |--------|--------|-------------|
 | **Common** | 🏗️ Ready | Shared interview materials |
-| **TPM** | ✅ Complete | Full TPM interview prep (7 documents) |
-| **Architect** | 📝 Ready | Ready for architecture-focused content |
-| **Solution-Architect** | 📝 Ready | Ready for solution architecture content |
+| **TPM** | ✅ Complete | Full TPM interview prep |
+| **Software-Architect** | 📝 Ready | Ready for architecture-focused content |
+| **Solution-Architect** | ✅ Has Content | Solution architecture and Principal Consultant content |
 | **Engineering-Manager** | 📝 Ready | Ready for EM content |
+| **PrincipalConsultant-Data** | 📝 Ready | Ready for data-specific Principal Consultant content |
 
 ---
 
@@ -92,9 +107,10 @@
 
 - [TPM Interview Prep](./TPM/) - Complete TPM interview preparation
 - [Common Interview Materials](./Common/) - Shared content for all roles
-- [Architect Interview Prep](./Architect/) - Software architect preparation
+- [Software Architect Prep](./Software-Architect/) - Software architect preparation
 - [Solution Architect Prep](./Solution-Architect/) - Solution architect preparation
 - [Engineering Manager Prep](./Engineering-Manager/) - Engineering manager preparation
+- [Principal Consultant - Data Prep](./PrincipalConsultant-Data/) - Data-specific Principal Consultant preparation
 
 ---
 
