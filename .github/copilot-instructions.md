@@ -164,6 +164,8 @@ ArchitectJourney/
 ├── docs/                                  # Documentation hub
 │   ├── 01_GitHub-Organization-Strategy.md  # GitHub organization setup guide
 │   ├── 02_Workspace-Review-2025-11-23.md   # Workspace review and recommendations
+│   ├── migration-verification-reports/     # Migration verification reports (date-based naming)
+│   │   └── [DDMonYYYY.md]                 # Example: 24Nov2025.md
 │   └── images/                            # Architecture diagrams and assets
 │       └── .gitkeep
 ├── LICENSE                                 # MIT License
@@ -732,8 +734,11 @@ All content must demonstrate:
    - Cross-check all requirements
    - Validate compliance with all rules
    - Confirm zero-copy policy adherence
+   - **Create migration verification report** in `docs/migration-verification-reports/` with date-based naming (e.g., `24Nov2025.md`)
 
-5. **ACT**: After successful migration and verification, keep source files in `source-materials/` folder - user will delete manually
+5. **ACT**: After successful migration and verification:
+   - Keep source files in `source-materials/` folder - user will delete manually
+   - Save migration verification report to `docs/migration-verification-reports/` with date-based filename (format: `DDMonYYYY.md`)
 
 **Compliance Requirements**:
 - ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
