@@ -1,3 +1,18 @@
+---
+learning_level: "Beginner"
+prerequisites: ["Basic programming concepts", "Understanding of web development basics"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand the recommended learning path for Node.js"
+  - "Identify the right course sequence for building production-grade backend skills"
+  - "Plan progression from fundamentals to enterprise-level Node.js development"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: ["../../05_DevOps/01_Containerization-Tools.md"]
+  cross_refs: []
+---
+
 # Node.js Learning Guide
 
 **Recommended learning order** for building practical, production-grade backend skills in Node.js.

@@ -1,3 +1,19 @@
+---
+learning_level: "Intermediate"
+prerequisites: ["C# basics", "Understanding of object-oriented programming", "Resource management concepts"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand what CA1001 code analysis rule requires"
+  - "Identify scenarios where types need to implement IDisposable"
+  - "Apply proper disposal patterns in C# code"
+  - "Understand ASP.NET Core DI disposal behavior"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: ["../02_Code-Analysis-CA1308-ToUpperInvariant.md", "../03_Code-Analysis-CA2007-ConfigureAwait.md"]
+  cross_refs: []
+---
+
 # CA1001 Disposable Fixes Analysis
 
 ## Overview

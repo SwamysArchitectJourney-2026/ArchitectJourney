@@ -1,3 +1,18 @@
+---
+learning_level: "Intermediate"
+prerequisites: ["Basic understanding of containers", "Command-line basics"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Compare Docker, Podman, and Rancher for different use cases"
+  - "Choose the right containerization tool for your needs"
+  - "Understand when to use each tool in development and production"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: ["../02_DevOps-GitOps-MLOps-LLMOps-Guide.md"]
+  cross_refs: []
+---
+
 # Containerization Tools: Docker, Podman, Rancher
 
 **Practical guide** for choosing the right containerization tool for personal use and development.

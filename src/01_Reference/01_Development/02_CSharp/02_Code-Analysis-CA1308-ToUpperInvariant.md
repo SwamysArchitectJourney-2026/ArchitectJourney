@@ -1,3 +1,19 @@
+---
+learning_level: "Intermediate"
+prerequisites: ["C# basics", "String operations in C#", "Understanding of globalization"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand CA1308 code analysis rule and its purpose"
+  - "Identify when to fix vs suppress CA1308 warnings"
+  - "Apply proper string normalization patterns"
+  - "Understand culture-specific string operations"
+related_topics:
+  prerequisites: []
+  builds_upon: ["../01_Code-Analysis-CA1001-Disposable.md"]
+  enables: ["../03_Code-Analysis-CA2007-ConfigureAwait.md"]
+  cross_refs: []
+---
+
 # CA1308 ToUpperInvariant Analysis
 
 ## Overview

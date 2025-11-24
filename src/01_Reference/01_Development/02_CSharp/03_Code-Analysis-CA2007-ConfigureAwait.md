@@ -1,3 +1,19 @@
+---
+learning_level: "Intermediate"
+prerequisites: ["C# async/await basics", "Understanding of asynchronous programming", "Task-based programming"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand CA2007 code analysis rule and synchronization context"
+  - "Apply ConfigureAwait(false) correctly in library code"
+  - "Identify when to suppress CA2007 (Blazor, SignalR)"
+  - "Understand disposal patterns for async resources"
+related_topics:
+  prerequisites: []
+  builds_upon: ["../01_Code-Analysis-CA1001-Disposable.md", "../02_Code-Analysis-CA1308-ToUpperInvariant.md"]
+  enables: []
+  cross_refs: []
+---
+
 # CA2007 ConfigureAwait Fixes
 
 ## Overview
