@@ -86,9 +86,10 @@
 
 - **[Question Banks by Level](./02_Question-Banks.md)** - Easy, Medium, Advanced, Expert
 - **[Model Answers](./03_Model-Answers.md)** - Prepared answers for all levels
-- **[System Design Questions](./04_System-Design-Questions.md)** - TPM-focused system design
+- **[System Design Questions](./04_System-Design-Questions.md)** - TPM-focused system design with complete model answers
 - **[Agile Scenarios](./05_Agile-Scenarios.md)** - Real-world Agile/Scrum scenarios
 - **[Technical Topics](./06_Technical-Topics.md)** - Key technical areas to master
+- **[Mock Interview Questions](./07_Mock-Interview-Questions.md)** - Complete mock interview with answers (80 questions)
 
 ---
 
