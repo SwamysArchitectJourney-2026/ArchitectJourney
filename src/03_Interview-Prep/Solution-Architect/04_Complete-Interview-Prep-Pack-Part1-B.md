@@ -110,3 +110,9 @@ related_topics:
 
 ---
 
+## 🔗 Related Documents
+
+- [Part 1-A: Interview Q&A](./04_Complete-Interview-Prep-Pack-Part1-A.md) - Easy to Expert Q&A
+- [Part 1-C: Case Studies](./04_Complete-Interview-Prep-Pack-Part1-C.md) - Principal-level case studies
+- [Question Bank](./03_Principal-Consultant-Question-Bank.md) - Complete question bank
+
