@@ -489,7 +489,9 @@ Before committing:
 
 ### 🔍 Comprehensive Content Review Process
 
-**MANDATORY**: All content in `Reference/` and `Learning/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+**MANDATORY**: All content in `01_Reference/`, `02_Learning/`, and `03_Interview-Prep/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist MUST be applied during migration/transformation, not just during review. This ensures all content is compliant from the moment it's created.
 
 #### Review Request Protocol
 
@@ -587,7 +589,7 @@ Before committing:
 1. **Systematic File Scanning**
    ```powershell
    # Get all files to review
-   Get-ChildItem "Reference" -Recurse -Filter "*.md" | 
+   Get-ChildItem "src\01_Reference" -Recurse -Filter "*.md" | 
        Where-Object { $_.Name -ne "README.md" }
    ```
 
@@ -706,6 +708,8 @@ All content must demonstrate:
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
+**🚨 CRITICAL**: This workflow uses **THE EXACT SAME 7-CATEGORY REVIEW CHECKLIST** as the Comprehensive Content Review Process. Every file created during migration MUST pass all review checks before being considered complete.
+
 1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
@@ -745,6 +749,7 @@ All content must demonstrate:
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
 - ✅ `01_Reference/` files: **FULL compliance required** (final content - must pass all review checks)
 - ✅ `02_Learning/` files: **FULL compliance required** (final content - must pass all review checks)
+- ✅ `03_Interview-Prep/` files: **FULL compliance required** (final content - must pass all review checks)
 
 **Review During Migration** (Using CoT, ReAct, and Reasoning):
 
@@ -763,7 +768,7 @@ All content must demonstrate:
   - Cross-check findings as you transform
 - **ACT**: Final review after migration confirms all requirements are met
 
-**Critical**: The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist (YAML Frontmatter, Content Structure, File Naming, File References, Content Quality, Zero-Copy Policy, Learning Progression) MUST be applied during migration/transformation, not just during review. The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
 
 ### When Contributing Code Examples
 
