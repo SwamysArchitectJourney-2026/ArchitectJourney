@@ -8,9 +8,9 @@ learning_objectives:
   - "Understand architecture patterns for calendar integration and payment systems"
   - "Prepare for TPM system design interviews"
 related_topics:
-  prerequisites: ["./08_Additional-System-Designs-Part1-A.md"]
+  prerequisites: ["./01_System-Design-Model-Answers-Part1-A.md"]
   builds_upon: []
-  enables: ["./08_Additional-System-Designs-Part1-C.md"]
+  enables: ["./01_System-Design-Model-Answers-Part1-C.md"]
   cross_refs: []
 ---
 

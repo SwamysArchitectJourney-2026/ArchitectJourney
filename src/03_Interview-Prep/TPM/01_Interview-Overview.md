@@ -106,7 +106,7 @@ related_topics:
 - **[Agile Scenarios](./05_Agile-Scenarios.md)** - Real-world Agile/Scrum scenarios
 - **[Technical Topics](./06_Technical-Topics.md)** - Key technical areas to master
 - **[Mock Interview Questions](./07_Mock-Interview-Questions.md)** - Complete mock interview with answers (80 questions)
-- **[Additional System Designs](./08_Additional-System-Designs.md)** - 10 additional complete system design answers
+- **[System Design Model Answers](../Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A.md)** - Generic system design model answers (moved to Common)
 - **[Interview Cheatsheet](./09_Interview-Cheatsheet.md)** - Quick reference guide for interview
 - **[STAR Stories](./10_STAR-Stories.md)** - 7 premium STAR stories for behavioral questions
 - **[Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)** - Complete behavioral question bank with 40+ STAR answers

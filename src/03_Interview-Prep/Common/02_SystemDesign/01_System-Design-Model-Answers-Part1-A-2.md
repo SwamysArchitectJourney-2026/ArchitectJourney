@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables: ["./08_Additional-System-Designs-Part1-B.md"]
+  enables: ["./01_System-Design-Model-Answers-Part1-B.md"]
   cross_refs: []
 ---
 

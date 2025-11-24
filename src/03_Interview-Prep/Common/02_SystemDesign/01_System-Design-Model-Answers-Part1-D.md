@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand migration strategies and global architecture patterns"
   - "Prepare for TPM system design interviews"
 related_topics:
-  prerequisites: ["./08_Additional-System-Designs-Part1-C.md"]
+  prerequisites: ["./01_System-Design-Model-Answers-Part1-C.md"]
   builds_upon: []
   enables: []
   cross_refs: []
@@ -110,9 +110,9 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Ticket Booking and URL Shortener](./08_Additional-System-Designs-Part1-A.md) - Scenarios 1-2
-- [Part 1-B: HR Attendance, Meeting Scheduling, Payment Processing](./08_Additional-System-Designs-Part1-B.md) - Scenarios 3-5
-- [Part 1-C: Event-Driven Systems, Analytics, CI/CD](./08_Additional-System-Designs-Part1-C.md) - Scenarios 6-8
+- [Part 1-A: Ticket Booking and URL Shortener](./01_System-Design-Model-Answers-Part1-A.md) - Scenarios 1-2
+- [Part 1-B: HR Attendance, Meeting Scheduling, Payment Processing](./01_System-Design-Model-Answers-Part1-B.md) - Scenarios 3-5
+- [Part 1-C: Event-Driven Systems, Analytics, CI/CD](./01_System-Design-Model-Answers-Part1-C.md) - Scenarios 6-8
 - [System Design Questions](./04_System-Design-Questions.md) - TPM-focused system design questions
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
 - [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide

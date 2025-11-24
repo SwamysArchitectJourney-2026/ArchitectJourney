@@ -8,9 +8,9 @@ learning_objectives:
   - "Understand microservices patterns and stream processing architectures"
   - "Prepare for TPM system design interviews"
 related_topics:
-  prerequisites: ["./08_Additional-System-Designs-Part1-B.md"]
+  prerequisites: ["./01_System-Design-Model-Answers-Part1-B.md"]
   builds_upon: []
-  enables: ["./08_Additional-System-Designs-Part1-D.md"]
+  enables: ["./01_System-Design-Model-Answers-Part1-D.md"]
   cross_refs: []
 ---
 
