@@ -103,7 +103,7 @@
 
 ---
 
-## ⭐ Amazon Leadership Principles (For FAANG-style TPM Interviews)
+## ⭐ Leadership Principles (For Senior TPM Interviews)
 
 * Tell me about a time you questioned the status quo.
 * Tell me about a time you raised the bar.

@@ -4,16 +4,16 @@
 
 These scripts are polished, confident, and intentionally crafted to align with:
 
-* **Amazon Leadership Principles**
-* **Microsoft's Clarity–Energy–Success model**
-* **Google's GCA + Leadership + T-Shape expectations**
+* **Leadership principles** (ownership, customer focus, bias for action)
+* **Clarity–Energy–Success model** (bringing clarity, energizing teams, driving success)
+* **Systems thinking + Leadership + T-Shape expectations**
 * Senior TPM expectations in **Azure, .NET, Distributed Systems, Microservices, AI/ML, DevOps** environments.
 
 ---
 
 ## ⭐ VERSION 1 — TPM (Strong Technical + Delivery Focus)
 
-### *Recommended for Microsoft, Product Companies, Startups*
+### *Recommended for Product Companies, Startups, Enterprise Organizations*
 
 "Thank you for the opportunity. My name is Swamy, and I'm a Technical Project Manager and Software Architect with over 22 years of experience in building and delivering scalable, cloud-native applications using .NET, Azure, microservices, and modern DevOps practices.
 
@@ -37,9 +37,9 @@ That blend of technical depth and execution leadership is what I'd love to bring
 
 ---
 
-## ⭐ VERSION 2 — TPM (Amazon Style: Leadership Principles + Ownership)
+## ⭐ VERSION 2 — TPM (Leadership Principles + Ownership Focus)
 
-### *Use this for Amazon, AWS roles, high-pressure TPM roles*
+### *Use this for high-pressure TPM roles, customer-obsessed organizations*
 
 "My name is Swamy, and I'm a Technical Project Manager with a strong engineering background in .NET, Azure, microservices, and system design. Over the last two decades, I've consistently operated with a strong sense of ownership and customer focus.
 
@@ -53,9 +53,9 @@ What motivates me the most is solving complex technical problems, simplifying pr
 
 ---
 
-## ⭐ VERSION 3 — TPM (Google Style: Systems Thinking + Ambiguity + Collaboration)
+## ⭐ VERSION 3 — TPM (Systems Thinking + Ambiguity + Collaboration)
 
-### *Use this for Google, Meta, Stripe, Uber, or deep-tech companies*
+### *Use this for deep-tech companies, innovation-focused organizations*
 
 "My name is Swamy, and I'm a Technical Project Manager and Architect with extensive experience in building scalable, distributed systems on Azure and .NET. I specialize in breaking down complex, ambiguous problems into structured solutions and driving cross-functional execution across engineering, product, design, and operations.
 

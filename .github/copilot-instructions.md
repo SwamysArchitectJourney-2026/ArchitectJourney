@@ -295,6 +295,33 @@ When including code examples in educational content:
 
 **Goal**: Create transformative educational content, not just reformative. Entirely new presentation, examples, and explanations that teach the same concepts through original methods.
 
+### 🎯 Interview Preparation Content Guidelines
+
+**CRITICAL**: All interview preparation content in `03_Interview-Prep/` must be **generic and company-agnostic**.
+
+#### Generic Content Policy
+
+❌ **NEVER** include company-specific names (Microsoft, Amazon, Google, Meta, etc.)  
+❌ **NEVER** reference company-specific frameworks by name (e.g., "Amazon Leadership Principles")  
+❌ **NEVER** create company-specific interview scripts or answers  
+✅ **ALWAYS** use generic descriptions (e.g., "Leadership Principles", "Clarity–Energy–Success model")  
+✅ **ALWAYS** frame content for broad applicability across organizations  
+✅ **ALWAYS** focus on universal principles and practices  
+
+**Rationale**: Interview prep content should be applicable to any organization, not tied to specific companies. This makes the content more valuable and reusable.
+
+**Examples of Generic Framing**:
+- ❌ "Amazon Leadership Principles" → ✅ "Leadership Principles (ownership, customer focus, bias for action)"
+- ❌ "Microsoft's Clarity–Energy–Success model" → ✅ "Clarity–Energy–Success model (bringing clarity, energizing teams, driving success)"
+- ❌ "For Amazon, AWS roles" → ✅ "For high-pressure TPM roles, customer-obsessed organizations"
+- ❌ "For Google, Meta, Stripe, Uber" → ✅ "For deep-tech companies, innovation-focused organizations"
+
+**When Creating Interview Prep Content**:
+1. Focus on universal principles and practices
+2. Use generic organizational types (product companies, startups, enterprise organizations)
+3. Reference frameworks by their concepts, not company names
+4. Make content applicable to any similar organization
+
 ### ⏱️ 25-Minute Learning Segments
 
 ✅ **Modular content** designed for focused 25-minute sessions  
