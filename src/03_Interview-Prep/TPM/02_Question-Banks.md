@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["Technical project management experience", "Agile/Scrum knowledge"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review TPM interview questions by difficulty level"
+  - "Prepare for technical, behavioral, and system design questions"
+  - "Understand question patterns and expected answers"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # TPM Interview Question Banks
 
 **Complete question bank organized by difficulty level** for Technical Project Manager interview preparation.

@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["Azure Data Engineering", "Databricks", "PySpark", "AI/ML basics"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review question bank from Easy to Expert level"
+  - "Prepare for Principal Consultant interviews"
+  - "Understand expected question patterns"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Principal Consultant Interview Question Bank
 
 **Comprehensive interview preparation guide** for Principal Consultant roles (Azure Data Engineering, Databricks, Fabric, PySpark, AI) with Easy, Medium, Advanced, and Expert-level questions.

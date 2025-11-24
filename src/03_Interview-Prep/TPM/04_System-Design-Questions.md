@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["System design basics", "TPM role understanding", "SDLC knowledge"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Prepare for TPM-focused system design questions"
+  - "Understand architecture, coordination, and delivery aspects"
+  - "Review system design patterns for TPM interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # TPM-Focused System Design Questions
 
 **System design questions specifically tailored for Technical Project Manager role** - focusing on architecture, team coordination, SDLC, risk, dependencies, and delivery.

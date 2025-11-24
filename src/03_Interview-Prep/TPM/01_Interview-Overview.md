@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["Technical project management experience", "Software development background"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand TPM interview structure and rounds"
+  - "Prepare for technical, system design, and behavioral questions"
+  - "Review expected interview topics and formats"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Technical Project Manager (TPM) Interview Overview
 
 **Interview Date**: This Week  

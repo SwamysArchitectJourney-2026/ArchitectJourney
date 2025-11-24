@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Beginner"
+prerequisites: []
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Understand the STAR method framework"
+  - "Structure behavioral interview answers effectively"
+  - "Apply STAR to common interview questions"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # STAR Method for Behavioral Interviews
 
 **Situation, Task, Action, Result** - Framework for answering behavioral interview questions effectively.

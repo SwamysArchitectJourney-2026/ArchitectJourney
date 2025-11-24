@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["Technical background", "System design knowledge"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review key technical topics for TPM interviews"
+  - "Prepare for system design, architecture, and technical discussions"
+  - "Understand expected technical depth for TPM role"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Key Technical Topics to Master
 
 **Essential technical areas** you must be prepared to discuss in the Technical Round.

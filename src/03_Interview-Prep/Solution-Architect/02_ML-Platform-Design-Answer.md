@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["ML platform architecture", "System design experience", "Enterprise software design"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Design an enterprise-scale ML platform"
+  - "Understand self-service developer experience requirements"
+  - "Apply security, governance, and scalability strategies"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Senior PSE ML Platform Design Answer
 
 ## Question

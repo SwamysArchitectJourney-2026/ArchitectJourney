@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["Azure Data Engineering basics", "Databricks experience", "PySpark knowledge"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Prepare for Principal Consultant interviews in Azure Data Engineering"
+  - "Understand question patterns from Easy to Expert level"
+  - "Review key topics: Databricks, Fabric, PySpark, AI"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Principal Consultant Interview Prep - Azure Data Engineering
 
 **Role**: Principal Consultant (Azure Data Engineering, Databricks, Fabric, PySpark, AI)  

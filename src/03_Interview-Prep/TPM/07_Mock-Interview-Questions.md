@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["TPM interview preparation", "Question bank review"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Practice complete mock interview scenarios"
+  - "Review model answers across difficulty levels"
+  - "Prepare for comprehensive TPM interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Complete TPM Mock Interview (With Answers)
 
 **Full mock interview question bank with model answers** organized by difficulty level - perfect for interview practice this week.

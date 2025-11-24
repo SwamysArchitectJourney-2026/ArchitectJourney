@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["System design basics", "TPM interview preparation"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review 10 complete system design model answers"
+  - "Understand architecture patterns for common scenarios"
+  - "Prepare for TPM system design interviews"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Additional System Design Model Answers (10 Scenarios)
 
 **Complete system design answers** for 10 high-value TPM scenarios covering online ticketing, payment systems, analytics, migrations, CI/CD, and more.

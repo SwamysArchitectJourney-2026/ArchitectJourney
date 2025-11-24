@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["TPM interview question knowledge", "Agile/Scrum understanding"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review model answers for TPM interview questions"
+  - "Understand expected answer structure and depth"
+  - "Prepare responses for different difficulty levels"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Model Answers for TPM Interview Questions
 
 **Prepared answers organized by difficulty level** for quick reference during interview preparation.
