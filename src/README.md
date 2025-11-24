@@ -26,7 +26,7 @@ src/
 │   ├── Solution-Architect/ # Solution Architect prep
 │   └── Engineering-Manager/ # Engineering Manager prep
 │
-└── source-materials/      # Staging area for raw content before migration
+```
 ```
 
 ---
@@ -117,7 +117,7 @@ Engineering manager interview materials (coming soon).
 
 ## 🔄 Content Migration Workflow
 
-1. **Raw Content** → Place in `source-materials/`
+1. **Raw Content** → Place in `source-materials/` (at repository root)
 2. **Review & Categorize** → Determine appropriate destination
 3. **Transform & Organize** → Structure according to rules
 4. **Migrate** → Move to appropriate folder in `01_Reference/`, `02_Learning/`, or `03_Interview-Prep/`

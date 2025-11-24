@@ -245,7 +245,7 @@ class ProductFactory:
 
 ### Source Materials Staging Area
 
-**Location**: `source-materials/` (git-ignored)
+**Location**: `source-materials/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
@@ -269,7 +269,7 @@ class ProductFactory:
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/`
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies

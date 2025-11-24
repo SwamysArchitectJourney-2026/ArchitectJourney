@@ -139,7 +139,7 @@ Interleave thinking with action in iterative cycles:
 
 ---
 
-## 📁 Current Repository Structure (AS OF NOVEMBER 23, 2025)
+## 📁 Current Repository Structure (AS OF NOVEMBER 24, 2025)
 
 ### **Actual Current Structure** (verify with: `tree /F /A`)
 
@@ -168,37 +168,37 @@ ArchitectJourney/
 │       └── .gitkeep
 ├── LICENSE                                 # MIT License
 ├── README.md                               # Main repository documentation
+├── source-materials/                       # Staging area (at repository root, git-ignored)
+├── src/                                    # Source content (organized)
+│   ├── 01_Reference/                      # Reference library
+│   ├── 02_Learning/                       # Learning paths
+│   └── 03_Interview-Prep/                 # Interview preparation
 └── .gitignore                             # Git ignore rules
 ```
 
-### **Planned Structure** (To Be Implemented)
-
-The following structure is planned and will be created incrementally as content is developed:
+### **Actual Current Structure** (Updated November 24, 2025)
 
 ```text
 ArchitectJourney/
-├── 01_Reference/                         # Reference library (static knowledge)
-│   ├── 01_Development/                   # Software development fundamentals
-│   ├── 02_AI-and-ML/                     # AI/ML knowledge base
-│   └── [other domains...]                # Additional reference domains
-├── 02_Learning/                          # Learning paths content
-│   ├── 01_Core-Architecture-Path/         # Levels 1-9: Developer to Architect
-│   └── 02_Lead-Architect-Path/            # Phases 1-9: Architect to Enterprise Leader
-├── 03_Interview-Prep/                    # Interview preparation materials
-│   ├── 01_System-Design/                  # System design questions & solutions
-│   ├── 02_Behavioral/                    # Behavioral interview prep
-│   ├── 03_Technical-Questions/           # Coding & technical questions
-│   ├── 04_Mock-Interviews/                # Practice scenarios
-│   └── 05_Company-Specific/                # Company-specific prep
+├── .copilot/                              # Copilot configuration
+├── .cursor/                               # Cursor AI configuration
+├── .github/                               # GitHub configuration
+├── docs/                                  # Documentation hub
+├── src/                                   # Source content (organized)
+│   ├── 01_Reference/                     # Reference library (static knowledge)
+│   │   ├── 01_Development/               # Software development fundamentals
+│   │   ├── 02_AI-and-ML/                 # AI/ML knowledge base
+│   │   └── 05_DevOps/                    # DevOps practices and tools
+│   ├── 02_Learning/                       # Learning paths content (coming soon)
+│   └── 03_Interview-Prep/                # Interview preparation materials
+│       ├── Common/                       # Shared interview content
+│       ├── TPM/                          # Technical Project Manager prep
+│       ├── Architect/                    # Software Architect prep
+│       ├── Solution-Architect/           # Solution Architect prep
+│       └── Engineering-Manager/          # Engineering Manager prep
+├── source-materials/                      # Staging area (at repository root, git-ignored)
 └── tools/                                 # Automation and utilities
     └── psscripts/                         # PowerShell automation scripts
-        ├── Get-FileStats.ps1              # File statistics analysis
-        ├── Get-MarkdownSummary.ps1        # Markdown file analysis
-        ├── Get-RepoStats.ps1              # Repository overview
-        ├── Compare-DocFiles.ps1           # Compare multiple files
-        ├── Find-DuplicateContent.ps1      # Find duplicate headings
-        ├── Quick-HealthCheck.ps1          # Fast workspace health check
-        └── README.md                      # Scripts documentation
 ```
 
 ### **Documentation Philosophy**
@@ -681,13 +681,13 @@ All content must demonstrate:
 
 #### Source Materials Staging Area
 
-**Location**: `source-materials/` (git-ignored)
+**Location**: `source-materials/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
 **Critical Workflow**:
 
-1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder (at repository root)
 2. **Review and migrate**: AI assistant reviews content, identifies unique topics, and migrates/transforms following Educational Content Rules
 3. **Verify migration**: Confirm all unique content has been migrated to `01_Reference/` or `02_Learning/`
 4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
@@ -704,7 +704,7 @@ All content must demonstrate:
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/`
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies
