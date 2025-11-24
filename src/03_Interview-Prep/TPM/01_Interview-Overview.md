@@ -94,6 +94,7 @@
 - **[Interview Cheatsheet](./09_Interview-Cheatsheet.md)** - Quick reference guide for interview
 - **[STAR Stories](./10_STAR-Stories.md)** - 7 premium STAR stories for behavioral questions
 - **[Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)** - Complete behavioral question bank with 40+ STAR answers
+- **[Tell Me About Yourself](./12_Tell-Me-About-Yourself.md)** - Three premium TMAY scripts for different company styles
 
 ---
 
