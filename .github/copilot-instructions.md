@@ -1,7 +1,7 @@
 ﻿# GitHub Copilot Instructions for ArchitectJourney
 
-**Version**: 3.1  
-**Last Updated**: November 7, 2025  
+**Version**: 3.2  
+**Last Updated**: November 23, 2025  
 **Critical Principle**: Update this file IMMEDIATELY when repository structure changes
 
 ---
@@ -139,32 +139,48 @@ Interleave thinking with action in iterative cycles:
 
 ---
 
-## 📁 Current Repository Structure (AS OF OCT 30, 2025)
+## 📁 Current Repository Structure (AS OF NOVEMBER 23, 2025)
 
-### **Actual Structure** (verify with: `tree /F /A | Select-Object -First 50`)
+### **Actual Current Structure** (verify with: `tree /F /A`)
 
 ```text
 ArchitectJourney/
 ├── .copilot/                              # Copilot configuration
 │   └── settings.json
+├── .cursor/                               # Cursor AI configuration
+│   └── rules/                             # Project rules and guidelines
+│       ├── 01_educational-content-rules.mdc
+│       ├── 02_repository-structure.mdc
+│       ├── 03_quality-assurance.mdc
+│       ├── 04_markdown-standards.mdc
+│       ├── 05_primary-directives.mdc
+│       ├── 06_cross-domain-integration.mdc
+│       └── README.md
 ├── .github/                               # GitHub configuration
 │   ├── copilot-instructions.md            # THIS FILE - Update when structure changes
 │   └── prompts/                           # Reusable prompt templates
+│       ├── smart-prompt-framework-guide.md
+│       └── task-prompt.md
 ├── docs/                                  # Documentation hub
-│   ├── 01_UnifiedArchitectMasteryRoadmap.md  # Master learning document (682 lines)
-│   ├── 02_RepositoryStructure.md             # Repository organization reference (329 lines)
-│   ├── debugging/                         # Command references and troubleshooting
-│   │   ├── README.md                      # Quick reference entry point
-│   │   ├── command-reference/             # Crisp command guides (4 files)
-│   │   │   ├── git-commands.md
-│   │   │   ├── file-operations.md
-│   │   │   ├── markdown-linting.md
-│   │   │   └── repository-analysis.md
-│   │   └── sessions/                      # Major debugging sessions (when needed)
+│   ├── 01_GitHub-Organization-Strategy.md  # GitHub organization setup guide
+│   ├── 02_Workspace-Review-2025-11-23.md   # Workspace review and recommendations
 │   └── images/                            # Architecture diagrams and assets
+│       └── .gitkeep
+├── LICENSE                                 # MIT License
+├── README.md                               # Main repository documentation
+└── .gitignore                             # Git ignore rules
+```
+
+### **Planned Structure** (To Be Implemented)
+
+The following structure is planned and will be created incrementally as content is developed:
+
+```text
+ArchitectJourney/
 ├── 01_Reference/                         # Reference library (static knowledge)
 │   ├── 01_Development/                   # Software development fundamentals
-│   └── 02_AI-and-ML/                     # AI/ML knowledge base
+│   ├── 02_AI-and-ML/                     # AI/ML knowledge base
+│   └── [other domains...]                # Additional reference domains
 ├── 02_Learning/                          # Learning paths content
 │   ├── 01_Core-Architecture-Path/         # Levels 1-9: Developer to Architect
 │   └── 02_Lead-Architect-Path/            # Phases 1-9: Architect to Enterprise Leader
@@ -187,23 +203,23 @@ ArchitectJourney/
 
 ### **Documentation Philosophy**
 
-**Two Master Documents** (numbered for order):
+**Current Documentation** (as of November 23, 2025):
 
-1. **01_UnifiedArchitectMasteryRoadmap.md** - Complete 9-stage learning roadmap
-   - Combines 9-level Core Architecture Path with 9-phase Lead Architect Program
-   - Self-assessment, prerequisites, certifications, career paths
-   - Single source of truth for learning progression
+1. **01_GitHub-Organization-Strategy.md** - GitHub organization setup and multi-repository strategy
+   - Organization creation and configuration
+   - Repository naming conventions
+   - Multi-repository architecture
 
-2. **02_RepositoryStructure.md** - Repository organization reference
-   - Folder structure and content mapping
-   - Domain organization and cross-references
+2. **02_Workspace-Review-2025-11-23.md** - Workspace review and recommendations
+   - Current state assessment
+   - Implementation checklist
+   - Next steps and recommendations
 
-**Why Two Files?**:
+**Planned Documentation** (to be created):
 
-- Separation of concerns: Learning content vs. Repository organization
-- Easier navigation: Numbered ordering guides users
-- Maintainability: Update one without affecting the other
-- Zero redundancy: Each file has unique purpose
+- **01_UnifiedArchitectMasteryRoadmap.md** - Complete 9-stage learning roadmap (planned)
+- **02_RepositoryStructure.md** - Repository organization reference (planned)
+- Additional documentation as content is developed
 
 ---
 
@@ -223,6 +239,36 @@ ArchitectJourney/
 ---
 
 ## 📋 Educational Content Rules (ArchitectJourney Knowledge Base)
+
+### 🚨 CRITICAL: Repository Purpose & Code Separation
+
+**This repository (`ArchitectJourney`) is EXCLUSIVELY for educational content:**
+
+- ✅ **Educational Content Only**: Markdown documentation, learning materials, concepts, and illustrative code examples
+- ✅ **Minimal Code Examples**: Code snippets in educational content should be minimal, illustrative, and focused on teaching concepts
+- ❌ **NO Full Implementations**: Complete, runnable code projects are NOT stored in this repository
+- ❌ **NO Code Repositories**: This repository does not contain language-specific code implementations
+
+**Code Implementations Location:**
+
+All full code implementations, projects, and runnable examples are stored in **separate GitHub repositories** within the same organization (`SwamysArchitectJourney-2026`):
+
+- `Python` - Python implementations
+- `CSharp` - C# and .NET projects
+- `JavaScript` - JavaScript/TypeScript projects
+- `Java` - Java and Spring Boot
+- `Go` - Go projects
+- `Cloud` - Infrastructure as Code
+- `AI-ML` - AI/ML implementations
+
+**Code Examples in Educational Content:**
+
+When including code examples in educational content:
+- ✅ Use minimal, illustrative snippets to demonstrate concepts
+- ✅ Focus on teaching, not complete implementations
+- ✅ Reference full implementations in separate code repositories
+- ❌ Do not include complete, production-ready code
+- ❌ Do not create runnable projects in this repository
 
 ### 🚫 Zero-Copy Policy (Non-Negotiable)
 
@@ -304,9 +350,21 @@ related_topics:
 #### Numbering Convention
 
 ✅ **ALWAYS** use zero-padded numeric prefixes starting at `01_`  
-❌ **NEVER** use `00_` prefixes  
+❌ **NEVER** use `00_` prefixes - **NO EXCEPTIONS**  
 ✅ Keep numbering stable; add new numbers rather than renumbering widely  
 ✅ Use hyphens for multi-word names: `01_Software-Design-Principles/`
+
+**CRITICAL**: This rule applies to **ALL files** in the repository:
+- ✅ Educational content files (`01_Reference/`, `02_Learning/`)
+- ✅ Documentation files (`docs/`)
+- ✅ Any numbered files anywhere in the repository
+- ❌ **NO EXCEPTIONS** - `00_` is NEVER allowed, even for meta/documentation files
+
+**Why This Rule Exists**:
+- Maintains consistent numbering across the repository
+- Prevents confusion about file ordering
+- Ensures predictable file organization
+- `01_` clearly indicates the first item, `00_` is ambiguous
 
 #### Learning Order Requirements (CRITICAL)
 
@@ -460,9 +518,10 @@ Before committing:
 
 ##### 3. File Naming Review
 - [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
-- [ ] Never uses `00_` prefix
+- [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
 - [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
 - [ ] Hyphens used for multi-word names
+- [ ] Rule applies to educational content AND documentation files
 
 ##### 4. File References Review
 - [ ] All `enables:` references point to existing files

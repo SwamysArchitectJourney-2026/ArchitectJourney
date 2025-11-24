@@ -416,3 +416,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ArchitectJourney raw source materials (staging area, not committed)
+source-materials/

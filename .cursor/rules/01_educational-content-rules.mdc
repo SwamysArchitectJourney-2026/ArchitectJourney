@@ -98,9 +98,21 @@ related_topics:
 ### Numbering Convention
 
 ✅ **ALWAYS** use zero-padded numeric prefixes starting at `01_`  
-❌ **NEVER** use `00_` prefixes  
+❌ **NEVER** use `00_` prefixes - **NO EXCEPTIONS**  
 ✅ Keep numbering stable; add new numbers rather than renumbering widely  
 ✅ Use hyphens for multi-word names: `01_Software-Design-Principles/`
+
+**CRITICAL**: This rule applies to **ALL files** in the repository:
+- ✅ Educational content files (`01_Reference/`, `02_Learning/`)
+- ✅ Documentation files (`docs/`)
+- ✅ Any numbered files anywhere in the repository
+- ❌ **NO EXCEPTIONS** - `00_` is NEVER allowed, even for meta/documentation files
+
+**Why This Rule Exists**:
+- Maintains consistent numbering across the repository
+- Prevents confusion about file ordering
+- Ensures predictable file organization
+- `01_` clearly indicates the first item, `00_` is ambiguous
 
 ### Learning Order Requirements (CRITICAL)
 
@@ -191,6 +203,45 @@ All content must demonstrate:
 ❌ Never mix planning materials, workflow docs, or meta content  
 ✅ Group logically by learning progression, not source structure  
 ✅ Place content in correct domain folder (Development/AI-ML/Data-Science/DevOps)
+
+### 🚨 CRITICAL: Code Examples Policy
+
+**This repository is EXCLUSIVELY for educational content. Code implementations are in separate repositories.**
+
+**Code Examples in Educational Content:**
+
+- ✅ **Minimal, Illustrative Snippets**: Code examples should be minimal and focused on teaching concepts
+- ✅ **Teaching-Focused**: Code should demonstrate principles, patterns, or concepts, not provide complete implementations
+- ✅ **Reference Full Code**: Link to full implementations in separate code repositories (Python, CSharp, JavaScript, etc.)
+- ❌ **NO Full Implementations**: Do not include complete, runnable code projects in this repository
+- ❌ **NO Production Code**: Do not include production-ready, deployable code in educational content
+- ❌ **NO Code Repositories**: All full code implementations belong in separate GitHub repositories within the organization
+
+**When Creating Code Examples:**
+
+1. **Keep it minimal**: Show only the essential code needed to illustrate the concept
+2. **Add comments**: Explain what the code demonstrates
+3. **Link to full code**: Reference the separate code repository where full implementation exists
+4. **Focus on learning**: Code should teach, not provide complete solutions
+
+**Example Structure:**
+
+```markdown
+## Factory Pattern Example
+
+Here's a minimal example demonstrating the Factory Pattern:
+
+```python
+# Minimal illustrative example
+class ProductFactory:
+    def create_product(self, product_type):
+        if product_type == "A":
+            return ProductA()
+        return ProductB()
+```
+
+> **Full Implementation**: See complete Factory Pattern implementation in [Python repository](https://github.com/SwamysArchitectJourney-2026/Python/tree/main/design-patterns/factory)
+```
 
 ### Source Materials Staging Area
 
@@ -388,9 +439,10 @@ Before committing:
 
 #### 3. File Naming Review
 - [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
-- [ ] Never uses `00_` prefix
+- [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
 - [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
 - [ ] Hyphens used for multi-word names
+- [ ] Rule applies to educational content AND documentation files
 
 #### 4. File References Review
 - [ ] All `enables:` references point to existing files
