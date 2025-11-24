@@ -74,10 +74,43 @@ Build a *multi-tenant* data platform for 30 business units.
 
 ---
 
+## 4️⃣ Mock Interview (Live Simulation)
+
+I will ask you **10 Principal-level questions**, you will answer, and I will evaluate your:
+
+* architecture depth
+* clarity
+* consulting communication
+* tradeoff explanation
+* senior-level thinking
+
+When you're ready, say:
+
+👉 **"Start the mock interview."**
+
+---
+
+## 🎯 Next Steps
+
+Would you like next:
+
+### 1️⃣ Start the **Mock Interview**
+
+### 2️⃣ Full answers for **all case studies**
+
+### 3️⃣ Detailed answers for **ALL 150+ questions**
+
+### 4️⃣ Topic-wise deep dives (Databricks, Fabric, PySpark, GenAI)
+
+Just tell me the option.
+
+---
+
 ## 🔗 Related Documents
 
-- [Part 1-A: Interview Q&A](./04_Complete-Interview-Prep-Pack-Part1-A.md) - Easy to Expert Q&A
+- [Part 1-A: Interview Q&A](./04_Complete-Interview-Prep-Pack-Part1-A-1.md) - Easy to Expert Q&A
 - [Part 1-B: Cheat Sheets and Study Plan](./04_Complete-Interview-Prep-Pack-Part1-B.md) - Cheat sheets and 30-day study plan
-- [Question Bank](./03_Principal-Consultant-Question-Bank.md) - Complete question bank
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Interview prep with answers
+- [Question Bank](./03_Principal-Consultant-Question-Bank-Part1-A.md) - Complete question bank
+- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Interview prep with answers
+- [Principal Consultant Deep Dives](./04_Principal-Consultant-Deep-Dives-Part1-A.md) - Deep dives on Databricks, Fabric, PySpark, GenAI
 
