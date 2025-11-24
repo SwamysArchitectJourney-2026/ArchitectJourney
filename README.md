@@ -19,7 +19,7 @@ A comprehensive learning and reference repository for aspiring software architec
 - [Roadmap — The 9 Levels](#-roadmap--the-9-levels-of-architectjourney)
 - [Learning Domains](#-learning-domains-covered)
 - [Repository Structure](#-repository-structure)
- - [Developer Git Setup](#-developer-git-setup)
+- [Developer Git Setup](#-developer-git-setup)
 - [License](#-license)
 
 ---
@@ -41,6 +41,7 @@ A comprehensive learning and reference repository for aspiring software architec
 ## 🏢 Organization Context
 
 This repository is part of the **SwamysArchitectJourney-2026** GitHub organization, which hosts:
+
 - **Educational Content** (this repository) - Language-agnostic documentation and learning materials
 - **Code Repositories** - Language-specific implementations (coming soon)
 
@@ -50,13 +51,13 @@ This repository is part of the **SwamysArchitectJourney-2026** GitHub organizati
 
 All code implementations are organized by language/domain:
 
-* 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (coming soon)
-* 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (coming soon)
-* 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (coming soon)
-* ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (coming soon)
-* 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (coming soon)
-* ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (coming soon)
-* 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (coming soon)
+- 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (coming soon)
+- 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (coming soon)
+- 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (coming soon)
+- ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (coming soon)
+- 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (coming soon)
+- ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (coming soon)
+- 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (coming soon)
 
 > **Note**: Code repositories will be created as implementations are developed. This repository contains only educational content and documentation.
 
@@ -351,4 +352,3 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 > 🧠 **ArchitectJourney** — Designed and maintained by *Viswanatha Swamy P K*  
 > Empowering developers to evolve into visionary architects and technical leaders.  
 > © 2025 Sri Vari Software Solutions
-
