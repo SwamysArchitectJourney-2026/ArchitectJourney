@@ -89,3 +89,9 @@ Restore team performance, improve predictability, and bring back healthy deliver
 
 ---
 
+## 🔗 Related Documents
+
+- [Part 1-A: Project Rescue and Production Outage](./10_STAR-Stories-Part1-A.md) - Stories 1-2
+- [Part 1-C: Architecture, Process, and Cost Savings](./10_STAR-Stories-Part1-C.md) - Stories 5-7
+- [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
+

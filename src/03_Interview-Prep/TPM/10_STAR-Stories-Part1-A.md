@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables: []
+  enables: ["./10_STAR-Stories-Part1-B.md"]
   cross_refs: []
 ---
 
@@ -115,4 +115,10 @@ My task was to **lead the war room**, restore the system ASAP, find the root cau
 * Received formal appreciation from the engineering director.
 
 ---
+
+## 🔗 Related Documents
+
+- [Part 1-B: Conflict Resolution and Team Performance](./10_STAR-Stories-Part1-B.md) - Stories 3-4
+- [Part 1-C: Architecture, Process, and Cost Savings](./10_STAR-Stories-Part1-C.md) - Stories 5-7
+- [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
 
