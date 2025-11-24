@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables: []
+  enables: ["./01_Azure-Data-Engineering-Interview-Part1-B.md"]
   cross_refs: []
 ---
 
@@ -82,69 +82,7 @@ This interview preparation guide covers questions from foundational concepts to 
 
 ---
 
-## Advanced Level: Sample Questions and Explanations
-
-### Design a data lakehouse architecture on Azure using Databricks, Delta Lake, and Fabric. What are the key considerations?
-
-**Sample answer:** I'd use Databricks for ETL and analytics, Delta Lake for reliable storage, and Fabric for orchestration and governance. Key considerations: data partitioning, schema evolution, access control, and monitoring. I'd ensure data lineage and compliance using Fabric's governance features.
-
-### How would you tune Spark for a workload with skewed data and frequent small files?
-
-**Sample answer:** I'd address skew by salting keys, using repartitioning, and optimizing joins. For small files, I'd use file compaction and optimize write patterns to reduce metadata overhead.
-
-### Describe your approach to deploying and monitoring AI models in Databricks at scale.
-
-**Sample answer:** I'd use MLflow for model tracking and deployment, automate retraining pipelines, and monitor model performance with custom metrics. Integration with Azure ML can provide additional governance and deployment options.
-
-### How do you ensure security and governance in a multi-tenant Azure Databricks environment?
-
-**Sample answer:** I'd leverage Azure Active Directory for authentication, use role-based access control, enable encryption at rest and in transit, and implement network isolation with VNets and private endpoints.
-
----
-
-## Expert Level: Sample Questions and Explanations
-
-### How would you design a multi-cloud or hybrid data platform using Azure, Databricks, and Fabric? What are the trade-offs?
-
-**Sample answer:** I'd use Fabric for orchestration and governance, Databricks for processing, and integrate with on-prem or other cloud data sources via secure connectors. Trade-offs include increased complexity, data latency, and governance challenges.
-
-### Describe your strategy for integrating AI/ML at scale into enterprise data pipelines.
-
-**Sample answer:** I'd modularize pipelines to allow for model retraining and deployment, use feature stores for consistency, and automate monitoring for drift. Fabric and Databricks together enable seamless integration and governance.
-
-### How do you approach cost optimization in a large-scale Azure data engineering environment?
-
-**Sample answer:** I'd leverage autoscaling, spot instances, and monitor resource utilization. Data lifecycle management (e.g., tiered storage) and optimizing pipeline schedules can further reduce costs.
-
-### What governance strategies would you implement for Fabric in a regulated industry?
-
-**Sample answer:** I'd enforce data lineage, access controls, and audit logging. Fabric's centralized governance features, combined with Azure Policy, help ensure compliance and traceability.
-
----
-
-## Key Evaluation Criteria
-
-For Principal Consultant roles, interviewers typically expect you to demonstrate:
-
-- **Technical depth vs. breadth**: Mastery in at least one area, but also connect the dots across Azure, Databricks, Fabric, and AI
-- **Scenario-based thinking**: Most questions will be scenario-driven
-- **Cloud platform expertise**: Familiarity with Azure-native services, security models, and integration patterns
-- **Architecture, scalability, security, governance**: Your answers will be judged on these dimensions
-- **Innovation and leadership**: Ability to innovate and lead
-
----
-
-## Preparation Tips
-
-- **Practice whiteboarding**: Interviewers love to see your thought process
-- **Clarify assumptions**: Always clarify assumptions and ask about constraints before jumping into solutions
-- **Connect to business outcomes**: Relate technical decisions to business impact
-- **Reference best practices**: At advanced/expert levels, reference best practices, not just "what works"
-
----
-
 ## 🔗 Related Documents
 
+- [Part 1-B: Advanced, Expert, and Preparation](./01_Azure-Data-Engineering-Interview-Part1-B.md) - Advanced and expert level questions, evaluation criteria, and preparation tips
 - [ML Platform Design Answer](./02_ML-Platform-Design-Answer.md) - Enterprise ML platform system design
-- [Common Interview Materials](../Common/) - Shared interview content
-
