@@ -23,7 +23,28 @@ param(
     [string]$Path = "."
 )
 
+# Resolve path to absolute and find repository root
+$scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repoRoot = if ($Path -eq ".") {
+    # Try to find repository root (look for src folder)
+    $current = $scriptPath
+    while ($current -and -not (Test-Path (Join-Path $current "src"))) {
+        $parent = Split-Path -Parent $current
+        if ($parent -eq $current) { break }
+        $current = $parent
+    }
+    if (Test-Path (Join-Path $current "src")) {
+        $current
+    } else {
+        $scriptPath
+    }
+} else {
+    Resolve-Path $Path -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Path
+    if (-not $?) { $Path }
+}
+
 Write-Host "=== Quick Health Check ===" -ForegroundColor Cyan
+Write-Host "Repository Root: $repoRoot" -ForegroundColor Gray
 Write-Host ""
 
 # Check folder structure
@@ -36,7 +57,7 @@ $expectedFolders = @(
 
 $structureOk = $true
 foreach ($folder in $expectedFolders) {
-    $fullPath = Join-Path $Path $folder
+    $fullPath = Join-Path $repoRoot $folder
     if (Test-Path $fullPath) {
         Write-Host "  ✅ $folder" -ForegroundColor Green
     } else {
@@ -49,7 +70,7 @@ Write-Host ""
 
 # Count markdown files
 Write-Host "📄 Markdown Files:" -ForegroundColor Yellow
-$mdFiles = Get-ChildItem -Path $Path -Recurse -Filter "*.md" -ErrorAction SilentlyContinue | 
+$mdFiles = Get-ChildItem -Path $repoRoot -Recurse -Filter "*.md" -ErrorAction SilentlyContinue | 
     Where-Object { $_.FullName -notmatch "node_modules|\.git" }
 
 $totalFiles = $mdFiles.Count
