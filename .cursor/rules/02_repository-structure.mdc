@@ -1,6 +1,6 @@
 # Repository Structure & Context
 
-**Version**: 1.3  
+**Version**: 1.4  
 **Last Updated**: November 24, 2025
 
 ---
@@ -53,7 +53,7 @@ When including code examples in educational content:
 
 ## 📁 Repository Structure
 
-### Current Structure (As of November 23, 2025)
+### Current Structure (As of November 24, 2025)
 
 ```text
 ArchitectJourney/
@@ -76,6 +76,8 @@ ArchitectJourney/
 ├── docs/                                  # Documentation hub
 │   ├── 01_GitHub-Organization-Strategy.md
 │   ├── 02_Workspace-Review-2025-11-23.md
+│   ├── migration-verification-reports/     # Migration verification reports (date-based naming)
+│   │   └── [DDMonYYYY.md]                 # Example: 24Nov2025.md
 │   └── images/                            # Architecture diagrams and assets
 │       └── .gitkeep
 ├── LICENSE                                 # MIT License
@@ -128,8 +130,9 @@ ArchitectJourney/
 
 1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder (at repository root)
 2. **Review and migrate**: AI assistant reviews ALL files, identifies unique content, and migrates/transforms following Educational Content Rules
-3. **Verify migration**: Confirm all unique content has been migrated to `Reference/` or `Learning/`
-4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
+3. **Verify migration**: Confirm all unique content has been migrated to `src/01_Reference/`, `src/02_Learning/`, or `src/03_Interview-Prep/`
+4. **Create verification report**: Generate migration verification report in `docs/migration-verification-reports/` with date-based naming (format: `DDMonYYYY.md`, e.g., `24Nov2025.md`)
+5. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
 
 **Important**:
 
