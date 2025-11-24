@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 Content Areas (Planned)
+## 📚 Content Areas
 
 ### Cloud Architecture
 - Multi-cloud strategies
@@ -23,6 +23,18 @@
 - Integration architecture
 - Data architecture
 - Security architecture
+
+### Azure Data Engineering
+- Azure Data Factory, Databricks, Fabric
+- PySpark optimization
+- Data lakehouse architecture
+- GenAI and RAG platforms
+
+### ML Platform Design
+- Enterprise ML platform architecture
+- MLOps and model governance
+- Feature stores and model registries
+- Developer self-service platforms
 
 ---
 
