@@ -93,6 +93,7 @@
 - **[Additional System Designs](./08_Additional-System-Designs.md)** - 10 additional complete system design answers
 - **[Interview Cheatsheet](./09_Interview-Cheatsheet.md)** - Quick reference guide for interview
 - **[STAR Stories](./10_STAR-Stories.md)** - 7 premium STAR stories for behavioral questions
+- **[Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)** - Complete behavioral question bank with 40+ STAR answers
 
 ---
 
@@ -115,3 +116,4 @@ As a **.NET Architect**, emphasize:
 - [Complete Question Banks](./02_Question-Banks.md)
 - [Model Answers Reference](./03_Model-Answers.md)
 - [System Design Preparation](./04_System-Design-Questions.md)
+- [Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)
