@@ -74,6 +74,71 @@ For Principal Consultant roles, interviewers typically expect you to demonstrate
 
 ---
 
+---
+
+## Quiz: Test Your Knowledge
+
+Ready to check your understanding? Here's a quick quiz covering all levels and domains.
+
+### Test Your Understanding: Azure Data Engineering, Databricks, Fabric, PySpark, AI
+
+**Question 1:**
+
+In a PySpark job running on Azure Databricks, you notice that the job is running slower than expected due to frequent shuffles. Which approach would best reduce shuffle operations?
+
+**A.** Use broadcast joins to avoid shuffling large datasets.
+
+**B.** Partition the data by a column unrelated to the join keys.
+
+**C.** Cache the DataFrame before the join operation.
+
+**D.** Increase the driver memory allocation.
+
+**Answer:** A. Use broadcast joins to avoid shuffling large datasets.
+
+**Explanation:** Broadcast joins send the smaller dataset to all nodes, avoiding shuffle operations. Partitioning by unrelated columns or caching won't reduce shuffles, and increasing driver memory doesn't address the shuffle bottleneck.
+
+---
+
+## Summary and Takeaways
+
+You've seen how Principal Consultant interviews at Microsoft span from foundational knowledge to strategic, cross-domain scenarios. The focus is always on real-world, scenario-based questions—so practice thinking aloud, justifying your choices, and connecting technical decisions to business outcomes.
+
+**Key Preparation Strategies:**
+
+* **Hands-on practice** → Build real projects, experiment with technologies
+* **Deep dives into each technology** → Understand internals, not just surface features
+* **Scenario walkthroughs** → Practice architecting solutions under constraints
+* **Interactive learning platforms** → Real-world labs and up-to-date content
+* **Practice architecting and troubleshooting** → Safe, guided environment
+
+**Remember:** The best answers show both your expertise and your ability to lead. Stay curious, challenge assumptions, and connect technical solutions to business value.
+
+---
+
+## Suggested Followups
+
+**Strategic Questions to Consider:**
+
+1. **How can a Principal Consultant effectively translate complex technical solutions in Azure Data Engineering and AI into tangible business value for clients?**
+   * Focus on ROI, cost savings, time-to-market
+   * Quantify impact with metrics
+   * Align with business objectives
+
+2. **Beyond technical proficiency, what strategic communication and leadership qualities are paramount for a Principal Consultant in these domains at Microsoft?**
+   * Executive communication
+   * Stakeholder management
+   * Technical influence
+   * Mentoring and coaching
+
+3. **What emerging trends or future directions in Azure Fabric, Databricks, and AI should a Principal Consultant be prepared to discuss during an interview?**
+   * GenAI and RAG patterns
+   * Data Mesh architecture
+   * LLMOps and MLOps convergence
+   * Unified analytics platforms
+
+---
+
 ## 🔗 Related Documents
 
 - [Part 1-A: Overview, Easy, and Medium Levels](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Overview, skill matrix, and easy/medium level questions
