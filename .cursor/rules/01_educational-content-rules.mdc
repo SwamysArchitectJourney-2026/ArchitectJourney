@@ -245,7 +245,7 @@ class ProductFactory:
 
 ### Source Materials Staging Area
 
-**Location**: `source-materials/` (git-ignored)
+**Location**: `source-materials/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
@@ -269,7 +269,9 @@ class ProductFactory:
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/`
+**🚨 CRITICAL**: This workflow uses **THE EXACT SAME 7-CATEGORY REVIEW CHECKLIST** as the Comprehensive Content Review Process. Every file created during migration MUST pass all review checks before being considered complete.
+
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies
@@ -288,7 +290,7 @@ class ProductFactory:
    - **Use Chain-of-Thought**: Think through each transformation step explicitly
    - **Apply Reasoning**: Make logical decisions about content structure, examples, and explanations
 
-3. **REASON**: Create new educational content in appropriate `Reference/` or `Learning/` folders
+3. **REASON**: Create new educational content in appropriate `01_Reference/`, `02_Learning/`, or `03_Interview-Prep/` folders
    - Apply logical reasoning to determine correct placement
    - Ensure learning dependencies are properly structured
    - Verify content flow and progression
@@ -297,14 +299,18 @@ class ProductFactory:
    - Cross-check all requirements
    - Validate compliance with all rules
    - Confirm zero-copy policy adherence
+   - **Create migration verification report** in `docs/review-reports/` with date-based naming (e.g., `24Nov2025.md`)
 
-5. **ACT**: After successful migration and verification, keep source files in `source-materials/` folder - user will delete manually
+5. **ACT**: After successful migration and verification:
+   - Keep source files in `source-materials/` folder - user will delete manually
+   - Save migration verification report to `docs/review-reports/` with date-based filename
 
 **Compliance Requirements**:
 - ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
-- ✅ `Reference/` files: **FULL compliance required** (final content - must pass all review checks)
-- ✅ `Learning/` files: **FULL compliance required** (final content - must pass all review checks)
+- ✅ `01_Reference/` files: **FULL compliance required** (final content - must pass all review checks)
+- ✅ `02_Learning/` files: **FULL compliance required** (final content - must pass all review checks)
+- ✅ `03_Interview-Prep/` files: **FULL compliance required** (final content - must pass all review checks)
 
 **Review During Migration** (Using CoT, ReAct, and Reasoning):
 
@@ -323,7 +329,7 @@ class ProductFactory:
   - Cross-check findings as you transform
 - **ACT**: Final review after migration confirms all requirements are met
 
-**Critical**: The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist (YAML Frontmatter, Content Structure, File Naming, File References, Content Quality, Zero-Copy Policy, Learning Progression) MUST be applied during migration/transformation, not just during review. The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
 
 ### Learning Paths Creation Policy
 
@@ -379,9 +385,40 @@ Before committing:
 
 ---
 
+## 🎯 Interview Preparation Content Guidelines
+
+**CRITICAL**: All interview preparation content in `03_Interview-Prep/` must be **generic and company-agnostic**.
+
+### Generic Content Policy
+
+❌ **NEVER** include company-specific names (Microsoft, Amazon, Google, Meta, etc.)  
+❌ **NEVER** reference company-specific frameworks by name (e.g., "Amazon Leadership Principles")  
+❌ **NEVER** create company-specific interview scripts or answers  
+✅ **ALWAYS** use generic descriptions (e.g., "Leadership Principles", "Clarity–Energy–Success model")  
+✅ **ALWAYS** frame content for broad applicability across organizations  
+✅ **ALWAYS** focus on universal principles and practices  
+
+**Rationale**: Interview prep content should be applicable to any organization, not tied to specific companies. This makes the content more valuable and reusable.
+
+**Examples of Generic Framing**:
+- ❌ "Amazon Leadership Principles" → ✅ "Leadership Principles (ownership, customer focus, bias for action)"
+- ❌ "Microsoft's Clarity–Energy–Success model" → ✅ "Clarity–Energy–Success model (bringing clarity, energizing teams, driving success)"
+- ❌ "For Amazon, AWS roles" → ✅ "For high-pressure TPM roles, customer-obsessed organizations"
+- ❌ "For Google, Meta, Stripe, Uber" → ✅ "For deep-tech companies, innovation-focused organizations"
+
+**When Creating Interview Prep Content**:
+1. Focus on universal principles and practices
+2. Use generic organizational types (product companies, startups, enterprise organizations)
+3. Reference frameworks by their concepts, not company names
+4. Make content applicable to any similar organization
+
+---
+
 ## 🔍 Comprehensive Content Review Process
 
-**MANDATORY**: All content in `Reference/` and `Learning/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+**MANDATORY**: All content in `01_Reference/`, `02_Learning/`, and `03_Interview-Prep/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist MUST be applied during migration/transformation, not just during review. This ensures all content is compliant from the moment it's created.
 
 ### Review Request Protocol
 
@@ -394,8 +431,9 @@ Before committing:
 - ❌ **NEVER**: Review only files that "look problematic" - review ALL files
 
 **Scope of Review**:
-- If reviewing `Reference/` folder: Review ALL files in `Reference/`
-- If reviewing `Learning/` folder: Review ALL files in `Learning/`
+- If reviewing `01_Reference/` folder: Review ALL files in `01_Reference/`
+- If reviewing `02_Learning/` folder: Review ALL files in `02_Learning/`
+- If reviewing `03_Interview-Prep/` folder: Review ALL files in `03_Interview-Prep/`
 - If reviewing a specific subfolder: Review ALL files in that subfolder
 - If reviewing specific files: Review each requested file individually
 
@@ -479,7 +517,7 @@ Before committing:
 1. **Systematic File Scanning**
    ```powershell
    # Get all files to review
-   Get-ChildItem "Reference" -Recurse -Filter "*.md" | 
+   Get-ChildItem "src\01_Reference" -Recurse -Filter "*.md" | 
        Where-Object { $_.Name -ne "README.md" }
    ```
 
@@ -523,7 +561,7 @@ Before committing:
 
 - **Before committing**: Review all modified files
 - **After splitting files**: Review all affected files and references
-- **Periodic audits**: Comprehensive review of entire `Reference/` folder
+- **Periodic audits**: Comprehensive review of entire `01_Reference/` folder
 - **After major changes**: Full review of affected sections
 
 ### Review Documentation

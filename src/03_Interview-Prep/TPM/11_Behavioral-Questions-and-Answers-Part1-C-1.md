@@ -1,0 +1,17 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["STAR method", "TPM interview preparation"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review STAR answers for people leadership, process improvement, and adaptability"
+  - "Understand behavioral interview patterns for senior TPM roles"
+  - "Prepare for behavioral interview rounds"
+related_topics:
+  prerequisites: ["./11_Behavioral-Questions-and-Answers-Part1-B.md"]
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
+# TPM Behavioral Interview Questions and Answers (Part 1-C)**STAR answers for People Leadership, Process Improvement, and Adaptability** for Technical Project Manager interviews.---## ✅ Category 5: People Leadership & Team Management (5 STAR Answers)### ⭐ 27. Tell me about a time you dealt with a low-performing team member.**S:** Developer missing deadlines, affecting team velocity.  **T:** Improve performance.  **A:** Had 1-on-1, identified blockers, provided coaching, adjusted workload.  **R:** Performance improved; team velocity increased **25%**.---### ⭐ 28. Tell me about a time you improved team performance.**S:** Team velocity was declining; morale low.  **T:** Boost performance.  **A:** Conducted retrospective, identified bottlenecks, improved processes, recognized wins.  **R:** Velocity increased **30%**; team satisfaction improved.---### ⭐ 29. Tell me about a time you motivated your team.**S:** Team demoralized after failed release.  **T:** Restore confidence.  **A:** Conducted blameless post-mortem, celebrated learnings, set clear goals.  **R:** Team morale restored; next release successful.---### ⭐ 30. Tell me about a time your team disagreed on a technical approach.**S:** Team split on microservices vs monolith.  **T:** Reach consensus.  **A:** Facilitated technical discussion, evaluated trade-offs, made data-driven decision.  **R:** Team aligned; architecture decision made.---### ⭐ 31. Tell me about a time you handled interpersonal conflict.**S:** Two developers in conflict, affecting collaboration.  **T:** Resolve conflict.  **A:** Mediated discussion, identified root cause, established working agreement.  **R:** Conflict resolved; collaboration improved.---## ✅ Category 6: Process Improvement & Scaling (5 STAR Answers)### ⭐ 32. Tell me about a time you improved a process.**S:** Release process took 2 days; manual steps.  **T:** Streamline.  **A:** Automated deployment, added CI/CD, reduced manual steps.  **R:** Release time reduced from **2 days → 2 hours**.---### ⭐ 33. Tell me about a time you introduced Agile practices.

@@ -1,0 +1,27 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: [
+"TPM interview question knowledge", "Agile/Scrum understanding"
+]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Review model answers for TPM interview questions"
+  - "Understand expected answer structure and depth"
+  - "Prepare responses for different difficulty levels"
+related_topics:  
+prerequisites: [
+
+]  builds_upon: [
+
+]  enables: [
+"./03_Model-Answers-Part1-B.md"
+]  cross_refs: [
+
+]
+---
+
+# Model Answers for TPM Interview Questions**Prepared answers organized by difficulty level** for quick reference during interview preparation.---## 🟩 EASY LEVEL — Model Answers### 1. What is the difference between Agile and Scrum?**Answer:**Agile is a mindset and set of values for iterative software delivery.Scrum is a specific Agile framework with defined roles (PO, SM, Dev Team), events (sprints, standups), and artifacts (backlogs).---### 2. What is a sprint?**Answer:**A time-boxed iteration (usually 2 weeks) where the team delivers potentially shippable product increments.---### 3. What happens in daily stand-up?**Answer:**Each team member answers:* What I did yesterday* What I will do today* What blockers I haveThe goal is **synchronization**, not status reporting.---### 4. What is a user story?**Answer:**A short requirement written from the user's perspective:**"As a [user
+], I want [feature
+], so that [benefit
+]."**---### 5. What is acceptance criteria?**Answer:**Conditions that must be met for the story to be considered done. It removes ambiguity.---### 6. What is velocity?**Answer:**The number of story points completed in a sprint. Used for planning future sprints.---## 🟨 MEDIUM LEVEL — Model Answers### 1. Explain the SDLC phases**Answer:**1. Requirements2. Design3. Development4. Testing5. Deployment6. MaintenanceI ensure each phase is aligned with Agile incremental delivery.

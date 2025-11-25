@@ -139,7 +139,7 @@ Interleave thinking with action in iterative cycles:
 
 ---
 
-## 📁 Current Repository Structure (AS OF NOVEMBER 23, 2025)
+## 📁 Current Repository Structure (AS OF NOVEMBER 24, 2025)
 
 ### **Actual Current Structure** (verify with: `tree /F /A`)
 
@@ -164,41 +164,43 @@ ArchitectJourney/
 ├── docs/                                  # Documentation hub
 │   ├── 01_GitHub-Organization-Strategy.md  # GitHub organization setup guide
 │   ├── 02_Workspace-Review-2025-11-23.md   # Workspace review and recommendations
+│   ├── review-reports/                     # All review reports (migration, content review, etc.)
+│   │   └── [DDMonYYYY.md]                 # Example: 24Nov2025.md (date-based naming)
 │   └── images/                            # Architecture diagrams and assets
 │       └── .gitkeep
 ├── LICENSE                                 # MIT License
 ├── README.md                               # Main repository documentation
+├── source-materials/                       # Staging area (at repository root, git-ignored)
+├── src/                                    # Source content (organized)
+│   ├── 01_Reference/                      # Reference library
+│   ├── 02_Learning/                       # Learning paths
+│   └── 03_Interview-Prep/                 # Interview preparation
 └── .gitignore                             # Git ignore rules
 ```
 
-### **Planned Structure** (To Be Implemented)
-
-The following structure is planned and will be created incrementally as content is developed:
+### **Actual Current Structure** (Updated November 24, 2025)
 
 ```text
 ArchitectJourney/
-├── 01_Reference/                         # Reference library (static knowledge)
-│   ├── 01_Development/                   # Software development fundamentals
-│   ├── 02_AI-and-ML/                     # AI/ML knowledge base
-│   └── [other domains...]                # Additional reference domains
-├── 02_Learning/                          # Learning paths content
-│   ├── 01_Core-Architecture-Path/         # Levels 1-9: Developer to Architect
-│   └── 02_Lead-Architect-Path/            # Phases 1-9: Architect to Enterprise Leader
-├── 03_Interview-Prep/                    # Interview preparation materials
-│   ├── 01_System-Design/                  # System design questions & solutions
-│   ├── 02_Behavioral/                    # Behavioral interview prep
-│   ├── 03_Technical-Questions/           # Coding & technical questions
-│   ├── 04_Mock-Interviews/                # Practice scenarios
-│   └── 05_Company-Specific/                # Company-specific prep
+├── .copilot/                              # Copilot configuration
+├── .cursor/                               # Cursor AI configuration
+├── .github/                               # GitHub configuration
+├── docs/                                  # Documentation hub
+├── src/                                   # Source content (organized)
+│   ├── 01_Reference/                     # Reference library (static knowledge)
+│   │   ├── 01_Development/               # Software development fundamentals
+│   │   ├── 02_AI-and-ML/                 # AI/ML knowledge base
+│   │   └── 05_DevOps/                    # DevOps practices and tools
+│   ├── 02_Learning/                       # Learning paths content (coming soon)
+│   └── 03_Interview-Prep/                # Interview preparation materials
+│       ├── Common/                       # Shared interview content
+│       ├── TPM/                          # Technical Project Manager prep
+│       ├── Architect/                    # Software Architect prep
+│       ├── Solution-Architect/           # Solution Architect prep
+│       └── Engineering-Manager/          # Engineering Manager prep
+├── source-materials/                      # Staging area (at repository root, git-ignored)
 └── tools/                                 # Automation and utilities
     └── psscripts/                         # PowerShell automation scripts
-        ├── Get-FileStats.ps1              # File statistics analysis
-        ├── Get-MarkdownSummary.ps1        # Markdown file analysis
-        ├── Get-RepoStats.ps1              # Repository overview
-        ├── Compare-DocFiles.ps1           # Compare multiple files
-        ├── Find-DuplicateContent.ps1      # Find duplicate headings
-        ├── Quick-HealthCheck.ps1          # Fast workspace health check
-        └── README.md                      # Scripts documentation
 ```
 
 ### **Documentation Philosophy**
@@ -294,6 +296,33 @@ When including code examples in educational content:
 7. **Optional References**: Add "References/Inspired by" links (no copied phrasing)
 
 **Goal**: Create transformative educational content, not just reformative. Entirely new presentation, examples, and explanations that teach the same concepts through original methods.
+
+### 🎯 Interview Preparation Content Guidelines
+
+**CRITICAL**: All interview preparation content in `03_Interview-Prep/` must be **generic and company-agnostic**.
+
+#### Generic Content Policy
+
+❌ **NEVER** include company-specific names (Microsoft, Amazon, Google, Meta, etc.)  
+❌ **NEVER** reference company-specific frameworks by name (e.g., "Amazon Leadership Principles")  
+❌ **NEVER** create company-specific interview scripts or answers  
+✅ **ALWAYS** use generic descriptions (e.g., "Leadership Principles", "Clarity–Energy–Success model")  
+✅ **ALWAYS** frame content for broad applicability across organizations  
+✅ **ALWAYS** focus on universal principles and practices  
+
+**Rationale**: Interview prep content should be applicable to any organization, not tied to specific companies. This makes the content more valuable and reusable.
+
+**Examples of Generic Framing**:
+- ❌ "Amazon Leadership Principles" → ✅ "Leadership Principles (ownership, customer focus, bias for action)"
+- ❌ "Microsoft's Clarity–Energy–Success model" → ✅ "Clarity–Energy–Success model (bringing clarity, energizing teams, driving success)"
+- ❌ "For Amazon, AWS roles" → ✅ "For high-pressure TPM roles, customer-obsessed organizations"
+- ❌ "For Google, Meta, Stripe, Uber" → ✅ "For deep-tech companies, innovation-focused organizations"
+
+**When Creating Interview Prep Content**:
+1. Focus on universal principles and practices
+2. Use generic organizational types (product companies, startups, enterprise organizations)
+3. Reference frameworks by their concepts, not company names
+4. Make content applicable to any similar organization
 
 ### ⏱️ 25-Minute Learning Segments
 
@@ -460,7 +489,9 @@ Before committing:
 
 ### 🔍 Comprehensive Content Review Process
 
-**MANDATORY**: All content in `Reference/` and `Learning/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+**MANDATORY**: All content in `01_Reference/`, `02_Learning/`, and `03_Interview-Prep/` folders must undergo comprehensive review using CoT (Chain-of-Thought), ReAct (Reasoning + Acting), and systematic reasoning.
+
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist MUST be applied during migration/transformation, not just during review. This ensures all content is compliant from the moment it's created.
 
 #### Review Request Protocol
 
@@ -558,7 +589,7 @@ Before committing:
 1. **Systematic File Scanning**
    ```powershell
    # Get all files to review
-   Get-ChildItem "Reference" -Recurse -Filter "*.md" | 
+   Get-ChildItem "src\01_Reference" -Recurse -Filter "*.md" | 
        Where-Object { $_.Name -ne "README.md" }
    ```
 
@@ -654,13 +685,13 @@ All content must demonstrate:
 
 #### Source Materials Staging Area
 
-**Location**: `source-materials/` (git-ignored)
+**Location**: `source-materials/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
 **Critical Workflow**:
 
-1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder (at repository root)
 2. **Review and migrate**: AI assistant reviews content, identifies unique topics, and migrates/transforms following Educational Content Rules
 3. **Verify migration**: Confirm all unique content has been migrated to `01_Reference/` or `02_Learning/`
 4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
@@ -677,7 +708,9 @@ All content must demonstrate:
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/`
+**🚨 CRITICAL**: This workflow uses **THE EXACT SAME 7-CATEGORY REVIEW CHECKLIST** as the Comprehensive Content Review Process. Every file created during migration MUST pass all review checks before being considered complete.
+
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies
@@ -705,14 +738,18 @@ All content must demonstrate:
    - Cross-check all requirements
    - Validate compliance with all rules
    - Confirm zero-copy policy adherence
+   - **Create migration verification report** in `docs/review-reports/` with date-based naming (e.g., `24Nov2025.md`)
 
-5. **ACT**: After successful migration and verification, keep source files in `source-materials/` folder - user will delete manually
+5. **ACT**: After successful migration and verification:
+   - Keep source files in `source-materials/` folder - user will delete manually
+   - Save migration verification report to `docs/review-reports/` with date-based filename (format: `DDMonYYYY.md`)
 
 **Compliance Requirements**:
 - ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
 - ✅ `01_Reference/` files: **FULL compliance required** (final content - must pass all review checks)
 - ✅ `02_Learning/` files: **FULL compliance required** (final content - must pass all review checks)
+- ✅ `03_Interview-Prep/` files: **FULL compliance required** (final content - must pass all review checks)
 
 **Review During Migration** (Using CoT, ReAct, and Reasoning):
 
@@ -731,7 +768,7 @@ All content must demonstrate:
   - Cross-check findings as you transform
 - **ACT**: Final review after migration confirms all requirements are met
 
-**Critical**: The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
+**🚨 CRITICAL RULE ALIGNMENT**: Migration and Review use **THE EXACT SAME RULES AND CHECKLIST**. The 7-category Individual File Review Checklist (YAML Frontmatter, Content Structure, File Naming, File References, Content Quality, Zero-Copy Policy, Learning Progression) MUST be applied during migration/transformation, not just during review. The same CoT, ReAct, and Reasoning methodology used for reviews MUST be applied during migration/transformation.
 
 ### When Contributing Code Examples
 

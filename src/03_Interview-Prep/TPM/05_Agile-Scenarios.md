@@ -1,3 +1,19 @@
+---
+content_type: "interview_prep"
+learning_level: "Intermediate"
+prerequisites: ["Agile/Scrum knowledge", "Real-world project experience"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Prepare for Agile/Scrum scenario questions"
+  - "Understand practical problem-solving frameworks"
+  - "Apply Agile principles to real-world situations"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: []
+  cross_refs: []
+---
+
 # Real-World Agile & Scrum Scenarios
 
 **Practical scenarios and answer frameworks** for Agile/Scrum expertise round.
