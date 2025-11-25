@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand behavioral interview patterns for senior TPM roles"
   - "Prepare for behavioral interview rounds"
 related_topics:
-  prerequisites: ["./11_Behavioral-Questions-and-Answers-Part1-B.md"]
+  prerequisites: ["./11_Behavioral-Questions-and-Answers-Part1-B-2.md"]
   builds_upon: []
   enables: []
   cross_refs: []
