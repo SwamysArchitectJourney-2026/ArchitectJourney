@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-A.md"]
   builds_upon: []
-  enables: ["./03_Principal-Consultant-Question-Bank-Part2-C.md"]
+  enables: ["./03_Principal-Consultant-Question-Bank-Part2-C-1.md"]
   cross_refs: []
 ---
 
@@ -147,6 +147,6 @@ Source (Event Hubs/Kafka)
 ## 🔗 Related Documents
 
 - [Part 2-A: Easy/Medium Answers](./03_Principal-Consultant-Question-Bank-Part2-A.md)
-- [Part 2-C: Advanced Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-C.md)
+- [Part 2-C: Advanced Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-C-1.md)
 - [Part 1-A: Question Bank](./03_Principal-Consultant-Question-Bank-Part1-A.md)
 

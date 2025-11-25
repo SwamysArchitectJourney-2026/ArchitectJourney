@@ -128,5 +128,5 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-A-2: Leadership Principles and Project Delivery](./11_Behavioral-Questions-and-Answers-Part1-A-2.md) - Leadership principles and Category 1 STAR answers
-- [Part 1-B: Technical, Incident, Cross-Team Management](./11_Behavioral-Questions-and-Answers-Part1-B.md) - Categories 2-4
+- [Part 1-B-1: Technical, Incident, Cross-Team Management](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) (Part 1-B-1) | [Part 1-B-2](./11_Behavioral-Questions-and-Answers-Part1-B-2.md) - Categories 2-4
 

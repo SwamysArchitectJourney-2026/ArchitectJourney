@@ -419,3 +419,6 @@ FodyWeavers.xsd
 
 # ArchitectJourney raw source materials (staging area, not committed)
 source-materials/
+
+# Author's images from source materials (copyrighted/proprietary)
+docs/images/ai-architect/

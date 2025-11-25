@@ -116,7 +116,7 @@ Get the project back under control and deliver before the regulatory deadline.
 ## 🔗 Related Documents
 
 - [Part 1-A-1: Questions by Category](./11_Behavioral-Questions-and-Answers-Part1-A-1.md) - Behavioral questions organized by category
-- [Part 1-B: Technical, Incident, Cross-Team Management](./11_Behavioral-Questions-and-Answers-Part1-B.md) - Categories 2-4
-- [Part 1-C: People, Process, Adaptability](./11_Behavioral-Questions-and-Answers-Part1-C.md) - Categories 5-7
+- [Part 1-B-1: Technical, Incident, Cross-Team Management](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) (Part 1-B-1) | [Part 1-B-2](./11_Behavioral-Questions-and-Answers-Part1-B-2.md) - Categories 2-4
+- [Part 1-C-1: People, Process, Adaptability](./11_Behavioral-Questions-and-Answers-Part1-C-1.md) (Part 1-C-1) | [Part 1-C-2](./11_Behavioral-Questions-and-Answers-Part1-C-2.md) - Categories 5-7
 - [STAR Stories](./10_STAR-Stories-Part1-A.md) - Additional premium STAR stories
 

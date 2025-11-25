@@ -84,6 +84,6 @@ You should be prepared to answer:
 ## 🔗 Related Documents
 
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Question Banks](./02_Question-Banks.md) - All questions organized by level
-- [Model Answers](./03_Model-Answers.md) - Prepared answers
+- [Question Banks](./02_Question-Banks-Part1-A.md) (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md) - All questions organized by level
+- [Model Answers](./03_Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) | [Part 1-B](./03_Model-Answers-Part1-B.md) | [Part 1-C](./03_Model-Answers-Part1-C.md) - Prepared answers
 

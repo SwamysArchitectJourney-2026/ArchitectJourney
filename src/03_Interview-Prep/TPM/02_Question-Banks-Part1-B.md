@@ -71,6 +71,6 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-A: Easy, Medium, and Advanced Levels](./02_Question-Banks-Part1-A.md) - Easy, medium, and advanced level questions
-- [Model Answers](./03_Model-Answers-Part1-A.md) - Prepared answers for all questions
-- [System Design Questions](./04_System-Design-Questions-Part1-A.md) - TPM-focused system design
+- [Model Answers](./03_Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) - Prepared answers for all questions
+- [System Design Questions](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) - TPM-focused system design
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure

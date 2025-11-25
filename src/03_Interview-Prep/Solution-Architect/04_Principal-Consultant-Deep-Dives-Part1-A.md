@@ -8,9 +8,9 @@ learning_objectives:
   - "Understand Principal/Staff Engineer level Databricks knowledge"
   - "Prepare for architect-level technical interviews"
 related_topics:
-  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-I.md"]
+  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-I-2.md"]
   builds_upon: []
-  enables: ["./04_Principal-Consultant-Deep-Dives-Part1-B.md"]
+  enables: ["./04_Principal-Consultant-Deep-Dives-Part1-B-1.md"]
   cross_refs: []
 ---
 
@@ -122,6 +122,6 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 2-I: Mock Interview](./03_Principal-Consultant-Question-Bank-Part2-I.md)
-- [Part 3-B: Deep Dives - Fabric & PySpark](./04_Principal-Consultant-Deep-Dives-Part1-B.md)
+- [Part 2-I-2: Mock Interview (Part 2)](./03_Principal-Consultant-Question-Bank-Part2-I-2.md)
+- [Part 1-B-1: Deep Dives - Fabric](./04_Principal-Consultant-Deep-Dives-Part1-B-1.md)
 

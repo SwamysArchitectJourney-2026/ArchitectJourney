@@ -141,7 +141,7 @@ The STAR method helps you structure your answers to behavioral questions in a cl
 ## 🔗 Related Documents
 
 - [TPM Interview Prep](../TPM/) - TPM-specific interview materials
-- [Common Interview Materials](./README.md) - Other shared content
+- [Common Interview Materials](../README.md) - Other shared content
 
 ---
 

@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand architecture, coordination, and delivery aspects"
   - "Review system design patterns for TPM interviews"
 related_topics:
-  prerequisites: ["./04_System-Design-Questions-Part1-A.md"]
+  prerequisites: ["./04_System-Design-Questions-Part1-A-2.md"]
   builds_upon: []
   enables: ["./04_System-Design-Questions-Part1-C.md"]
   cross_refs: []
@@ -107,7 +107,7 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Questions and Notification Service](./04_System-Design-Questions-Part1-A.md) - Questions by level and System Design 1
+- [Part 1-A-1: Questions and Notification Service](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) - Questions by level and System Design 1
 - [Part 1-C: Multi-Tenant SaaS and E-commerce](./04_System-Design-Questions-Part1-C.md) - System Designs 4-5
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
 

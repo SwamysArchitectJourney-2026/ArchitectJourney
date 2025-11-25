@@ -102,7 +102,7 @@ In a PySpark job running on Azure Databricks, you notice that the job is running
 
 ## Summary and Takeaways
 
-You've seen how Principal Consultant interviews at Microsoft span from foundational knowledge to strategic, cross-domain scenarios. The focus is always on real-world, scenario-based questions—so practice thinking aloud, justifying your choices, and connecting technical decisions to business outcomes.
+You've seen how Principal Consultant interviews at enterprise technology companies span from foundational knowledge to strategic, cross-domain scenarios. The focus is always on real-world, scenario-based questions—so practice thinking aloud, justifying your choices, and connecting technical decisions to business outcomes.
 
 **Key Preparation Strategies:**
 
@@ -125,7 +125,7 @@ You've seen how Principal Consultant interviews at Microsoft span from foundatio
    * Quantify impact with metrics
    * Align with business objectives
 
-2. **Beyond technical proficiency, what strategic communication and leadership qualities are paramount for a Principal Consultant in these domains at Microsoft?**
+2. **Beyond technical proficiency, what strategic communication and leadership qualities are paramount for a Principal Consultant in these domains at enterprise technology companies?**
    * Executive communication
    * Stakeholder management
    * Technical influence

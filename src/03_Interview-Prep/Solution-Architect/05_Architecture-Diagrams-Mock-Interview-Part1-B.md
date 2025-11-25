@@ -106,7 +106,7 @@ This matters because modern workloads (ML, GenAI, streaming) cannot fit inside a
 
 ## 🔗 Related Documents
 
-- [Question Bank](./03_Principal-Consultant-Question-Bank.md) - Complete question bank
-- [Complete Interview Prep Pack](./04_Complete-Interview-Prep-Pack.md) - Full preparation pack
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Interview prep with answers
+- [Question Bank (Part 1-A)](./03_Principal-Consultant-Question-Bank-Part1-A.md) - Complete question bank
+- [Complete Interview Prep Pack (Part 1-A-1)](./04_Complete-Interview-Prep-Pack-Part1-A-1.md) - Full preparation pack
+- [Azure Data Engineering Interview (Part 1-A)](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Interview prep with answers
 

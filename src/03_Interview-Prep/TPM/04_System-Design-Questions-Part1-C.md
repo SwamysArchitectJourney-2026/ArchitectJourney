@@ -88,8 +88,8 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Questions and Notification Service](./04_System-Design-Questions-Part1-A.md) - Questions by level and System Design 1
+- [Part 1-A-1: Questions and Notification Service](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) - Questions by level and System Design 1
 - [Part 1-B: Online Exam Platform and Real-time Chat](./04_System-Design-Questions-Part1-B.md) - System Designs 2-3
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Question Banks](./02_Question-Banks.md) - All questions organized by level
+- [Question Banks](./02_Question-Banks-Part1-A.md) (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md) - All questions organized by level
 

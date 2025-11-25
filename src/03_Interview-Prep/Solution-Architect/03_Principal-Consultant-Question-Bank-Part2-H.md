@@ -8,9 +8,9 @@ learning_objectives:
   - "Understand GenAI security and multi-tenant architecture"
   - "Prepare for case study interviews"
 related_topics:
-  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-G.md"]
+  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-G-2.md"]
   builds_upon: []
-  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I.md"]
+  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I-1.md"]
   cross_refs: []
 ---
 
@@ -174,6 +174,8 @@ Each business unit becomes a **data producer and consumer**.
 
 ## 🔗 Related Documents
 
-- [Part 2-G: Case Studies](./03_Principal-Consultant-Question-Bank-Part2-G.md)
-- [Part 2-I: Mock Interview](./03_Principal-Consultant-Question-Bank-Part2-I.md)
+- [Part 2-G-1: Case Studies (Part 1)](./03_Principal-Consultant-Question-Bank-Part2-G-1.md)
+- [Part 2-G-2: Case Studies (Part 2)](./03_Principal-Consultant-Question-Bank-Part2-G-2.md)
+- [Part 2-I-1: Mock Interview (Part 1)](./03_Principal-Consultant-Question-Bank-Part2-I-1.md)
+- [Part 2-I-2: Mock Interview (Part 2)](./03_Principal-Consultant-Question-Bank-Part2-I-2.md)
 

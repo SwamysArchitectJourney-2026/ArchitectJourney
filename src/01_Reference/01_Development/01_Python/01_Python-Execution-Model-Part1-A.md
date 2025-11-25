@@ -7,7 +7,7 @@ learning_objectives:
   - "Describe the steps from a .py file to running code in the Python Virtual Machine."
   - "Identify the role of bytecode in Python's execution model."
 related_topics:
-  prerequisites: ["../00_Programming-Fundamentals/"]
+  prerequisites: []
   builds_upon: ["../01_Hello-World-in-Python/"]
   enables: ["../02_Python-Tooling-and-IDE-Workflow/"]
   cross_refs: ["../../02_AI-and-ML/01_Python-for-ML/"]

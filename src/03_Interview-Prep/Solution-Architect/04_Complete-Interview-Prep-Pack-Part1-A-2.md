@@ -105,5 +105,5 @@ related_topics:
 
 - [Part 1-B: Cheat Sheets and Study Plan](./04_Complete-Interview-Prep-Pack-Part1-B.md) - Cheat sheets and 30-day study plan
 - [Part 1-C: Case Studies](./04_Complete-Interview-Prep-Pack-Part1-C.md) - Principal-level case studies
-- [Question Bank](./03_Principal-Consultant-Question-Bank.md) - Complete question bank
+- [Question Bank (Part 1-A)](./03_Principal-Consultant-Question-Bank-Part1-A.md) - Complete question bank
 

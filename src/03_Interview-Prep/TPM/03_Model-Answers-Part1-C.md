@@ -82,8 +82,8 @@ Chart + one-page summary.
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Easy and Medium Levels](./03_Model-Answers-Part1-A.md) - Easy and medium level answers
+- [Part 1-A-1: Easy and Medium Levels](./03_Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) - Easy and medium level answers
 - [Part 1-B: Advanced Level](./03_Model-Answers-Part1-B.md) - Advanced level model answers
-- [Question Banks](./02_Question-Banks.md) - All questions organized by level
+- [Question Banks](./02_Question-Banks-Part1-A.md) (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md) - All questions organized by level
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [System Design Questions](./04_System-Design-Questions-Part1-A.md) - TPM-focused system design
+- [System Design Questions](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) - TPM-focused system design
