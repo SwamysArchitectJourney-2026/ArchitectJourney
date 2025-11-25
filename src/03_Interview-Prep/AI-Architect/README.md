@@ -29,7 +29,11 @@ This folder contains interview preparation materials organized for efficient stu
 - **`05_Whiteboard-Scenarios-Part1-B.md`** - Custom Model Serving on AKS
 - **`05_Whiteboard-Scenarios-Part1-C.md`** - AI-Integrated Microservices
 
-### 5. Quick Reference
+### 5. Glossary & Terminology
+- **`07_Glossary-and-KEDA-Part1-A.md`** - KEDA explanation and key terminology
+- **`07_Glossary-and-KEDA-Part1-B.md`** - Azure services glossary and QPS architecture
+
+### 6. Quick Reference
 - **`06_Cheat-Sheet.md`** - One-page quick reference for interview day
 
 ---
@@ -123,9 +127,9 @@ This folder contains interview preparation materials organized for efficient stu
 
 ## 📊 Content Statistics
 
-- **Total Files**: 7 educational content files
-- **Total Topics**: Architecture patterns, interview questions, whiteboard scenarios
-- **Study Time**: ~3-4 hours for complete preparation
+- **Total Files**: 15 educational content files
+- **Total Topics**: Architecture patterns, interview questions, whiteboard scenarios, glossary, KEDA, QPS
+- **Study Time**: ~4-5 hours for complete preparation
 - **Quick Review**: 15 minutes with cheat sheet
 
 ---
