@@ -138,6 +138,6 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-B: Expert Level and Hybrid Questions](./02_Question-Banks-Part1-B.md) - Expert level and technical+TPM hybrid questions
-- [Model Answers](./03_Model-Answers-Part1-A.md) - Prepared answers for all questions
+- [Model Answers](./03_Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) - Prepared answers for all questions
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
 

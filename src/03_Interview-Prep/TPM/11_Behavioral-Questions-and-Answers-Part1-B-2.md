@@ -116,6 +116,6 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-B-1: Technical Decision-Making](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) - Category 2 STAR answers
-- [Part 1-C: People, Process, Adaptability](./11_Behavioral-Questions-and-Answers-Part1-C.md) - Categories 5-7
-- [STAR Stories](./10_STAR-Stories.md) - Additional premium STAR stories
+- [Part 1-C-1: People, Process, Adaptability](./11_Behavioral-Questions-and-Answers-Part1-C-1.md) (Part 1-C-1) | [Part 1-C-2](./11_Behavioral-Questions-and-Answers-Part1-C-2.md) - Categories 5-7
+- [STAR Stories](./10_STAR-Stories-Part1-A.md) (Part 1-A) | [Part 1-B](./10_STAR-Stories-Part1-B.md) | [Part 1-C](./10_STAR-Stories-Part1-C.md) - Additional premium STAR stories
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview preparation guide

@@ -100,7 +100,7 @@ What draws me to this role is the opportunity to combine system-level thinking, 
 ## 🔗 Related Documents
 
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview preparation guide
-- [Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md) - Behavioral interview questions
-- [STAR Stories](./10_STAR-Stories.md) - Premium STAR stories
+- [Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./11_Behavioral-Questions-and-Answers-Part1-A-2.md) | [Part 1-B-1](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) | [Part 1-B-2](./11_Behavioral-Questions-and-Answers-Part1-B-2.md) | [Part 1-C-1](./11_Behavioral-Questions-and-Answers-Part1-C-1.md) | [Part 1-C-2](./11_Behavioral-Questions-and-Answers-Part1-C-2.md) - Behavioral interview questions
+- [STAR Stories](./10_STAR-Stories-Part1-A.md) (Part 1-A) | [Part 1-B](./10_STAR-Stories-Part1-B.md) | [Part 1-C](./10_STAR-Stories-Part1-C.md) - Premium STAR stories
 - [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
 

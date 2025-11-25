@@ -8,7 +8,7 @@ learning_objectives:
   - "Review strategic leadership and complex problem-solving answers"
   - "Prepare for principal/staff TPM interview questions"
 related_topics:
-  prerequisites: ["./07_Mock-Interview-Questions-Part1-C.md"]
+  prerequisites: ["./07_Mock-Interview-Questions-Part1-C-2.md"]
   builds_upon: []
   enables: []
   cross_refs: []

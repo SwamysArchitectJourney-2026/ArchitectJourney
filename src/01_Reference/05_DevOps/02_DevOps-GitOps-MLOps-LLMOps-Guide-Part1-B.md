@@ -7,7 +7,7 @@ learning_objectives:
   - "Plan a complete learning roadmap from DevOps to LLMOps"
   - "Identify skills and tools needed for each stage"
 related_topics:
-  prerequisites: ["./02_DevOps-GitOps-MLOps-LLMOps-Guide-Part1-A.md"]
+  prerequisites: ["./02_DevOps-GitOps-MLOps-LLMOps-Guide-Part1-A-2.md"]
   builds_upon: []
   enables: []
   cross_refs: []
@@ -129,7 +129,7 @@ is the most logical path to becoming a **complete modern engineer** in cloud, ML
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Domain Overview](./02_DevOps-GitOps-MLOps-LLMOps-Guide-Part1-A.md) - DevOps, GitOps, MLOps, LLMOps explained
+- [Part 1-A-1: Domain Overview](./02_DevOps-GitOps-MLOps-LLMOps-Guide-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./02_DevOps-GitOps-MLOps-LLMOps-Guide-Part1-A-2.md) - DevOps, GitOps, MLOps, LLMOps explained
 - [Containerization Tools](./01_Containerization-Tools.md) - Docker, Podman, Rancher guide
 - [Reference Materials](../) - Other reference content
 

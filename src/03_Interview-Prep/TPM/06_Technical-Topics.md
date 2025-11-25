@@ -82,6 +82,6 @@ Prepare for:
 ## 🔗 Related Documents
 
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Question Banks](./02_Question-Banks.md) - All questions organized by level
-- [System Design Questions](./04_System-Design-Questions.md) - TPM-focused system design
+- [Question Banks](./02_Question-Banks-Part1-A.md) (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md) - All questions organized by level
+- [System Design Questions](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) | [Part 1-B](./04_System-Design-Questions-Part1-B.md) | [Part 1-C](./04_System-Design-Questions-Part1-C.md) - TPM-focused system design
 

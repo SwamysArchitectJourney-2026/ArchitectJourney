@@ -125,5 +125,5 @@ These stories will outperform 90% of candidates.
 - [Part 1-B: Conflict Resolution and Team Performance](./10_STAR-Stories-Part1-B.md) - Stories 3-4
 - [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Common STAR Method](../Common/01_STAR-Method.md) - STAR framework guide
+- [Common STAR Method](../Common/01_STAR-Method/01_STAR-Method.md) - STAR framework guide
 

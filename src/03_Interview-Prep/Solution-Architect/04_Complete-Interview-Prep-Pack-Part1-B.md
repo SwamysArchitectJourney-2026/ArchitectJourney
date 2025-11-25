@@ -8,7 +8,7 @@ learning_objectives:
   - "Review cheat sheets, study plans, and case studies"
   - "Prepare comprehensively for Principal Consultant interviews"
 related_topics:
-  prerequisites: ["./04_Complete-Interview-Prep-Pack-Part1-A.md"]
+  prerequisites: ["./04_Complete-Interview-Prep-Pack-Part1-A-2.md"]
   builds_upon: []
   enables: ["./04_Complete-Interview-Prep-Pack-Part1-C.md"]
   cross_refs: []
