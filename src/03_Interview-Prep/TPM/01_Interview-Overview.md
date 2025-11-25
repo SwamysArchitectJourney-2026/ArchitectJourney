@@ -100,16 +100,16 @@ related_topics:
 
 ## 📚 Quick Reference Documents
 
-- **[Question Banks by Level](./02_Question-Banks.md)** - Easy, Medium, Advanced, Expert
-- **[Model Answers](./03_Model-Answers.md)** - Prepared answers for all levels
-- **[System Design Questions](./04_System-Design-Questions.md)** - TPM-focused system design with complete model answers
+- **[Question Banks by Level](./02_Question-Banks-Part1-A.md)** (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md) - Easy, Medium, Advanced, Expert
+- **[Model Answers](./03_Model-Answers-Part1-A-1.md)** (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) | [Part 1-B](./03_Model-Answers-Part1-B.md) | [Part 1-C](./03_Model-Answers-Part1-C.md) - Prepared answers for all levels
+- **[System Design Questions](./04_System-Design-Questions-Part1-A-1.md)** (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) | [Part 1-B](./04_System-Design-Questions-Part1-B.md) | [Part 1-C](./04_System-Design-Questions-Part1-C.md) - TPM-focused system design with complete model answers
 - **[Agile Scenarios](./05_Agile-Scenarios.md)** - Real-world Agile/Scrum scenarios
 - **[Technical Topics](./06_Technical-Topics.md)** - Key technical areas to master
-- **[Mock Interview Questions](./07_Mock-Interview-Questions.md)** - Complete mock interview with answers (80 questions)
+- **[Mock Interview Questions](./07_Mock-Interview-Questions-Part1-A-1.md)** (Part 1-A-1) | [Part 1-A-2](./07_Mock-Interview-Questions-Part1-A-2.md) | [Part 1-B-1](./07_Mock-Interview-Questions-Part1-B-1.md) | [Part 1-B-2](./07_Mock-Interview-Questions-Part1-B-2.md) | [Part 1-C-1](./07_Mock-Interview-Questions-Part1-C-1.md) | [Part 1-C-2](./07_Mock-Interview-Questions-Part1-C-2.md) | [Part 1-D-1](./07_Mock-Interview-Questions-Part1-D-1.md) | [Part 1-D-2](./07_Mock-Interview-Questions-Part1-D-2.md) - Complete mock interview with answers (80 questions)
 - **[System Design Model Answers](../Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A.md)** - Generic system design model answers (moved to Common)
 - **[Interview Cheatsheet](./09_Interview-Cheatsheet.md)** - Quick reference guide for interview
-- **[STAR Stories](./10_STAR-Stories.md)** - 7 premium STAR stories for behavioral questions
-- **[Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)** - Complete behavioral question bank with 40+ STAR answers
+- **[STAR Stories](./10_STAR-Stories-Part1-A.md)** (Part 1-A) | [Part 1-B](./10_STAR-Stories-Part1-B.md) | [Part 1-C](./10_STAR-Stories-Part1-C.md) - 7 premium STAR stories for behavioral questions
+- **[Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers-Part1-A-1.md)** (Part 1-A-1) | [Part 1-A-2](./11_Behavioral-Questions-and-Answers-Part1-A-2.md) | [Part 1-B-1](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) | [Part 1-B-2](./11_Behavioral-Questions-and-Answers-Part1-B-2.md) | [Part 1-C-1](./11_Behavioral-Questions-and-Answers-Part1-C-1.md) | [Part 1-C-2](./11_Behavioral-Questions-and-Answers-Part1-C-2.md) - Complete behavioral question bank with 40+ STAR answers
 - **[Tell Me About Yourself](./12_Tell-Me-About-Yourself.md)** - Three premium TMAY scripts for different company styles
 
 ---
