@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-H-1.md"]
   builds_upon: []
-  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I.md"]
+  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I-1.md"]
   cross_refs: []
 ---
 
