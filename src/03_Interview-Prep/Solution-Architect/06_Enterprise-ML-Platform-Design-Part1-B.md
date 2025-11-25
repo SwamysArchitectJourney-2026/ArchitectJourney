@@ -81,5 +81,5 @@ related_topics:
 
 - [Part 1-A: Architecture and Components](./06_Enterprise-ML-Platform-Design-Part1-A.md) - Goal, principles, and high-level architecture
 - [ML Platform Design Answer](./02_ML-Platform-Design-Answer.md) - Alternative ML platform design approach
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Complete interview prep
+- [Azure Data Engineering Interview (Part 1-A)](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Complete interview prep
 

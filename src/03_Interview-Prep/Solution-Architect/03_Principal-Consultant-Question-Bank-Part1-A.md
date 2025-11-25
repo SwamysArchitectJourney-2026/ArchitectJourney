@@ -116,5 +116,5 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-B: Expert Level](./03_Principal-Consultant-Question-Bank-Part1-B.md) - Staff/Principal engineering scenarios
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Complete interview prep with answers
+- [Azure Data Engineering Interview (Part 1-A)](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Complete interview prep with answers
 

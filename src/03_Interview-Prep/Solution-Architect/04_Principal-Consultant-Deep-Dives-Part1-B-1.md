@@ -100,5 +100,5 @@ related_topics:
 
 - [Part 1-B-2: Deep Dives - PySpark](./04_Principal-Consultant-Deep-Dives-Part1-B-2.md) - PySpark deep dive
 - [Part 1-A: Deep Dives - Databricks](./04_Principal-Consultant-Deep-Dives-Part1-A.md) - Databricks deep dive
-- [Part 1-C: Deep Dives - GenAI/RAG](./04_Principal-Consultant-Deep-Dives-Part1-C.md) - GenAI/RAG deep dive
+- [Part 1-C-1: Deep Dives - GenAI/RAG (Part 1)](./04_Principal-Consultant-Deep-Dives-Part1-C-1.md) - GenAI/RAG deep dive Part 1
 

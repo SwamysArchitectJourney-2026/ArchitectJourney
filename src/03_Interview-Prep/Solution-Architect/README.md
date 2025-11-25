@@ -42,22 +42,22 @@
 
 ### Interview Preparation
 
-1. **[Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md)**
+1. **[Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview-Part1-A.md)** (Part 1-A) | [Part 1-B](./01_Azure-Data-Engineering-Interview-Part1-B.md)
    - Complete interview prep for Principal Consultant roles
    - Easy, Medium, Advanced, Expert questions with answers
    - Azure Data Engineering, Databricks, Fabric, PySpark, AI
 
-2. **[Principal Consultant Question Bank](./03_Principal-Consultant-Question-Bank.md)**
+2. **[Principal Consultant Question Bank](./03_Principal-Consultant-Question-Bank-Part1-A.md)** (Part 1-A) | [Part 1-B](./03_Principal-Consultant-Question-Bank-Part1-B.md) | [Part 2-A-1](./03_Principal-Consultant-Question-Bank-Part2-A-1.md) | [Part 2-A-2](./03_Principal-Consultant-Question-Bank-Part2-A-2.md) | [Part 2-B-1](./03_Principal-Consultant-Question-Bank-Part2-B-1.md) | [Part 2-B-2](./03_Principal-Consultant-Question-Bank-Part2-B-2.md) | [Part 2-C-1](./03_Principal-Consultant-Question-Bank-Part2-C-1.md) | [Part 2-C-2](./03_Principal-Consultant-Question-Bank-Part2-C-2.md) | [Part 2-D-1](./03_Principal-Consultant-Question-Bank-Part2-D-1.md) | [Part 2-D-2](./03_Principal-Consultant-Question-Bank-Part2-D-2.md) | [Part 2-E](./03_Principal-Consultant-Question-Bank-Part2-E.md) | [Part 2-F-1](./03_Principal-Consultant-Question-Bank-Part2-F-1.md) | [Part 2-F-2](./03_Principal-Consultant-Question-Bank-Part2-F-2.md) | [Part 2-G-1](./03_Principal-Consultant-Question-Bank-Part2-G-1.md) | [Part 2-G-2](./03_Principal-Consultant-Question-Bank-Part2-G-2.md) | [Part 2-H-1](./03_Principal-Consultant-Question-Bank-Part2-H-1.md) | [Part 2-H-2](./03_Principal-Consultant-Question-Bank-Part2-H-2.md) | [Part 2-I-1](./03_Principal-Consultant-Question-Bank-Part2-I-1.md) | [Part 2-I-2](./03_Principal-Consultant-Question-Bank-Part2-I-2.md)
    - Comprehensive question bank (Easy → Expert)
    - Azure Data Engineering, Databricks, Fabric, PySpark, AI topics
 
-3. **[Complete Interview Prep Pack](./04_Complete-Interview-Prep-Pack.md)**
+3. **[Complete Interview Prep Pack](./04_Complete-Interview-Prep-Pack-Part1-A-1.md)** (Part 1-A-1) | [Part 1-A-2](./04_Complete-Interview-Prep-Pack-Part1-A-2.md) | [Part 1-B](./04_Complete-Interview-Prep-Pack-Part1-B.md) | [Part 1-C](./04_Complete-Interview-Prep-Pack-Part1-C.md)
    - Full preparation pack with 150+ questions and answers
    - Cheat sheets for Databricks, PySpark, ADF, Fabric
    - 30-day study plan
    - Case studies
 
-4. **[Architecture Diagrams & Mock Interview](./05_Architecture-Diagrams-Mock-Interview.md)**
+4. **[Architecture Diagrams & Mock Interview](./05_Architecture-Diagrams-Mock-Interview-Part1-A.md)** (Part 1-A) | [Part 1-B](./05_Architecture-Diagrams-Mock-Interview-Part1-B.md)
    - Visual architecture diagrams (GenAI, Lakehouse, ADF+Databricks)
    - Principal/Staff-level mock interview with answers
 

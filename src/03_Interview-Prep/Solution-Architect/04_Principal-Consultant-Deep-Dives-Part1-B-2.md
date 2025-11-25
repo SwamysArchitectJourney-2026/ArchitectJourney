@@ -10,7 +10,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["./04_Principal-Consultant-Deep-Dives-Part1-B-1.md"]
   builds_upon: []
-  enables: ["./04_Principal-Consultant-Deep-Dives-Part1-C.md"]
+  enables: ["./04_Principal-Consultant-Deep-Dives-Part1-C-1.md"]
   cross_refs: []
 ---
 
@@ -97,5 +97,5 @@ df.withColumn("row_num", row_number().over(window))
 
 - [Part 1-B-1: Deep Dives - Fabric](./04_Principal-Consultant-Deep-Dives-Part1-B-1.md) - Fabric deep dive
 - [Part 1-A: Deep Dives - Databricks](./04_Principal-Consultant-Deep-Dives-Part1-A.md) - Databricks deep dive
-- [Part 1-C: Deep Dives - GenAI/RAG](./04_Principal-Consultant-Deep-Dives-Part1-C.md) - GenAI/RAG deep dive
+- [Part 1-C-1: Deep Dives - GenAI/RAG (Part 1)](./04_Principal-Consultant-Deep-Dives-Part1-C-1.md) - GenAI/RAG deep dive Part 1
 

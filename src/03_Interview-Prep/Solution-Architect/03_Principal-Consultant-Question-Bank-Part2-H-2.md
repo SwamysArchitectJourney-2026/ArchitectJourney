@@ -98,7 +98,7 @@ Each business unit becomes a **data producer and consumer**.
 
 - [Part 2-H-1: Case Studies (Part 1)](./03_Principal-Consultant-Question-Bank-Part2-H-1.md) - Case studies Part 1
 - [Part 2-G-2: Case Studies (Part 2)](./03_Principal-Consultant-Question-Bank-Part2-G-2.md) - Case studies Part 2
-- [Part 2-I: Mock Interview](./03_Principal-Consultant-Question-Bank-Part2-I.md) - Mock interview
+- [Part 2-I-1: Mock Interview (Part 1)](./03_Principal-Consultant-Question-Bank-Part2-I-1.md) - Mock interview Part 1
 
 
 

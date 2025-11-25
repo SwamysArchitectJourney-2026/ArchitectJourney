@@ -50,7 +50,7 @@ related_topics:
 ## 🔗 Related Documents
 
 - [Part 1-A: Easy, Medium, and Advanced Levels](./03_Principal-Consultant-Question-Bank-Part1-A.md) - Easy, medium, and advanced level questions
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Complete interview prep with answers
+- [Azure Data Engineering Interview (Part 1-A)](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Complete interview prep with answers
 - [ML Platform Design Answer](./02_ML-Platform-Design-Answer.md) - Enterprise ML platform system design
 - [Complete Interview Prep Pack](./04_Complete-Interview-Prep-Pack-Part1-A.md) - Full preparation pack with cheat sheets and study plan
 - [Architecture Diagrams & Mock Interview](./05_Architecture-Diagrams-Mock-Interview-Part1-A.md) - Visual diagrams and mock interview

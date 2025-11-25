@@ -8,9 +8,9 @@ learning_objectives:
   - "Understand GenAI security and multi-tenant architecture"
   - "Prepare for case study interviews"
 related_topics:
-  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-G.md"]
+  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-G-2.md"]
   builds_upon: []
-  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I.md"]
+  enables: ["./03_Principal-Consultant-Question-Bank-Part2-I-1.md"]
   cross_refs: []
 ---
 

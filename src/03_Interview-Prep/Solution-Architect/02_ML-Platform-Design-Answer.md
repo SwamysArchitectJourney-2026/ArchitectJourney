@@ -107,6 +107,6 @@ Ultimately, my success as a Senior PSE would be measured not just by platform ad
 
 ## 🔗 Related Documents
 
-- [Azure Data Engineering Interview](./01_Azure-Data-Engineering-Interview.md) - Complete interview prep
+- [Azure Data Engineering Interview (Part 1-A)](./01_Azure-Data-Engineering-Interview-Part1-A.md) - Complete interview prep
 - [Common Interview Materials](../Common/) - Shared interview content
 
