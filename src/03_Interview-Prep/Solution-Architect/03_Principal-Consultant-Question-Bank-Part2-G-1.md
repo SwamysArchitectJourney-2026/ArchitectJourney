@@ -122,3 +122,4 @@ related_topics:
 - [Part 2-F-2: Study Plan](./03_Principal-Consultant-Question-Bank-Part2-F-2.md) - 30-day study plan
 - [Part 2-H: Case Studies (Continued)](./03_Principal-Consultant-Question-Bank-Part2-H.md) - Case studies continued
 
+
