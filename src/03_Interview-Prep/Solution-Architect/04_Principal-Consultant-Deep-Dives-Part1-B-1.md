@@ -16,7 +16,7 @@ related_topics:
 
 # Principal Consultant Deep Dives - Fabric (Part 1-B-1)
 
-**Deep dive into Microsoft Fabric** for Principal Consultant / Staff Engineer interviews.
+**Deep dive into Microsoft Fabric** (unified analytics platform) for Principal Consultant / Staff Engineer interviews.
 
 ---
 
