@@ -110,10 +110,10 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Ticket Booking and URL Shortener](./01_System-Design-Model-Answers-Part1-A.md) - Scenarios 1-2
-- [Part 1-B: HR Attendance, Meeting Scheduling, Payment Processing](./01_System-Design-Model-Answers-Part1-B.md) - Scenarios 3-5
-- [Part 1-C: Event-Driven Systems, Analytics, CI/CD](./01_System-Design-Model-Answers-Part1-C.md) - Scenarios 6-8
-- [System Design Questions](./04_System-Design-Questions.md) - TPM-focused system design questions
-- [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
-- [Interview Cheatsheet](./09_Interview-Cheatsheet.md) - Quick reference guide
+- [Part 1-A-1: Ticket Booking and URL Shortener](./01_System-Design-Model-Answers-Part1-A-1.md) - Scenarios 1-2 Part 1
+- [Part 1-A-2: Ticket Booking and URL Shortener](./01_System-Design-Model-Answers-Part1-A-2.md) - Scenarios 1-2 Part 2
+- [Part 1-B-1: HR Attendance, Meeting Scheduling, Payment Processing](./01_System-Design-Model-Answers-Part1-B-1.md) - Scenarios 3-5 Part 1
+- [Part 1-B-2: HR Attendance, Meeting Scheduling, Payment Processing](./01_System-Design-Model-Answers-Part1-B-2.md) - Scenarios 3-5 Part 2
+- [Part 1-C-1: Event-Driven Systems, Analytics, CI/CD](./01_System-Design-Model-Answers-Part1-C-1.md) - Scenarios 6-8 Part 1
+- [Part 1-C-2: Event-Driven Systems, Analytics, CI/CD](./01_System-Design-Model-Answers-Part1-C-2.md) - Scenarios 6-8 Part 2
 

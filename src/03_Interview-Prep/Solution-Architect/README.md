@@ -67,7 +67,7 @@
    - Enterprise ML platform system design
    - Developer self-service, security, scalability
 
-6. **[Enterprise ML Platform Design](./06_Enterprise-ML-Platform-Design.md)**
+6. **[Enterprise ML Platform Design](./06_Enterprise-ML-Platform-Design-Part1-A.md)** (Part 1-A) | [Part 1-B](./06_Enterprise-ML-Platform-Design-Part1-B.md)
    - Comprehensive ML platform design summary
    - Phased rollout, KPIs, developer experience
 

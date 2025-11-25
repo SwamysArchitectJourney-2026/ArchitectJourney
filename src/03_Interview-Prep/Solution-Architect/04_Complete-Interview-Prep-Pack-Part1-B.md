@@ -112,7 +112,8 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 1-A: Interview Q&A](./04_Complete-Interview-Prep-Pack-Part1-A.md) - Easy to Expert Q&A
+- [Part 1-A-1: Interview Q&A (Part 1)](./04_Complete-Interview-Prep-Pack-Part1-A-1.md) - Easy to Expert Q&A Part 1
+- [Part 1-A-2: Interview Q&A (Part 2)](./04_Complete-Interview-Prep-Pack-Part1-A-2.md) - Easy to Expert Q&A Part 2
 - [Part 1-C: Case Studies](./04_Complete-Interview-Prep-Pack-Part1-C.md) - Principal-level case studies
 - [Question Bank (Part 1-A)](./03_Principal-Consultant-Question-Bank-Part1-A.md) - Complete question bank
 

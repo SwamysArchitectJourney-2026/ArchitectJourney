@@ -130,7 +130,7 @@ As a **.NET Architect**, emphasize:
 
 ## 🔗 Related Preparation Materials
 
-- [Complete Question Banks](./02_Question-Banks.md)
-- [Model Answers Reference](./03_Model-Answers.md)
-- [System Design Preparation](./04_System-Design-Questions.md)
-- [Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers.md)
+- [Complete Question Banks](./02_Question-Banks-Part1-A.md) (Part 1-A) | [Part 1-B](./02_Question-Banks-Part1-B.md)
+- [Model Answers Reference](./03_Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./03_Model-Answers-Part1-A-2.md) | [Part 1-B](./03_Model-Answers-Part1-B.md) | [Part 1-C](./03_Model-Answers-Part1-C.md)
+- [System Design Preparation](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) | [Part 1-B](./04_System-Design-Questions-Part1-B.md) | [Part 1-C](./04_System-Design-Questions-Part1-C.md)
+- [Behavioral Questions and Answers](./11_Behavioral-Questions-and-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./11_Behavioral-Questions-and-Answers-Part1-A-2.md) | [Part 1-B-1](./11_Behavioral-Questions-and-Answers-Part1-B-1.md) | [Part 1-B-2](./11_Behavioral-Questions-and-Answers-Part1-B-2.md) | [Part 1-C-1](./11_Behavioral-Questions-and-Answers-Part1-C-1.md) | [Part 1-C-2](./11_Behavioral-Questions-and-Answers-Part1-C-2.md)
