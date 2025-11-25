@@ -77,5 +77,5 @@ related_topics:
 
 - [Part 2-B-2: Advanced Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-B-2.md) - Advanced level answers continued
 - [Part 2-A-2: Medium Level Answers](./03_Principal-Consultant-Question-Bank-Part2-A-2.md) - Medium level detailed answers
-- [Part 2-C: Advanced Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-C.md) - Advanced level answers continued
+- [Part 2-C: Advanced Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-C-1.md) - Advanced level answers continued
 

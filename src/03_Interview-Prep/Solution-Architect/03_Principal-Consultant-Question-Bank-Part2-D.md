@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand Principal/Staff Engineer level architecture patterns"
   - "Prepare for senior technical leadership interviews"
 related_topics:
-  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-C.md"]
+  prerequisites: ["./03_Principal-Consultant-Question-Bank-Part2-C-2.md"]
   builds_upon: []
   enables: ["./03_Principal-Consultant-Question-Bank-Part2-E.md"]
   cross_refs: []
@@ -195,6 +195,6 @@ related_topics:
 
 ## 🔗 Related Documents
 
-- [Part 2-C: Advanced Answers](./03_Principal-Consultant-Question-Bank-Part2-C.md)
+- [Part 2-C: Advanced Answers](./03_Principal-Consultant-Question-Bank-Part2-C-2.md)
 - [Part 2-E: Expert Answers (Continued)](./03_Principal-Consultant-Question-Bank-Part2-E.md)
 
