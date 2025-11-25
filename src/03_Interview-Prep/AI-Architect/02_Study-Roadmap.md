@@ -95,7 +95,7 @@ related_topics:
 - Custom metrics support
 - Target utilization thresholds
 
-### KEDA (Event-Driven Autoscaling)
+### KEDA (Kubernetes Event-Driven Autoscaling)
 - Queue-based scaling (Service Bus, Event Hub)
 - Scale from zero to thousands of pods
 - Cost-effective for variable workloads

@@ -33,8 +33,17 @@ This folder contains interview preparation materials organized for efficient stu
 - **`07_Glossary-and-KEDA-Part1-A.md`** - KEDA explanation and key terminology
 - **`07_Glossary-and-KEDA-Part1-B.md`** - Azure services glossary and QPS architecture
 
-### 6. Quick Reference
+### 6. System Design Diagrams
+- **`08_System-Design-Diagrams-Part1-A.md`** - Cloud-native microservices, Strangler pattern, CQRS
+- **`08_System-Design-Diagrams-Part1-B.md`** - RAG platform, Multi-region SaaS, universal talking points
+
+### 7. System Design Questions
+- **`09_System-Design-Questions-Part1-A.md`** - 10k QPS, Azure OpenAI vs ML, Security, Drift detection
+- **`09_System-Design-Questions-Part1-B.md`** - Canary rollouts, GPU optimization, Observability, RAG latency
+
+### 8. Quick Reference
 - **`06_Cheat-Sheet.md`** - One-page quick reference for interview day
+- **`10_System-Design-Cheat-Sheet.md`** - System design diagrams cheat sheet
 
 ---
 
@@ -127,10 +136,10 @@ This folder contains interview preparation materials organized for efficient stu
 
 ## 📊 Content Statistics
 
-- **Total Files**: 15 educational content files
-- **Total Topics**: Architecture patterns, interview questions, whiteboard scenarios, glossary, KEDA, QPS
-- **Study Time**: ~4-5 hours for complete preparation
-- **Quick Review**: 15 minutes with cheat sheet
+- **Total Files**: 18 educational content files
+- **Total Topics**: Architecture patterns, interview questions, whiteboard scenarios, glossary, KEDA, QPS, system design diagrams, system design questions
+- **Study Time**: ~5-6 hours for complete preparation
+- **Quick Review**: 15 minutes with cheat sheets
 
 ---
 
