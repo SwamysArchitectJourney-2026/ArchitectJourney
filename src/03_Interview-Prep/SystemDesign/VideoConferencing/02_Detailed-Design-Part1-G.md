@@ -8,7 +8,7 @@ learning_objectives:
   - "Design the AI Worker architecture for Transcription and Summarization"
 related_topics:
   builds_upon: ["./02_Detailed-Design-Part1-F.md"]
-  enables: ["./03_Implementation-Plan.md"]
+  enables: []
 ---
 
 # Detailed Design: Advanced Workflows & AI Integration - Part 1-G
