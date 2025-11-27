@@ -91,3 +91,31 @@ sequenceDiagram
     Note over A, B: 3. P2P Media Flow
     A-->>B: SRTP Media Stream (UDP)
 ```
+
+## 4. HTTP Tunneling for Restrictive Networks
+
+In some enterprise environments, UDP and even non-HTTPS TCP ports are blocked by strict firewalls or proxies.
+In those cases, the normal ICE connectivity ladder (STUN over UDP/TCP, then TURN over UDP/TCP) may fail to
+establish a working media path.
+
+To keep the system usable in these "locked down" scenarios, we add an **HTTP tunneling** fallback:
+
+* **Idea**: Encapsulate signaling and, in extreme cases, media packets inside HTTPS requests that look like
+  regular web traffic to the proxy.
+* **Path**:
+  * Client connects to an HTTP tunnel endpoint over `HTTPS :443` (often the same origin as the web app or a
+    closely related domain).
+  * The tunnel service forwards traffic to the appropriate media gateway or SFU over an internal network path
+    that is not subject to the same restrictions.
+* **Trade-offs**:
+  * Higher latency and jitter compared to native UDP, since packets traverse HTTP stacks and may suffer from
+    head-of-line blocking.
+  * Increased bandwidth and compute cost, because every packet is serialized through an HTTP relay.
+* **Usage policy**:
+  * Treat HTTP tunneling as a **last resort**: only enable when standard ICE candidates (P2P via STUN/TURN)
+    fail, or for specific high-security tenants that require it.
+  * Expose configuration toggles per tenant/region so organizations can decide whether the extra reliability
+    is worth the additional cost.
+
+Mentioning HTTP tunneling in an interview shows you have an answer for "secure corporate proxy" scenarios
+without compromising the UDP-first design for typical networks.
