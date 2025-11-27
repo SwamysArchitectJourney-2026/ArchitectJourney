@@ -28,7 +28,10 @@ In-depth design of specific components, APIs, and advanced workflows.
 * [02_Detailed-Design-Part1-D.md](./02_Detailed-Design-Part1-D.md): Operational Excellence (Observability & SLOs)
 * [02_Detailed-Design-Part1-E.md](./02_Detailed-Design-Part1-E.md): Security Architecture (Zero Trust & E2EE)
 * [02_Detailed-Design-Part1-F.md](./02_Detailed-Design-Part1-F.md): Data Models (SQL/Redis) & Signaling Contracts
-* [02_Detailed-Design-Part1-G.md](./02_Detailed-Design-Part1-G.md): Advanced Workflows (Recording, AI Integration)
+* [02_Detailed-Design-Part1-G.md](./02_Detailed-Design-Part1-G.md): Advanced Workflows (Dynamic Switching, Recording, AI)
+* [02_Detailed-Design-Part1-H.md](./02_Detailed-Design-Part1-H.md): Infrastructure, Scalability & Analytics
+
+## 🛠️ Note on Code Implementation
 
 ---
 
