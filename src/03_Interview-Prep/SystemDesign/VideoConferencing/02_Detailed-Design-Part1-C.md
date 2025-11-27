@@ -60,16 +60,16 @@ For broadcasting events (e.g., Sports, Town Halls) to millions of users, WebRTC 
 
 ```mermaid
 graph LR
-    Broadcaster[Broadcaster (RTMP)] --> Ingest[Ingest Server]
-    Ingest --> Transcoder[Transcoder (FFmpeg)]
+    Broadcaster[Broadcaster RTMP] --> Ingest[Ingest Server]
+    Ingest --> Transcoder[Transcoder FFmpeg]
     Transcoder -->|1080p| Packager[Packager]
     Transcoder -->|720p| Packager
     Transcoder -->|480p| Packager
     Packager --> Origin[Origin Storage]
     Origin --> CDN[CDN Edge Nodes]
-    CDN --> Viewer1[Viewer (Mobile)]
-    CDN --> Viewer2[Viewer (TV)]
-    CDN --> Viewer3[Viewer (Laptop)]
+    CDN --> Viewer1[Viewer Mobile]
+    CDN --> Viewer2[Viewer TV]
+    CDN --> Viewer3[Viewer Laptop]
 ```
 
 ## 3. Adaptive Bitrate & Transcoding
