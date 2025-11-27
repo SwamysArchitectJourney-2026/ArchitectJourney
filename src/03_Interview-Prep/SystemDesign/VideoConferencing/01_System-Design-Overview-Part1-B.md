@@ -50,55 +50,43 @@ related_topics:
 
 ```mermaid
 graph TD
-    subgraph Client
-        Web[Web UI / Mobile App]
+    subgraph "Client Layer"
+        Client[Web / Mobile Clients]
     end
 
-    subgraph "API Gateway & Security"
-        APIG[API Gateway]
-        Auth[Identity System]
+    subgraph "Edge & Security"
+        AFD[Azure Front Door + WAF]
+        APIM[API Gateway / APIM]
+        Auth[Azure AD / Auth Service]
     end
 
-    subgraph "Application Services"
-        MeetSvc[Meeting Service]
-        ChatSvc[Chat Service]
-        CollabSvc[Collaboration Service]
+    subgraph "Control Plane (.NET)"
+        Signal[Signaling Service]
+        Redis[(Redis Presence)]
     end
 
-    subgraph "AI Services"
-        AzAI[Azure AI Services]
-        Trans[Translation]
-        Script[Transcription]
+    subgraph "Media Plane (Scalable)"
+        SFU[SFU Cluster (AKS)]
+        TURN[TURN Pool (VMSS)]
+        MediaProc[Media Processor (AI)]
     end
 
-    subgraph "Data Layer"
-        SQL[(Postgres DB)]
+    subgraph "Data & Storage"
+        SQL[(Metadata DB)]
         Blob[(Blob Storage)]
-        Redis[(Redis Cache)]
     end
 
-    subgraph "Observability"
-        Prom[Prometheus]
-        Graf[Grafana]
-    end
-
-    Web --> APIG
-    APIG --> Auth
-    APIG --> MeetSvc
-    APIG --> ChatSvc
+    Client -->|HTTPS/WSS| AFD
+    AFD --> APIM
+    APIM --> Auth
+    APIM --> Signal
+    Signal <--> Redis
     
-    MeetSvc --> AzAI
-    AzAI --> Trans
-    AzAI --> Script
+    Client -->|WebRTC/UDP| SFU
+    Client -.->|Relay| TURN
+    TURN --> SFU
     
-    MeetSvc --> SQL
-    ChatSvc --> SQL
-    MeetSvc --> Redis
-    
-    MeetSvc --> Blob
-    CollabSvc --> Blob
-    
-    Prom --> MeetSvc
-    Prom --> AzAI
-    Graf --> Prom
+    SFU -->|RTP Stream| MediaProc
+    MediaProc -->|Transcripts| SQL
+    SFU -->|Recording| Blob
 ```

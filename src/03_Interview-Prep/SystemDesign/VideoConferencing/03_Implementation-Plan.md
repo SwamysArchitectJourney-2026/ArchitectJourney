@@ -15,29 +15,33 @@ related_topics:
 
 Based on the architecture, the following stack is selected for implementation:
 
-* **Backend**: .NET 8 / C# (High performance, strong Azure integration).
+* **Backend (Control Plane)**: .NET 8 / ASP.NET Core (Minimal APIs + SignalR Hub).
 * **Frontend**: React + TypeScript (Rich UI ecosystem).
 * **Real-time**: SignalR (Signaling) + LiveKit or Azure Communication Services (Media/WebRTC).
-* **Database**: PostgreSQL (via Azure Database for PostgreSQL).
-* **AI Integration**: Azure OpenAI SDK + Azure Speech SDK.
-* **Infrastructure**: Terraform / Bicep for Azure AKS deployment.
+* **AI & Workers**: Python (FastAPI) for Transcription, Summarization, and Media Processing.
+* **Database**: PostgreSQL (Metadata) + Redis (Ephemeral State).
+* **Infrastructure**: Azure AKS (Kubernetes), Azure Front Door, Azure Key Vault.
 
 ## 2. Repository Structure Strategy
 
-We will use a **Polyrepo** approach where the implementation lives in a dedicated repository, separate from this educational content.
+We will use a **Polyrepo** approach where the implementation lives in a dedicated repository.
 
 ### Planned Folder Structure (Implementation Repo)
 
 ```text
-src/
-├── Client/                 # React Web App
-├── Services/
-│   ├── Identity/           # Auth Service
-│   ├── Meeting/            # Meeting Management API
-│   ├── Signaling/          # SignalR Hubs
-│   └── AI/                 # AI Processing Worker
-├── Infrastructure/         # IaC (Bicep/Terraform)
-└── Tests/                  # Unit and Integration Tests
+video-signaling/
+├── src/
+│   ├── Client/                 # React Web App
+│   ├── VideoSignaling.Api/     # .NET 8 Signaling Service
+│   │   ├── Hubs/               # SignalR Hubs
+│   │   ├── Services/           # Token & Room Logic
+│   │   └── Program.cs
+│   ├── Media.Worker/           # Python FastAPI Service
+│   │   ├── app/                # AI/ML Logic (Whisper/OpenAI)
+│   │   └── Dockerfile
+│   └── Infrastructure/         # IaC (Bicep/Terraform)
+├── k8s/                        # Helm Charts & Manifests
+└── .github/                    # CI/CD Pipelines
 ```
 
 ## 3. Code Repository Link
