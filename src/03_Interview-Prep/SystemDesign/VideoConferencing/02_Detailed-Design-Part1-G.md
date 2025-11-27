@@ -95,7 +95,8 @@ merging, and storing.
 
 ## 3. AI Worker Design (Python)
 
-We use Python for its rich AI ecosystem (PyTorch, Azure SDKs). These workers operate asynchronously.
+We use Python for its rich AI ecosystem (PyTorch, Azure SDKs). These workers
+operate asynchronously.
 
 ### Components
 
