@@ -116,16 +116,19 @@ related_topics:
 ## Design Patterns
 
 **Orchestration Pattern:**
+
 - Centralized AI orchestration service
 - Manages complex workflows
 - Handles routing and fallback
 
 **Fallback Strategy:**
+
 - Primary: Azure OpenAI
 - Fallback: AKS custom models
 - Graceful degradation
 
 **Caching Strategy:**
+
 - Redis for prompt/response caching
 - Reduce LLM API calls
 - Improve latency
@@ -135,16 +138,19 @@ related_topics:
 ## Common Follow-up Questions
 
 **Q: How do you handle service failures?**
+
 - Circuit breakers
 - Retry policies
 - Fallback to alternative models
 
 **Q: How do you scale this architecture?**
+
 - HPA for microservices
 - KEDA for event-driven scaling
 - Cluster Autoscaler for nodes
 
 **Q: How do you ensure consistency?**
+
 - Event-driven architecture
 - Saga pattern for distributed transactions
 - Eventual consistency model
@@ -152,4 +158,3 @@ related_topics:
 ---
 
 **Next**: Review the **Cheat Sheet** (`./06_Cheat-Sheet.md`) for quick reference before your interview.
-

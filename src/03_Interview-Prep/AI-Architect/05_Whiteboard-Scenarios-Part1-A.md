@@ -125,11 +125,13 @@ related_topics:
 ## Scalability Points
 
 **Horizontal Scaling:**
+
 - HPA for pod-level scaling
 - KEDA for event-driven scaling
 - Cluster Autoscaler for node scaling
 
 **Performance Optimization:**
+
 - Cache frequent retrievals
 - Precompute embeddings
 - Optimize vector search (k in KNN)
@@ -139,11 +141,13 @@ related_topics:
 ## Security Points
 
 **Network Security:**
+
 - Private Link for all Azure services
 - VNet integration for AKS
 - No public internet exposure
 
 **Data Protection:**
+
 - Key Vault for secrets
 - Managed Identity for auth
 - Prompt/response redaction for PII
@@ -153,16 +157,19 @@ related_topics:
 ## Common Follow-up Questions
 
 **Q: How do you handle high query volume?**
+
 - Autoscale GPU pools
 - Cache frequent queries
 - Use managed Azure OpenAI for scale
 
 **Q: How do you ensure data privacy?**
+
 - Private Link for all connections
 - On-premise-like control with AKS
 - Prompt redaction and audit logs
 
 **Q: How do you optimize latency?**
+
 - Precompute embeddings
 - Cache retrievals
 - Optimize vector search parameters
@@ -170,4 +177,3 @@ related_topics:
 ---
 
 **Next**: Practice **Scenario 2** (`./05_Whiteboard-Scenarios-Part1-B.md`) - Custom Model Serving on AKS.
-

@@ -111,21 +111,25 @@ related_topics:
 ## Key Points to Emphasize
 
 **GPU Node Pools:**
+
 - Separate pools for inference vs training
 - Taints and tolerations for isolation
 - Right-sized GPU SKUs
 
 **Canary Deployment:**
+
 - Traffic splitting (10% to new version)
 - Monitor latency, error rate, business metrics
 - Automated rollback on threshold breach
 
 **Model Registry:**
+
 - Versioning and lifecycle management
 - Integration with Azure ML
 - Automated deployment triggers
 
 **Zero-Downtime Rollouts:**
+
 - Rolling updates
 - Health probes
 - Graceful degradation
@@ -147,21 +151,25 @@ related_topics:
 ## MLOps Pipeline Flow
 
 **1. Training:**
+
 - Azure ML experiments
 - Hyperparameter tuning
 - Model validation
 
 **2. Registry:**
+
 - Model versioning
 - Metadata storage
 - Approval workflows
 
 **3. Deployment:**
+
 - GitOps or CI/CD
 - Automated to AKS
 - Canary rollout
 
 **4. Monitoring:**
+
 - Model performance
 - Drift detection
 - Automated retraining triggers
@@ -171,16 +179,19 @@ related_topics:
 ## Common Follow-up Questions
 
 **Q: How do you handle model versioning?**
+
 - Azure ML model registry
 - Semantic versioning
 - Rollback capabilities
 
 **Q: How do you ensure model quality?**
+
 - Automated testing
 - Shadow traffic
 - A/B testing
 
 **Q: How do you optimize GPU utilization?**
+
 - Inference batching
 - Model quantization
 - Right-sizing SKUs
@@ -188,4 +199,3 @@ related_topics:
 ---
 
 **Next**: Practice **Scenario 3** (`./05_Whiteboard-Scenarios-Part1-C.md`) - AI-Integrated Microservices Platform.
-
