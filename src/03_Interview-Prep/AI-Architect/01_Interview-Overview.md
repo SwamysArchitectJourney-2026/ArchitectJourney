@@ -16,6 +16,7 @@ related_topics:
 # AI + .NET Architect Interview Overview
 
 **Interview Focus**: Azure AI + .NET Architect with Kubernetes positions require deep expertise in:
+
 - Cloud-native .NET microservices architecture
 - Azure AI services (OpenAI, Machine Learning, Cognitive Services)
 - Kubernetes (AKS) for container orchestration
@@ -34,6 +35,7 @@ related_topics:
 > I'm here today to walk you through how I design a scalable Azure AI solution on AKS, and how I would solve similar architecture challenges in your environment."
 
 **Why this works:**
+
 - Hits all expected keywords (Azure, Kubernetes, AI, .NET)
 - Shows modern, relevant experience
 - Demonstrates breadth (architecture, security, cost, operations)
@@ -77,16 +79,19 @@ related_topics:
 ## What Interviewers Look For
 
 **Technical depth:**
+
 - Can you design scalable architectures?
 - Do you understand Azure AI service trade-offs?
 - Can you configure AKS for AI workloads?
 
 **Communication:**
+
 - Can you explain complex systems clearly?
 - Do you ask clarifying questions?
 - Can you whiteboard effectively?
 
 **Problem-solving:**
+
 - Can you handle constraints (cost, latency, security)?
 - Do you consider non-functional requirements?
 - Can you justify design decisions?
@@ -103,4 +108,3 @@ related_topics:
 ---
 
 **Remember**: Interviewers want to see your thought process, not just memorized answers. Practice explaining your reasoning and trade-offs.
-
