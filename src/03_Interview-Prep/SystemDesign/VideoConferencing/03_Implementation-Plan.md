@@ -53,3 +53,9 @@ The full implementation of this system design is maintained in the following rep
 2. **Scaffold Solution**: Set up the .NET solution and React project.
 3. **Core API**: Implement the Meeting Management APIs defined in `02_Detailed-Design-Part1-A.md`.
 4. **Link Back**: Update the link above to point to the live code.
+
+## 5. Future Phases
+
+* **Phase 2: Advanced Connectivity**: Implement STUN/TURN server configuration (coturn) or integrate Azure Communication Services for reliable NAT traversal.
+* **Phase 3: Group Scaling**: Implement SFU logic for supporting >5 participants.
+* **Phase 4: Live Streaming**: Add RTMP ingest and HLS delivery for one-to-many broadcasting.
