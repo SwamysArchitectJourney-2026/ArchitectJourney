@@ -15,7 +15,8 @@ related_topics:
 
 ## 1. Service Level Objectives (SLOs)
 
-For a real-time system, availability alone is insufficient. We must track latency and quality.
+For a real-time system, availability alone is insufficient. We must track latency
+and quality.
 
 | Metric | Target (SLO) | Measurement Window |
 | :--- | :--- | :--- |
@@ -42,14 +43,16 @@ We employ a multi-layer monitoring approach to capture system health and user ex
 
 ### B. Server-Side Metrics (Prometheus)
 
-* **Signaling**: Active connections, Message rate, Redis latency, Token validation failures.
-* **SFU**: Aggregate forwarding bitrate, Active publishers/subscribers, CPU/Memory usage.
+* **Signaling**: Active connections, Message rate, Redis latency, Token validation
+  failures.
+* **SFU**: Aggregate forwarding bitrate, Active publishers/subscribers, CPU/Memory
+  usage.
 * **TURN**: Egress bandwidth, Active allocations, Auth failures.
 
 ### C. Distributed Tracing (OpenTelemetry)
 
-* Trace the full `join_room` flow: Client → Front Door → API Gateway → Signaling →
-  Redis → SFU.
+* Trace the full `join_room` flow: Client → Front Door → API Gateway →
+  Signaling → Redis → SFU.
 * Identify bottlenecks in room creation or media negotiation.
 
 ## 3. Operational Runbooks
