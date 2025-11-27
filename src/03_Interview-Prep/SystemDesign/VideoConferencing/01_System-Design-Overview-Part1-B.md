@@ -66,9 +66,9 @@ graph TD
     end
 
     subgraph "Media Plane (Scalable)"
-        SFU[SFU Cluster (AKS)]
-        TURN[TURN Pool (VMSS)]
-        MediaProc[Media Processor (AI)]
+        SFU[SFU Cluster AKS]
+        TURN[TURN Pool VMSS]
+        MediaProc[Media Processor AI]
     end
 
     subgraph "Data & Storage"

@@ -8,7 +8,7 @@ learning_objectives:
   - "Architect a Big Data pipeline for Quality of Service (QoS) analytics"
 related_topics:
   builds_upon: ["./02_Detailed-Design-Part1-G.md"]
-  enables: []
+  enables: ["./03_Implementation-Plan.md"]
 ---
 
 # Detailed Design: Infrastructure, Scalability & Analytics - Part 1-H
