@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand Transcoding and Adaptive Bitrate Streaming"
 related_topics:
   builds_upon: ["./02_Detailed-Design-Part1-B.md"]
-  enables: ["./03_Implementation-Plan.md"]
+  enables: ["./02_Detailed-Design-Part1-D.md"]
 ---
 
 # Detailed Design: Advanced Scenarios

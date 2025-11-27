@@ -7,7 +7,7 @@ learning_objectives:
   - "Perform capacity planning calculations for bandwidth and storage"
 related_topics:
   builds_upon: ["./02_Detailed-Design-Part1-A.md"]
-  enables: ["./03_Implementation-Plan.md"]
+  enables: ["./02_Detailed-Design-Part1-C.md"]
 ---
 
 # Detailed Design: Sequences and Capacity - Part 1-B
