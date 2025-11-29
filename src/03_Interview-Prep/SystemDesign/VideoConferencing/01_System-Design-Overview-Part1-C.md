@@ -8,6 +8,7 @@ learning_objectives:
   - "Implement data privacy and consent workflows"
 related_topics:
   builds_upon: ["./01_System-Design-Overview-Part1-B.md"]
+  enables: ["./01_System-Design-Overview-Part1-D.md"]
 ---
 
 # System Design: AI-Enhanced Video Conferencing - Part 1-C
