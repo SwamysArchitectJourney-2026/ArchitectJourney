@@ -11,10 +11,12 @@
 **Fundamentals** (Design Patterns, SOLID, Architecture Principles) are **static knowledge**—they don't change based on the interview. They are **core reference materials** that you use during your job, not just to get the job.
 
 **Separation of Concerns:**
+
 - **`01_Reference`**: The "Textbook" (What you need to know)
 - **`03_Interview-Prep`**: The "Exam Prep" (How to apply it to pass the interview)
 
 **Why This Matters:**
+
 - ✅ **Single Source of Truth**: Define "Singleton Pattern" once in `01_Reference`. Interview Prep, Learning paths, and daily work all point to that one definition.
 - ✅ **Contextual Clarity**: When in `01_Reference`, you're **Learning**. When in `03_Interview-Prep`, you're **Practicing**.
 - ✅ **System Design Scenarios**: Stay in Interview-Prep because "Design Netflix" is a specific interview format. It uses knowledge from `01_Reference`, but structures it as a 45-minute interview response.
@@ -123,11 +125,13 @@ SystemDesign/
 ### Two-Layer Organization
 
 **Layer 1: Reference Knowledge** (`01_Reference/`)
+
 - Static knowledge used in daily work
 - Design Patterns, SOLID Principles, Architecture Principles
 - Single source of truth for core concepts
 
 **Layer 2: Interview Application** (`03_Interview-Prep/`)
+
 - How to apply knowledge for interviews
 - STAR Method, System Design Model Answers, Interview Scenarios
 - Role-specific interview strategies
@@ -317,12 +321,14 @@ src/
 ### 1. Reference-First Separation
 
 **`01_Reference/` = The "Textbook" (Static Knowledge)**
+
 - **Design Patterns** - Core knowledge used in daily work
 - **SOLID Principles** - Core knowledge used in daily work
 - **Architecture Principles** - Core knowledge used in daily work
 - **Single Source of Truth** - Defined once, referenced everywhere
 
 **`03_Interview-Prep/` = The "Exam Prep" (Application)**
+
 - **STAR Method** - Interview-specific behavioral framework
 - **System Design Model Answers** - Interview-format responses
 - **System Design Scenarios** - Interview-style case studies
@@ -375,11 +381,13 @@ src/
 ### 3. Cross-Referencing Strategy
 
 **From Interview-Prep to Reference:**
+
 - `../../01_Reference/01_Development/04_Software-Design/01_Design-Patterns/` - Core patterns
 - `../../01_Reference/01_Development/04_Software-Design/02_SOLID-Principles/` - Core principles
 - `../../01_Reference/01_Development/04_Software-Design/03_Architecture-Principles/` - Core architecture
 
 **Within Interview-Prep:**
+
 - `../Common/01_STAR-Method/` - Behavioral framework
 - `../Common/02_SystemDesign/` - Interview-format answers
 - `../02_System-Design-Scenarios/VideoConferencing/` - Interview scenarios
