@@ -53,7 +53,7 @@ related_topics:
 - **Sharding** – Horizontal partitioning of data across multiple databases or servers.
 - **Replication** – Copying data across multiple nodes for availability and performance.
 
-> 💡 **Database Selection**: For a decision framework on choosing between RDBMS, Document DB, and Columnar DB, see [Database Selection Decision Framework](../../../01_Reference/03_Data-and-Storage/01_Database-Selection-Decision-Framework.md).
+> 💡 **Database Selection**: For a decision framework on choosing between RDBMS, Document DB, and Columnar DB, see [Database Selection Decision Framework](../../../01_Reference/03_Data-and-Storage/01_Database-Selection-Decision-Framework-Part1-A.md).
 
 ### Messaging & Communication
 

@@ -66,6 +66,14 @@
 - Data governance and compliance
 - ML/AI data engineering
 
+### 📂 System Design Scenarios
+
+**Deep-dive system design case studies:**
+
+- Video Conferencing system design (comprehensive 15-file module)
+- Live Streaming system design
+- Complete interview-style system design scenarios
+
 ---
 
 ## 🎯 Quick Start
@@ -86,7 +94,10 @@
 → Start with `Engineering-Manager/` folder (content coming soon)
 
 **Common Content:**
-→ Check `Common/` for shared interview preparation materials
+→ Check `02_Common/` for shared interview preparation materials
+
+**System Design Scenarios:**
+→ Check `03_System-Design-Scenarios/` for deep-dive case studies
 
 ---
 
@@ -94,24 +105,30 @@
 
 | Folder | Status | Description |
 |--------|--------|-------------|
-| **Common** | 🏗️ Ready | Shared interview materials |
-| **TPM** | ✅ Complete | Full TPM interview prep |
-| **Software-Architect** | 📝 Ready | Ready for architecture-focused content |
-| **Solution-Architect** | ✅ Has Content | Solution architecture and Principal Consultant content |
-| **Engineering-Manager** | 📝 Ready | Ready for EM content |
-| **PrincipalConsultant-Data** | 📝 Ready | Ready for data-specific Principal Consultant content |
+| **01_Glossary** | ✅ Complete | Interview terminology and acronyms |
+| **02_Common** | 🏗️ Ready | Shared interview materials |
+| **03_System-Design-Scenarios** | ✅ Has Content | Video Conferencing, Live Streaming case studies |
+| **04_TPM** | ✅ Complete | Full TPM interview prep |
+| **05_Software-Architect** | 📝 Ready | Ready for architecture-focused content |
+| **06_Solution-Architect** | ✅ Has Content | Solution architecture and Principal Consultant content |
+| **07_AI-Architect** | ✅ Has Content | AI/ML architect interview preparation |
+| **08_Engineering-Manager** | 📝 Ready | Ready for EM content |
+| **09_PrincipalConsultant-Data** | 📝 Ready | Ready for data-specific Principal Consultant content |
 
 ---
 
 ## 🔗 Navigation
 
-- [TPM Interview Prep](./TPM/) - Complete TPM interview preparation
-- [Common Interview Materials](./Common/) - Shared content for all roles
-- [Software Architect Prep](./Software-Architect/) - Software architect preparation
-- [Solution Architect Prep](./Solution-Architect/) - Solution architect preparation
-- [Engineering Manager Prep](./Engineering-Manager/) - Engineering manager preparation
-- [Principal Consultant - Data Prep](./PrincipalConsultant-Data/) - Data-specific Principal Consultant preparation
+- [Glossary](./01_Glossary/) - Interview terminology and acronyms
+- [Common Interview Materials](./02_Common/) - Shared content for all roles
+- [System Design Scenarios](./03_System-Design-Scenarios/) - Deep-dive case studies
+- [TPM Interview Prep](./04_TPM/) - Complete TPM interview preparation
+- [Software Architect Prep](./05_Software-Architect/) - Software architect preparation
+- [Solution Architect Prep](./06_Solution-Architect/) - Solution architect preparation
+- [AI Architect Prep](./07_AI-Architect/) - AI/ML architect preparation
+- [Engineering Manager Prep](./08_Engineering-Manager/) - Engineering manager preparation
+- [Principal Consultant - Data Prep](./09_PrincipalConsultant-Data/) - Data-specific Principal Consultant preparation
 
 ---
 
-**Last Updated**: November 24, 2025
+**Last Updated**: November 29, 2025

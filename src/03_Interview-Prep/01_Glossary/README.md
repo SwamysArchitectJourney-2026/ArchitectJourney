@@ -66,7 +66,7 @@ This glossary provides quick reference for:
 
 - **[STAR Method](../02_Common/01_STAR-Method/01_STAR-Method.md)** – Behavioral interview framework
 - **[System Design Fundamentals](../02_Common/02_SystemDesign/)** – System design concepts
-- **[System Design Scenarios](../SystemDesign/)** – Practical system design examples
+- **[System Design Scenarios](../03_System-Design-Scenarios/)** – Practical system design examples
 
 ---
 
