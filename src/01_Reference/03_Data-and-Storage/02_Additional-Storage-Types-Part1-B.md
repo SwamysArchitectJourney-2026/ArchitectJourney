@@ -86,14 +86,21 @@ GROUP BY time(1h), "server_id"
 
 ### Purpose
 
-Large-scale storage and processing systems for offline analytics, reporting, and business intelligence.
+Large-scale storage and processing systems for offline analytics, reporting, and business intelligence. Store all company information for various analytics requirements.
+
+**Use Cases**: 
+- Amazon/Uber - Analytics on all transactions (orders, revenues, geographies, most popular items)
+- Company-wide analytics and reporting
+- **Not for transactional systems** - Used for **offline reporting**
 
 ### When to Use
 
+- **Company-wide analytics**: Store all company data for analytics
+- **Offline reporting**: Generate reports on historical data (not real-time transactions)
+- **Business intelligence**: How many orders, revenue by geography, most popular items
 - **Historical analysis**: Long-term trend analysis
-- **Business intelligence**: Reporting, dashboards, KPIs
 - **Data mining**: Discovering patterns in large datasets
-- **ETL pipelines**: Extract, Transform, Load operations
+- **ETL pipelines**: Extract data from transactional systems, Transform, Load into warehouse
 - **Batch processing**: Processing large volumes of data offline
 - **Data lake**: Storing raw, unstructured data for future analysis
 
