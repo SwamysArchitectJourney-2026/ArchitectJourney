@@ -3,9 +3,9 @@ learning_level: "Intermediate"
 prerequisites: ["./02_Additional-Storage-Types-Part1-A.md"]
 estimated_time: "15 minutes"
 learning_objectives:
-  - "Understand when to use time-series databases"
-  - "Learn about data warehouses for offline analytics"
-  - "Recognize the role of specialized storage in system design"
+  - "Understand time-series database characteristics"
+  - "Learn when data warehouses are appropriate"
+  - "Recognize specialized storage needs in system design"
 related_topics:
   builds_upon: ["./02_Additional-Storage-Types-Part1-A.md"]
   enables: []
@@ -17,67 +17,60 @@ related_topics:
 
 ### Purpose
 
-Specialized databases for tracking metrics, events, and data points over time. Think of time-series databases as an extension of relational databases with specific optimizations for time-based data patterns.
+Time-series databases specialize in storing and querying data points indexed by time. They optimize for sequential writes and time-range queries rather than random access patterns.
 
-**Use Cases**: Building systems like Graphite, Grafana, or Prometheus for application metrics tracking (throughput, CPU utilization, latencies).
+### When Time-Series Databases Fit
 
-### When to Use
+- **Application monitoring**: Track CPU usage, memory consumption, request rates
+- **IoT sensor networks**: Collect temperature, pressure, location data
+- **Financial market data**: Store price movements, trading volumes
+- **Infrastructure metrics**: Monitor server health, network performance
+- **User activity tracking**: Log user actions and system events with timestamps
 
-- **Metrics collection**: Application metrics, system performance data
-- **IoT sensor data**: Temperature, pressure, location tracking
-- **Financial data**: Stock prices, trading volumes over time
-- **Monitoring**: Server health, network traffic, user activity
-- **Event tracking**: User actions, system events with timestamps
-- **Real-time analytics**: Dashboards showing trends over time
+### Key Design Characteristics
 
-### Key Characteristics
+**Write Pattern**: Append-only sequential writes
+- New data points always have later timestamps than previous points
+- No updates to historical records
+- No random writes to arbitrary time points
 
-- **Time-indexed**: Data is organized by timestamp
-- **Append-only write mode**: Sequential writes only (T1, T2, T3... where T3 > T2 > T1)
-  - **No random updates**: You never update old records
-  - **No random reads**: Queries are time-range based, not point lookups
-- **Bulk read queries**: Read queries are for time ranges (last few minutes/hours/days), not individual records
-- **High write throughput**: Optimized for continuous data ingestion
-- **Efficient compression**: Time-series data compresses well
-- **Time-based queries**: Efficient range queries, aggregations by time
-- **Retention policies**: Automatic data expiration/archival
-- **Downsampling**: Aggregate old data to reduce storage
+**Read Pattern**: Time-range bulk queries
+- Queries typically request data for time windows (last hour, last day, last week)
+- Rarely query individual data points
+- Focus on aggregations over time ranges
 
-### Technologies
+**Optimizations**:
+- Efficient compression of time-sequential data
+- Fast time-range scans
+- Automatic data retention and archival policies
+- Downsampling of old data to reduce storage
+
+### Technology Options
 
 #### InfluxDB
 
-- **Purpose-built**: Designed specifically for time-series data
-- **SQL-like query language**: InfluxQL for familiar querying
-- **High performance**: Handles millions of data points per second
-- **Retention policies**: Automatic data lifecycle management
-- **Continuous queries**: Real-time aggregations and transformations
-- **Tag-based indexing**: Efficient filtering by tags (metadata)
+- **Purpose-built**: Designed specifically for time-series workloads
+- **Query language**: SQL-like syntax (InfluxQL)
+- **Performance**: Handles millions of data points per second
+- **Data lifecycle**: Automatic retention and downsampling
+- **Real-time processing**: Continuous queries for streaming aggregations
 
 #### OpenTSDB
 
-- **Built on HBase**: Leverages HBase for storage
-- **Scalable**: Handles billions of data points
-- **Tag-based**: Flexible tagging system for metadata
-- **HTTP API**: RESTful interface for data ingestion and queries
-- **Grafana integration**: Works well with visualization tools
-
-### Use Cases
-
-- **Application monitoring**: CPU, memory, request rates
-- **Infrastructure metrics**: Server health, network performance
-- **Business metrics**: Sales, user growth, conversion rates
-- **IoT applications**: Sensor data from devices
-- **Financial trading**: Price and volume data
+- **Storage foundation**: Built on HBase for scalability
+- **Scale**: Handles billions of data points
+- **Tagging system**: Flexible metadata organization
+- **Interface**: HTTP REST API
+- **Integration**: Works with visualization tools like Grafana
 
 ### Example Query Pattern
 
 ```sql
--- InfluxDB example: Average CPU usage per hour
-SELECT mean("cpu_usage") 
-FROM "server_metrics" 
+-- Calculate average response time per hour for last 24 hours
+SELECT mean("response_time") 
+FROM "api_metrics" 
 WHERE time > now() - 24h 
-GROUP BY time(1h), "server_id"
+GROUP BY time(1h), "endpoint"
 ```
 
 ---
@@ -86,108 +79,111 @@ GROUP BY time(1h), "server_id"
 
 ### Purpose
 
-Large-scale storage and processing systems for offline analytics, reporting, and business intelligence. Store all company information for various analytics requirements.
+Data warehouses store large volumes of historical data for analytical processing, business intelligence, and reporting. They are designed for batch-oriented analytical workloads, not real-time transactional operations.
 
-**Use Cases**: 
-- Amazon/Uber - Analytics on all transactions (orders, revenues, geographies, most popular items)
-- Company-wide analytics and reporting
-- **Not for transactional systems** - Used for **offline reporting**
+### When Data Warehouses Are Appropriate
 
-### When to Use
-
-- **Company-wide analytics**: Store all company data for analytics
-- **Offline reporting**: Generate reports on historical data (not real-time transactions)
-- **Business intelligence**: How many orders, revenue by geography, most popular items
-- **Historical analysis**: Long-term trend analysis
-- **Data mining**: Discovering patterns in large datasets
-- **ETL pipelines**: Extract data from transactional systems, Transform, Load into warehouse
-- **Batch processing**: Processing large volumes of data offline
-- **Data lake**: Storing raw, unstructured data for future analysis
+- **Historical analysis**: Long-term trend analysis and pattern discovery
+- **Business reporting**: Generate reports on company-wide metrics
+- **Cross-system analytics**: Combine data from multiple operational systems
+- **Regulatory compliance**: Long-term data retention requirements
+- **Data science**: Training machine learning models on historical data
 
 ### Key Characteristics
 
-- **Columnar storage**: Optimized for analytical queries
-- **Massively parallel processing**: Process data across many nodes
-- **Batch-oriented**: Designed for large batch jobs, not real-time
-- **Schema-on-read**: Flexible schema for diverse data types
-- **Cost-effective**: Store large volumes at low cost
-- **Scalable**: Handle petabytes of data
+- **Columnar storage**: Optimized for analytical queries that read many rows but few columns
+- **Parallel processing**: Distribute queries across multiple nodes
+- **Batch-oriented**: Designed for large batch jobs, not real-time queries
+- **Schema flexibility**: Can handle diverse data types with schema-on-read
+- **Cost-effective storage**: Store petabytes of data economically
 
 ### Technology: Hadoop Ecosystem
 
-**Apache Hadoop** is a framework for distributed storage and processing:
+Apache Hadoop provides a framework for distributed storage and processing:
 
-#### Core Components
-
-- **HDFS (Hadoop Distributed File System)**: Distributed file storage
-- **MapReduce**: Batch processing framework
+**Core Components**:
+- **HDFS**: Distributed file system for storing large datasets
+- **MapReduce**: Framework for batch processing across clusters
 - **YARN**: Resource management and job scheduling
 
-#### Related Technologies
+**Related Technologies**:
+- **Hive**: SQL interface for querying Hadoop data
+- **Spark**: Fast in-memory processing engine
+- **HBase**: NoSQL database built on HDFS
+- **Pig**: High-level scripting for data transformations
+- **Impala**: Fast SQL queries on Hadoop data
 
-- **Hive**: SQL-like interface for Hadoop (data warehouse)
-- **Spark**: Fast, in-memory processing engine
-- **HBase**: NoSQL database on top of HDFS
-- **Pig**: High-level scripting for data processing
-- **Impala**: Fast SQL queries on Hadoop
+### Modern Cloud Alternatives
 
-### Modern Alternatives
+- **Snowflake**: Cloud-native data warehouse with separation of storage and compute
+- **BigQuery**: Serverless data warehouse with automatic scaling
+- **Redshift**: Managed data warehouse service
+- **Azure Synapse**: Integrated analytics platform
+- **Databricks**: Unified analytics and data science platform
 
-- **Snowflake**: Cloud-native data warehouse
-- **BigQuery** (Google): Serverless data warehouse
-- **Redshift** (AWS): Managed data warehouse
-- **Azure Synapse**: Analytics service with data warehouse
-- **Databricks**: Unified analytics platform
+### Typical Use Cases
 
-### Use Cases
+- **Financial reporting**: Monthly revenue reports, expense analysis
+- **Customer analytics**: User behavior analysis, segmentation studies
+- **Product analytics**: Feature adoption, A/B test results
+- **Operational metrics**: System performance trends, capacity planning
+- **Compliance reporting**: Regulatory data retention and audit trails
 
-- **Business reporting**: Monthly sales reports, financial analysis
-- **Customer analytics**: User behavior analysis, segmentation
-- **Product analytics**: Feature usage, A/B test results
-- **Data science**: Training machine learning models
-- **Compliance**: Long-term data retention for regulatory requirements
-
-### Architecture Pattern
+### Data Flow Pattern
 
 ```
-┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
-│  OLTP    │────▶│   ETL   │────▶│ Data     │────▶│  BI      │
-│ Database │     │ Process │     │ Warehouse│     │ Tools    │
-└──────────┘     └──────────┘     └──────────┘     └──────────┘
-(Real-time)      (Batch)          (Analytics)      (Reports)
+Operational Systems (OLTP)
+    │
+    ▼
+┌──────────┐
+│   ETL    │ ← Extract, Transform, Load
+│ Process  │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│   Data   │ ← Analytical storage
+│ Warehouse│
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│ BI Tools │ ← Reporting and visualization
+│ & Reports│
+└──────────┘
 ```
 
-**Flow**: Extract from operational databases → Transform and clean → Load into warehouse → Query for analytics
+**Flow**: Extract data from operational databases → Transform and clean → Load into warehouse → Query for analytics and reporting
 
 ---
 
-## Summary: Complete Storage Stack
+## Complete Storage Architecture
 
-A production system typically uses multiple storage types:
+Production systems typically combine multiple storage types:
 
-1. **RDBMS**: Transactional data (users, orders)
-2. **Document DB**: Flexible content (products, profiles)
-3. **Columnar DB**: High-volume analytics (logs, events)
-4. **Cache (Redis)**: Frequently accessed data
-5. **Blob Storage (S3)**: Images, videos, files
-6. **CDN**: Fast content delivery
-7. **Search (Elasticsearch)**: Full-text search
-8. **Time-Series (InfluxDB)**: Metrics and monitoring
-9. **Data Warehouse (Hadoop)**: Offline analytics
+1. **RDBMS**: Transactional data requiring ACID guarantees
+2. **Document DB**: Flexible content with varying structures
+3. **Columnar DB**: High-volume time-series or event data
+4. **Cache**: Frequently accessed data for performance
+5. **Object Storage**: Binary files and media assets
+6. **CDN**: Geographically distributed content delivery
+7. **Search Engine**: Full-text search capabilities
+8. **Time-Series DB**: Metrics and monitoring data
+9. **Data Warehouse**: Historical analytics and reporting
 
-**Key Principle**: Use the right tool for each job. No single database solves all problems.
+**Principle**: Select storage technology based on data characteristics and access patterns. No single solution addresses all requirements.
 
 ---
 
-## Interview Tips
+## Selection Guidelines
 
-1. **Start with primary database**: Choose RDBMS/Document/Columnar based on data structure
-2. **Add caching**: Mention Redis for performance optimization
-3. **Consider file storage**: S3 + CDN for media files
-4. **Add search**: Elasticsearch if full-text search is needed
-5. **Time-series for metrics**: InfluxDB for monitoring and metrics
-6. **Data warehouse for analytics**: Hadoop/Snowflake for offline analysis
-7. **Explain trade-offs**: Each storage type has specific use cases
+1. **Identify primary data patterns**: Determine main database type based on structure and query needs
+2. **Add performance layers**: Introduce caching for frequently accessed data
+3. **Handle binary content**: Use object storage with CDN for media files
+4. **Enable search**: Integrate search engine if full-text search is required
+5. **Track metrics**: Use time-series database for monitoring and metrics
+6. **Support analytics**: Deploy data warehouse for historical analysis
+7. **Explain rationale**: Articulate why each storage type fits its use case
 
 ---
 
@@ -195,5 +191,4 @@ A production system typically uses multiple storage types:
 
 - [Part 1-A: Caching, File Storage, Search](./02_Additional-Storage-Types-Part1-A.md)
 - [Database Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A.md)
-- [Polyglot Persistence](./01_Database-Selection-Decision-Framework-Part1-B.md#hybrid-approaches-combining-database-types)
-
+- [Polyglot Persistence](./01_Database-Selection-Decision-Framework-Part1-B.md#multi-database-architecture-patterns)
