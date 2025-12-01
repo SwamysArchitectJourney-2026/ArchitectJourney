@@ -17,7 +17,9 @@ related_topics:
 
 ### Purpose
 
-Specialized databases for tracking metrics, events, and data points over time. Optimized for time-based queries and high write throughput.
+Specialized databases for tracking metrics, events, and data points over time. Think of time-series databases as an extension of relational databases with specific optimizations for time-based data patterns.
+
+**Use Cases**: Building systems like Graphite, Grafana, or Prometheus for application metrics tracking (throughput, CPU utilization, latencies).
 
 ### When to Use
 
@@ -31,6 +33,10 @@ Specialized databases for tracking metrics, events, and data points over time. O
 ### Key Characteristics
 
 - **Time-indexed**: Data is organized by timestamp
+- **Append-only write mode**: Sequential writes only (T1, T2, T3... where T3 > T2 > T1)
+  - **No random updates**: You never update old records
+  - **No random reads**: Queries are time-range based, not point lookups
+- **Bulk read queries**: Read queries are for time ranges (last few minutes/hours/days), not individual records
 - **High write throughput**: Optimized for continuous data ingestion
 - **Efficient compression**: Time-series data compresses well
 - **Time-based queries**: Efficient range queries, aggregations by time

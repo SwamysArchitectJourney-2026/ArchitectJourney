@@ -92,6 +92,8 @@ Use this as a systematic approach during system design interviews and real-world
 
 **Examples:**
 
+- **Payment systems**: Transfer money from Account A to Account B (both debit and credit must succeed or both fail)
+- **Inventory management**: Prevent overselling (count must be accurate and transactional)
 - Financial transactions
 - User accounts and authentication
 - E-commerce orders and inventory
@@ -103,6 +105,23 @@ Use this as a systematic approach during system design interviews and real-world
 - Oracle
 - SQL Server
 - PostgreSQL
+- Any database providing ACID guarantees
+
+---
+
+### Path 1-B: Structured Data → No ACID Required → Either RDBMS or NoSQL
+
+**When to choose:**
+
+- Your data is structured (can be modeled as tables with rows/columns)
+- You don't need transactional guarantees or atomicity
+- Example: User profile information (name, email, city, phone) without complex transaction requirements
+
+**Decision:**
+
+- You can use **either** RDBMS or NoSQL
+- Structured data can be easily mapped into a NoSQL model
+- Choose based on other factors (team expertise, existing infrastructure, etc.)
 
 ---
 
