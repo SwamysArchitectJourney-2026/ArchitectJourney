@@ -59,8 +59,8 @@ This glossary provides quick reference for:
 
 ### Role-Specific Glossaries
 
-- **[AI Architect Glossary](../AI-Architect/11_Glossary.md)** – AI/ML specific terms
-- **[AI Architect KEDA Glossary](../AI-Architect/07_Glossary-and-KEDA-Part1-A.md)** – KEDA and Kubernetes terms
+- **[AI Architect Glossary](../07_AI-Architect/11_Glossary.md)** – AI/ML specific terms
+- **[AI Architect KEDA Glossary](../07_AI-Architect/07_Glossary-and-KEDA-Part1-A.md)** – KEDA and Kubernetes terms
 
 ### Interview Prep Materials
 

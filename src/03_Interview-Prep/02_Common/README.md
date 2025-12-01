@@ -51,7 +51,7 @@
 
 ## 🔗 Related Folders
 
-- [TPM Interview Prep](../TPM/) - Technical Project Manager specific content
+- [TPM Interview Prep](../04_TPM/) - Technical Project Manager specific content
 - [Software Architect Prep](../Software-Architect/) - Software Architect content
 - [Solution Architect Prep](../Solution-Architect/) - Solution Architect content
 - [Engineering Manager Prep](../Engineering-Manager/) - Engineering Manager content

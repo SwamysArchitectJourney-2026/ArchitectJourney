@@ -177,7 +177,7 @@ related_topics:
 
 ## Quick Reference
 
-**For AI Architect Interviews**: See [AI-Architect Glossary](../AI-Architect/11_Glossary.md) for role-specific terms.
+**For AI Architect Interviews**: See [AI-Architect Glossary](../07_AI-Architect/11_Glossary.md) for role-specific terms.
 
 **For System Design**: See [System Design Scenarios](../03_System-Design-Scenarios/) for practical examples.
 
@@ -187,6 +187,6 @@ related_topics:
 
 **Related Content**:
 - [Part 1-A](./01_Interview-Glossary-Part1-A.md) – System Design, Cloud, DevOps, Performance terms
-- [AI Architect Glossary](../AI-Architect/11_Glossary.md) – AI/ML specific terminology
+- [AI Architect Glossary](../07_AI-Architect/11_Glossary.md) – AI/ML specific terminology
 - [System Design Fundamentals](../02_Common/02_SystemDesign/) – System design concepts
 

@@ -121,6 +121,6 @@ Prepare 3 short STAR stories: (1) Rapid delivery under pressure, (2) Resolved cr
 
 - [STAR Stories](./10_STAR-Stories-Part1-A.md) (Part 1-A) | [Part 1-B](./10_STAR-Stories-Part1-B.md) | [Part 1-C](./10_STAR-Stories-Part1-C.md) - Complete STAR story examples
 - [System Design Questions](./04_System-Design-Questions-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](./04_System-Design-Questions-Part1-A-2.md) | [Part 1-B](./04_System-Design-Questions-Part1-B.md) | [Part 1-C](./04_System-Design-Questions-Part1-C.md) - TPM-focused system design
-- [System Design Model Answers](../Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](../Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A-2.md) - Generic system design model answers (in Common)
+- [System Design Model Answers](../02_Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A-1.md) (Part 1-A-1) | [Part 1-A-2](../02_Common/02_SystemDesign/01_System-Design-Model-Answers-Part1-A-2.md) - Generic system design model answers (in Common)
 - [Interview Overview](./01_Interview-Overview.md) - Complete interview structure
 
