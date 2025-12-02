@@ -8,9 +8,9 @@ learning_objectives:
   - "Learn to highlight Azure AI and AKS experience"
   - "Master behavioral interview responses"
 related_topics:
-  prerequisites: []
+  prerequisites: ["./05_Whiteboard-Scenarios-Part1-B.md"]
   builds_upon: []
-  enables: []
+  enables: ["./08_Glossary-and-KEDA-Part1-A.md"]
   cross_refs: ["../04_TPM/10_STAR-Stories-Part1-A.md", "../07_AI-Architect/04_Interview-Questions-Part1-C.md"]
 ---
 

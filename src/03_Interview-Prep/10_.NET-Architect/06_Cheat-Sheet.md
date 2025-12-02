@@ -8,7 +8,7 @@ learning_objectives:
   - "Memorize essential soundbites for interviews"
   - "Review architecture patterns and decision frameworks"
 related_topics:
-  prerequisites: ["./05_Whiteboard-Scenarios-Part1-A.md"]
+  prerequisites: ["./08_Glossary-and-KEDA-Part1-B.md"]
   builds_upon: []
   enables: []
   cross_refs: ["../07_AI-Architect/06_Cheat-Sheet.md"]
