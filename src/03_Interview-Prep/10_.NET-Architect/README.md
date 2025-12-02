@@ -18,13 +18,17 @@
 
 ### 4. Interview Questions
 - [04_Interview-Questions-Part1-A.md](./04_Interview-Questions-Part1-A.md) - Common technical questions
-- [04_Interview-Questions-Part1-B.md](./04_Interview-Questions-Part1-B.md) - Advanced questions (coming soon)
+- [04_Interview-Questions-Part1-B.md](./04_Interview-Questions-Part1-B.md) - Advanced questions
 
 ### 5. Whiteboard Scenarios
-- [05_Whiteboard-Scenarios-Part1-A.md](./05_Whiteboard-Scenarios-Part1-A.md) - System design scenarios (coming soon)
+- [05_Whiteboard-Scenarios-Part1-A.md](./05_Whiteboard-Scenarios-Part1-A.md) - Core system design scenarios
+- [05_Whiteboard-Scenarios-Part1-B.md](./05_Whiteboard-Scenarios-Part1-B.md) - MLOps and event-driven scenarios
 
-### 6. Cheat Sheets
-- [06_Cheat-Sheet.md](./06_Cheat-Sheet.md) - Quick reference guide (coming soon)
+### 6. Cheat Sheets and Reference
+- [06_Cheat-Sheet.md](./06_Cheat-Sheet.md) - Quick reference guide
+- [07_STAR-Stories.md](./07_STAR-Stories.md) - Behavioral interview stories
+- [08_Glossary-and-KEDA.md](./08_Glossary-and-KEDA.md) - Essential terminology and KEDA guide
+- [09_Capacity-Planning.md](./09_Capacity-Planning.md) - QPS capacity planning and calculations
 
 ---
 
@@ -61,9 +65,13 @@
 | 03_Architecture-Patterns-Part1-A.md | ✅ Complete | Hybrid LLM and compute patterns |
 | 03_Architecture-Patterns-Part1-B.md | ✅ Complete | Security and observability patterns |
 | 04_Interview-Questions-Part1-A.md | ✅ Complete | Common technical questions |
-| 04_Interview-Questions-Part1-B.md | 📝 Planned | Advanced questions |
-| 05_Whiteboard-Scenarios-Part1-A.md | 📝 Planned | System design scenarios |
-| 06_Cheat-Sheet.md | 📝 Planned | Quick reference guide |
+| 04_Interview-Questions-Part1-B.md | ✅ Complete | Advanced questions |
+| 05_Whiteboard-Scenarios-Part1-A.md | ✅ Complete | Core system design scenarios |
+| 05_Whiteboard-Scenarios-Part1-B.md | ✅ Complete | MLOps and event-driven scenarios |
+| 06_Cheat-Sheet.md | ✅ Complete | Quick reference guide |
+| 07_STAR-Stories.md | ✅ Complete | Behavioral interview stories |
+| 08_Glossary-and-KEDA.md | ✅ Complete | Essential terminology and KEDA guide |
+| 09_Capacity-Planning.md | ✅ Complete | QPS capacity planning |
 
 ---
 

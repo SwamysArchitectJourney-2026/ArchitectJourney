@@ -1,0 +1,209 @@
+---
+content_type: "interview_prep"
+learning_level: "Advanced"
+prerequisites: ["Kubernetes basics", "Autoscaling concepts", "Azure services"]
+estimated_time: "25 minutes"
+learning_objectives:
+  - "Learn essential glossary terms for .NET Architect interviews"
+  - "Master KEDA (Kubernetes Event-Driven Autoscaling) concepts"
+  - "Understand key Azure AI and AKS terminology"
+related_topics:
+  prerequisites: ["./02_Study-Roadmap.md"]
+  builds_upon: []
+  enables: ["./06_Cheat-Sheet.md"]
+  cross_refs: ["../07_AI-Architect/07_Glossary-and-KEDA-Part1-A.md"]
+---
+
+# Glossary and KEDA Guide for .NET Architect
+
+**Essential terminology and KEDA deep-dive** for .NET Architect interviews.
+
+---
+
+## 📚 Essential Glossary
+
+### AKS – Azure Kubernetes Service
+
+Managed Kubernetes platform for deploying, scaling, and managing containerized .NET and AI workloads. Provides automated updates, scaling, and monitoring.
+
+**Why it matters**: Core infrastructure for running .NET microservices and AI models at scale.
+
+---
+
+### KEDA – Kubernetes Event-Driven Autoscaling
+
+CNCF project that enables Kubernetes workloads to scale based on external event sources (queues, messages, streams) rather than just CPU or memory metrics.
+
+**Why it matters**: Essential for cost-efficient, event-driven workloads that need to scale from zero to thousands of pods based on real workload demand.
+
+---
+
+### HPA – Horizontal Pod Autoscaler
+
+Kubernetes controller that automatically scales pod replicas based on CPU, memory, or custom metrics. Works with KEDA for comprehensive autoscaling.
+
+**Why it matters**: Provides resource-based autoscaling for standard workloads.
+
+---
+
+### Cluster Autoscaler
+
+Automatically adjusts the number of nodes in an AKS cluster based on pending pods. Adds nodes when pods can't be scheduled, removes nodes when underutilized.
+
+**Why it matters**: Manages infrastructure capacity automatically, optimizing cost and performance.
+
+---
+
+### Node Pools (CPU/GPU/Spot)
+
+Logical grouping of nodes with similar characteristics. Used for workload isolation and cost optimization.
+
+**Why it matters**: Enables separation of .NET services (CPU) from AI workloads (GPU) with appropriate cost models.
+
+---
+
+### SLO – Service Level Objective
+
+Measurable reliability or performance target (e.g., P95 latency < 200ms, uptime 99.9%). Defines what "good" looks like for a service.
+
+**Why it matters**: Provides clear targets for system design and monitoring.
+
+---
+
+### SLA – Service Level Agreement
+
+Contractual guarantee of availability or uptime offered to customers. Business commitment based on SLOs.
+
+**Why it matters**: Defines business commitments and accountability.
+
+---
+
+### SLI – Service Level Indicator
+
+Metric used to measure whether SLOs are being met (latency, error rate, throughput). The actual measurement.
+
+**Why it matters**: Provides data to evaluate service performance against objectives.
+
+---
+
+### Private Link
+
+Azure service that securely connects services over Microsoft's backbone network, eliminating public internet exposure.
+
+**Why it matters**: Critical for securing AI endpoints and sensitive data in enterprise environments.
+
+---
+
+### Managed Identity
+
+Azure identity mechanism that enables secure service-to-service authentication without storing secrets or credentials.
+
+**Why it matters**: Eliminates secret management overhead and improves security posture.
+
+---
+
+### Azure OpenAI
+
+Managed LLM service providing GPT models with enterprise-grade governance, security, and scaling capabilities.
+
+**Why it matters**: Provides scalable, managed LLM capabilities without infrastructure management.
+
+---
+
+### Azure Machine Learning (Azure ML)
+
+Platform for training, registering, and deploying custom ML/LLM models with full MLOps lifecycle management.
+
+**Why it matters**: Enables custom model development and deployment with governance and versioning.
+
+---
+
+### APIM – Azure API Management
+
+Centralized API gateway providing authentication, throttling, caching, versioning, and observability for APIs.
+
+**Why it matters**: Provides enterprise-grade API management and security at the edge.
+
+---
+
+### Seldon / KServe
+
+Model serving frameworks for hosting ML/LLM models on Kubernetes with autoscaling, versioning, and canary deployment capabilities.
+
+**Why it matters**: Production-grade model serving with advanced deployment patterns.
+
+---
+
+### Cosmos DB / Cognitive Search (Vector Index)
+
+Databases used for storing embeddings and enabling fast semantic search for RAG (Retrieval-Augmented Generation) systems.
+
+**Why it matters**: Enables efficient vector search for AI applications requiring context retrieval.
+
+---
+
+## 🔄 KEDA Deep Dive
+
+### What KEDA Does
+
+KEDA extends Kubernetes autoscaling by:
+
+- **Listening to event sources**: Service Bus, Kafka, Event Hub, Storage Queue, Redis, HTTP, Cron, and 50+ other scalers
+- **Reading event metrics**: Queue depth, message lag, pending requests
+- **Updating HPA**: Feeds metrics to Horizontal Pod Autoscaler
+- **Enabling scale-to-zero**: Allows pods to scale down to zero when no work exists
+- **Rapid scale-out**: Scales up instantly when events arrive
+
+### How KEDA Works
+
+```
+Event Source (Queue/Stream)
+       |
+KEDA Scaler (polls metrics)
+       |
+Updates HPA with target replicas
+       |
+HPA scales pods up/down
+       |
+Workload processes events
+```
+
+### 30-Second Interview Explanation
+
+"KEDA stands for Kubernetes Event-Driven Autoscaling. It extends Kubernetes by letting applications scale based on external event sources—like queue depth, messages, Kafka lag, or schedules—instead of only CPU or memory. KEDA works alongside HPA, enabling fast scale-out, scale-to-zero, and cost-efficient event-driven workloads. It's essential in modern cloud systems where workloads spike when events arrive, such as document processing, IoT ingestion, or asynchronous AI pipelines."
+
+### When to Use KEDA
+
+- Event-driven .NET worker services
+- LLM batch workloads (summaries, translations, RAG updates)
+- Document ingestion and AI processing
+- High-spike workloads (end-of-month billing, reports)
+- IoT ingestion and stream processing
+- Cost-saving autoscale-to-zero scenarios
+
+### Key Interview Talking Points
+
+- Works with HPA (KEDA feeds metrics → HPA performs scaling)
+- Supports 50+ scalers (Azure, AWS, Kafka, Prometheus, SQL, HTTP, Cron)
+- Enables true event-driven scaling → elasticity
+- Ideal for microservices, data engineering, AI pipelines
+- Cost-efficient: scale to zero when no work
+
+---
+
+## 🎯 Interview Keywords
+
+Memorize these phrases for interviews:
+
+- "Event-driven autoscaling"
+- "Scale-to-zero"
+- "External metrics adapters"
+- "KEDA + HPA = dual autoscaling"
+- "Queues, Kafka lag, message rate"
+- "Azure Service Bus scaler"
+- "Asynchronous AI workloads"
+
+---
+
+**Next**: [Cheat Sheet](./06_Cheat-Sheet.md) - Quick reference guide
+
