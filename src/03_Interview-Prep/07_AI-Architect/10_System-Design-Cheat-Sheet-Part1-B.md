@@ -1,99 +1,20 @@
 ---
 learning_level: "Advanced"
-prerequisites: ["All previous AI-Architect content"]
+prerequisites: ["./10_System-Design-Cheat-Sheet-Part1-A.md"]
 estimated_time: "15 minutes"
 learning_objectives:
-  - "Quick reference for system design interviews"
-  - "Memorize 5 essential architecture diagrams"
   - "Review universal talking points"
   - "Prepare for confident whiteboard delivery"
 related_topics:
-  prerequisites: ["./08_System-Design-Diagrams-Part1-B.md", "./09_System-Design-Questions-Part1-B-B.md"]
+  prerequisites: ["./10_System-Design-Cheat-Sheet-Part1-A.md"]
   builds_upon: ["./06_Cheat-Sheet.md"]
   enables: []
   cross_refs: []
 ---
 
-# System Design Cheat Sheet - One Page
+# System Design Cheat Sheet - Part 1-B
 
-**Printable quick reference** for .NET Architect system design interviews.
-
----
-
-## 1. Cloud-Native .NET Microservices on AKS
-
-```
-Clients → APIM → AKS Ingress
-                 |
-        +------------------------+
-        |  .NET Microservices    |
-        |  (Deployments/Pods)    |
-        |  CPU Node Pools        |
-        +------------------------+
-           |     |      |      |
-         Redis  SQL   Cosmos   Blob
-          
-Auth: Azure AD  
-Secrets: Key Vault  
-Observability: App Insights + Prometheus/Grafana  
-Scaling: HPA, KEDA, Cluster Autoscaler
-```
-
-**Key Points:**
-- Stateless .NET services on AKS CPU node pools
-- Service discovery via Ingress / Dapr
-- Independent deployability, health probes, circuit breakers
-- GitOps or DevOps pipeline → ACR → AKS
-
----
-
-## 2. Monolith → Microservices (Strangler Pattern)
-
-```
-Clients
-  |
-API Gateway
-  |
-+--------------------------+
-|  Legacy Monolith         |
-+--------------------------+
-        ↘ Strangler ↙
-+--------------------------+
-|  New Microservices (AKS) |
-|  New Databases per svc   |
-+--------------------------+
-Shared: Auth, Logging, CI/CD
-```
-
-**Key Points:**
-- Strangler facade gradually routes traffic
-- Domain decomposition → microservices
-- Data migration = CDC, dual writes, ACL
-- Strong backward compatibility
-
----
-
-## 3. Event-Driven Architecture (CQRS + Event Sourcing)
-
-```
-Clients → BFF/API Layer
-        |
-Command API (.NET) → Write DB
-        |
-       Events → Event Bus (Kafka / Service Bus / Event Grid)
-                      |
-          +-----------+-----------+
-          |                       |
-     Read Model Builders     Notifications / Workers
-          |
-       Read DBs
-```
-
-**Key Points:**
-- Command/Query separation
-- High scalability for read loads
-- Event logs = full audit trail
-- Idempotent consumers & snapshots
+**Printable quick reference** (Continued).
 
 ---
 
@@ -186,4 +107,3 @@ Central: CI/CD, Logging, Key Vault, Azure AD B2C
 ---
 
 **Good luck with your interview!** 🚀
-
