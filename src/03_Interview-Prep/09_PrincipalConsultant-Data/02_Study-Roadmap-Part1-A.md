@@ -2,7 +2,7 @@
 content_type: "interview_prep"
 learning_level: "Expert"
 prerequisites: ["Azure Data Engineering basics", "Databricks fundamentals", "PySpark basics"]
-estimated_time: "25 minutes"
+estimated_time: "15 minutes"
 learning_objectives:
   - "Understand prioritized study order for Principal Consultant interviews"
   - "Learn key decision frameworks for Azure data services"
@@ -10,13 +10,13 @@ learning_objectives:
 related_topics:
   prerequisites: ["./01_Interview-Overview.md"]
   builds_upon: []
-  enables: ["./03_Question-Bank-Part1-A.md", "./04_Architecture-Patterns-Part1-A.md"]
+  enables: ["./02_Study-Roadmap-Part1-B.md"]
   cross_refs: []
 ---
 
-# Principal Consultant - Data Study Roadmap
+# Principal Consultant - Data Study Roadmap - Part 1
 
-**Prioritized learning path** for Principal Consultant - Data interviews with Azure Data Engineering, Databricks, Fabric, and PySpark focus.
+**Prioritized learning path** for Principal Consultant - Data interviews with Azure Data Engineering, Databricks, and Fabric focus.
 
 Study these topics in order for maximum interview effectiveness.
 
@@ -116,112 +116,4 @@ Study these topics in order for maximum interview effectiveness.
 
 ---
 
-## 4️⃣ PySpark Mastery
-
-**Priority**: High - Essential for data processing
-
-### Core Patterns
-
-**DataFrame Operations**
-- Lazy evaluation and execution plans
-- Wide vs narrow transformations
-- Partitioning and shuffling
-- Caching strategies
-
-**Performance Techniques**
-- Avoiding UDFs when possible
-- Using broadcast joins effectively
-- Handling large datasets efficiently
-- Memory and compute optimization
-
-**Advanced Patterns**
-- Window functions for analytics
-- Complex transformations
-- Data quality and validation
-- Error handling and recovery
-
----
-
-## 5️⃣ Data Architecture Patterns
-
-**Priority**: High - Architecture is always tested
-
-### Medallion Architecture
-
-**Bronze Layer**
-- Raw data ingestion
-- Schema-on-read patterns
-- Incremental loading strategies
-
-**Silver Layer**
-- Data cleaning and conforming
-- Schema enforcement
-- Quality validation
-
-**Gold Layer**
-- Business-ready datasets
-- Aggregated and curated data
-- Analytics-optimized structures
-
-### Lakehouse Architecture
-- Combining data lake and warehouse benefits
-- Delta Lake as foundation
-- Query performance optimization
-- Governance and security
-
----
-
-## 6️⃣ AI/ML Data Engineering
-
-**Priority**: Medium - Growing importance
-
-### ML Pipeline Data
-
-**Feature Store**
-- Online and offline feature stores
-- Feature versioning and lineage
-- Real-time feature serving
-
-**Model Training Data**
-- Data preparation pipelines
-- Training/validation/test splits
-- Data versioning and reproducibility
-
-**RAG Patterns**
-- Vector database integration
-- Embedding generation pipelines
-- Retrieval optimization
-
----
-
-## 7️⃣ Security, Governance, and Compliance
-
-**Priority**: High - Enterprise requirements
-
-### Security Patterns
-
-- Network isolation and private endpoints
-- Identity and access management
-- Encryption at rest and in transit
-- Secrets management
-
-### Governance
-
-- Data lineage and cataloging
-- Access control and auditing
-- Compliance frameworks (GDPR, HIPAA)
-- Data quality monitoring
-
----
-
-## 📅 Recommended Study Timeline
-
-**Week 1**: Azure Data Engineering and Databricks fundamentals  
-**Week 2**: Fabric, PySpark, and performance optimization  
-**Week 3**: Architecture patterns, security, and governance  
-**Week 4**: AI/ML data engineering and expert-level scenarios
-
----
-
-**Next**: [Question Bank - Easy Level](./03_Question-Bank-Part1-A.md) - Foundational questions
-
+**Next**: [PySpark, Architecture, and Governance](./02_Study-Roadmap-Part1-B.md)
