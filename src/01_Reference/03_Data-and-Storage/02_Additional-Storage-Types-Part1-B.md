@@ -1,13 +1,13 @@
 ---
 learning_level: "Intermediate"
-prerequisites: ["./02_Additional-Storage-Types-Part1-A.md"]
+prerequisites: ["./02_Additional-Storage-Types-Part1-A-B.md"]
 estimated_time: "15 minutes"
 learning_objectives:
   - "Understand time-series database characteristics"
   - "Learn when data warehouses are appropriate"
   - "Recognize specialized storage needs in system design"
 related_topics:
-  builds_upon: ["./02_Additional-Storage-Types-Part1-A.md"]
+  builds_upon: ["./02_Additional-Storage-Types-Part1-A-B.md"]
   enables: []
 ---
 
@@ -189,6 +189,7 @@ Production systems typically combine multiple storage types:
 
 ## Related Topics
 
-- [Part 1-A: Caching, File Storage, Search](./02_Additional-Storage-Types-Part1-A.md)
+- [Part 1-A-A: Caching and File Storage](./02_Additional-Storage-Types-Part1-A-A.md)
+- [Part 1-A-B: Full-Text Search](./02_Additional-Storage-Types-Part1-A-B.md)
 - [Database Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A.md)
 - [Polyglot Persistence](./01_Database-Selection-Decision-Framework-Part1-B.md#multi-database-architecture-patterns)

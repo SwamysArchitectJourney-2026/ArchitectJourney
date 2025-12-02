@@ -8,7 +8,7 @@ learning_objectives:
   - "Apply selection criteria in practical scenarios"
 related_topics:
   builds_upon: ["./01_Database-Selection-Decision-Framework-Part1-A.md"]
-  enables: ["./02_Additional-Storage-Types-Part1-A.md"]
+  enables: ["./02_Additional-Storage-Types-Part1-A-A.md"]
 ---
 
 # Database Selection Decision Framework (Part 1-B)
@@ -153,6 +153,6 @@ An educational platform needs to:
 ## Related Topics
 
 - [Part 1-A: Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A.md)
-- [Additional Storage Types](./02_Additional-Storage-Types-Part1-A.md)
+- [Additional Storage Types](./02_Additional-Storage-Types-Part1-A-A.md)
 - [Sharding](../../03_Interview-Prep/01_Glossary/01_Interview-Glossary-Part1-A.md#sharding)
 - [Replication](../../03_Interview-Prep/01_Glossary/01_Interview-Glossary-Part1-A.md#replication)
