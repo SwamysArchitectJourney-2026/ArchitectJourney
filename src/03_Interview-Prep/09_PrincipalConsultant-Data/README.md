@@ -64,8 +64,12 @@
 | 01_Interview-Overview.md | ✅ Complete | Interview scope and focus areas |
 | 02_Study-Roadmap.md | ✅ Complete | Prioritized learning path |
 | 03_Question-Bank-Part1-A.md | ✅ Complete | Easy-level questions |
-| 03_Question-Bank-Part1-B.md | 📝 Planned | Medium-level questions |
-| 04_Architecture-Patterns-Part1-A.md | 📝 Planned | Data platform architecture patterns |
+| 03_Question-Bank-Part1-B.md | ✅ Complete | Medium-level questions |
+| 03_Question-Bank-Part1-C.md | ✅ Complete | Advanced-level questions |
+| 03_Question-Bank-Part1-D.md | ✅ Complete | Expert-level questions |
+| 04_Architecture-Patterns-Part1-A.md | ✅ Complete | Core data architecture patterns |
+| 04_Architecture-Patterns-Part1-B.md | ✅ Complete | Advanced integration patterns |
+| 05_Case-Studies-Part1-A.md | ✅ Complete | Real-world scenario practice |
 
 **Last Updated**: December 2, 2025
 
@@ -81,6 +85,12 @@
 
 **Preparing for questions?**
 → Review [Question Bank - Easy Level](./03_Question-Bank-Part1-A.md)
+
+**For architecture practice:**
+→ Study [Architecture Patterns](./04_Architecture-Patterns-Part1-A.md)
+
+**For case study practice:**
+→ Review [Case Studies](./05_Case-Studies-Part1-A.md)
 
 **For additional preparation:**
 1. Review [Common Interview Materials](../02_Common/) for shared preparation content
