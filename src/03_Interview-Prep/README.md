@@ -66,6 +66,16 @@
 - Data governance and compliance
 - ML/AI data engineering
 
+### 📂 .NET-Architect
+
+**.NET Architect interview preparation:**
+
+- .NET-specific architecture patterns
+- Enterprise .NET application design
+- .NET performance optimization
+- Microservices with .NET
+- .NET ecosystem and tooling
+
 ### 📂 System Design Scenarios
 
 **Deep-dive system design case studies:**
@@ -93,6 +103,9 @@
 **For Engineering Manager Interview:**
 → Start with `Engineering-Manager/` folder (content coming soon)
 
+**For .NET Architect Interview:**
+→ Start with `10_.NET-Architect/` folder (content coming soon)
+
 **Common Content:**
 → Check `02_Common/` for shared interview preparation materials
 
@@ -114,6 +127,7 @@
 | **07_AI-Architect** | ✅ Has Content | AI/ML architect interview preparation |
 | **08_Engineering-Manager** | 📝 Ready | Ready for EM content |
 | **09_PrincipalConsultant-Data** | 📝 Ready | Ready for data-specific Principal Consultant content |
+| **10_.NET-Architect** | 📝 Ready | Ready for .NET-specific architect content |
 
 ---
 
@@ -128,7 +142,8 @@
 - [AI Architect Prep](./07_AI-Architect/) - AI/ML architect preparation
 - [Engineering Manager Prep](./08_Engineering-Manager/) - Engineering manager preparation
 - [Principal Consultant - Data Prep](./09_PrincipalConsultant-Data/) - Data-specific Principal Consultant preparation
+- [.NET Architect Prep](./10_.NET-Architect/) - .NET-specific architect preparation
 
 ---
 
-**Last Updated**: November 29, 2025
+**Last Updated**: December 2, 2025
