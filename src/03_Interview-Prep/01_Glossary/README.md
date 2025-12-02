@@ -7,6 +7,7 @@
 ## 📚 Purpose
 
 This glossary provides quick reference for:
+
 - **System Design Interviews**: Architecture patterns, scalability concepts, data storage
 - **Technical Interviews**: Cloud services, DevOps practices, performance metrics
 - **Behavioral Interviews**: Interview frameworks and methodologies
@@ -17,6 +18,7 @@ This glossary provides quick reference for:
 ## 📁 Structure
 
 ### Part 1-A: Core Technical Terms
+
 - System Design & Architecture
 - Cloud & Infrastructure
 - DevOps & CI/CD
@@ -25,6 +27,7 @@ This glossary provides quick reference for:
 **File**: [01_Interview-Glossary-Part1-A.md](./01_Interview-Glossary-Part1-A.md)
 
 ### Part 1-B: Advanced & Specialized Terms
+
 - Security & Compliance
 - AI & Machine Learning
 - Monitoring & Observability
@@ -87,6 +90,7 @@ This glossary provides quick reference for:
 ## 🔄 Updates
 
 This glossary is maintained to include:
+
 - ✅ Terms commonly used in technical interviews
 - ✅ Acronyms and abbreviations
 - ✅ Role-specific terminology
@@ -106,7 +110,7 @@ This glossary is maintained to include:
 ---
 
 **Quick Links**:
+
 - [Part 1-A: Core Technical Terms](./01_Interview-Glossary-Part1-A.md)
 - [Part 1-B: Advanced & Specialized Terms](./01_Interview-Glossary-Part1-B.md)
 - [Main Interview Prep README](../README.md)
-

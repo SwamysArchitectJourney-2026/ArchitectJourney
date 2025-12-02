@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: ["../Common/02_SystemDesign/"]
-  enables: ["./02_Study-Roadmap.md", "./03_Architecture-Patterns-Part1-A.md"]
+  enables: ["./02_Study-Roadmap-Part1-A.md", "./03_Architecture-Patterns-Part1-A-A.md"]
   cross_refs: ["../Solution-Architect/"]
 ---
 

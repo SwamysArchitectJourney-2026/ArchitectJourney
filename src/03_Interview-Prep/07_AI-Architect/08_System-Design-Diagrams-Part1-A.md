@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand Monolith to Microservices migration patterns"
   - "Practice Event-Driven Architecture and CQRS"
 related_topics:
-  prerequisites: ["./03_Architecture-Patterns-Part1-A.md"]
+  prerequisites: ["./03_Architecture-Patterns-Part1-A-B.md"]
   builds_upon: ["../Common/02_SystemDesign/"]
   enables: ["./08_System-Design-Diagrams-Part1-B.md", "./05_Whiteboard-Scenarios-Part1-A.md"]
   cross_refs: []

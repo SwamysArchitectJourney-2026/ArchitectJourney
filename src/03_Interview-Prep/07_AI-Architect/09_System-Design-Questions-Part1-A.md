@@ -8,7 +8,7 @@ learning_objectives:
   - "Design secure LLM pipelines for sensitive documents"
   - "Master model drift detection and retraining"
 related_topics:
-  prerequisites: ["./04_Interview-Questions-Part1-A.md"]
+  prerequisites: ["./04_Interview-Questions-Part1-A-B.md"]
   builds_upon: ["./08_System-Design-Diagrams-Part1-B.md"]
   enables: ["./09_System-Design-Questions-Part1-B.md"]
   cross_refs: []

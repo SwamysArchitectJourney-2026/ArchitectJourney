@@ -9,7 +9,8 @@ This section contains fundamental knowledge about data storage, database selecti
 - **[Part 1-B: Considerations & Hybrid Approaches](./01_Database-Selection-Decision-Framework-Part1-B.md)** - Trade-offs, scalability considerations, and polyglot persistence patterns.
 
 ### Additional Storage Types
-- **[Part 1-A: Caching, File Storage, Search](./02_Additional-Storage-Types-Part1-A.md)** - Redis for caching, S3/CDN for file storage, Elasticsearch/Solr for text search.
+- **[Part 1-A-A: Caching and File Storage](./02_Additional-Storage-Types-Part1-A-A.md)** - Redis for caching, S3/CDN for file storage.
+- **[Part 1-A-B: Full-Text Search](./02_Additional-Storage-Types-Part1-A-B.md)** - Elasticsearch/Solr for text search.
 - **[Part 1-B: Time-Series & Data Warehouses](./02_Additional-Storage-Types-Part1-B.md)** - InfluxDB/OpenTSDB for time-series data, Hadoop ecosystem for data warehouses and offline analytics.
 
 ## Learning Path

@@ -8,7 +8,7 @@ learning_objectives:
   - "Learn to articulate impact and results"
   - "Practice confident storytelling"
 related_topics:
-  prerequisites: ["./04_Interview-Questions-Part1-B.md"]
+  prerequisites: ["./04_Interview-Questions-Part1-B-B.md"]
   builds_upon: ["../Common/01_STAR-Method/01_STAR-Method.md"]
   enables: ["./05_Whiteboard-Scenarios-Part1-A.md"]
   cross_refs: []
