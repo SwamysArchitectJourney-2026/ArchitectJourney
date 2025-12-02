@@ -8,8 +8,8 @@ learning_objectives:
   - "Learn when and how to use KEDA"
   - "Prepare 30-second KEDA explanation for interviews"
 related_topics:
-  prerequisites: ["./02_Study-Roadmap.md"]
-  builds_upon: ["./03_Architecture-Patterns-Part1-B.md"]
+  prerequisites: ["./02_Study-Roadmap-Part1-B.md"]
+  builds_upon: ["./03_Architecture-Patterns-Part1-B-B.md"]
   enables: ["./07_Glossary-and-KEDA-Part1-B.md", "./04_Interview-Questions-Part1-A.md"]
   cross_refs: []
 ---

@@ -8,7 +8,7 @@ learning_objectives:
   - "Understand talking points for RAG architecture"
   - "Practice confident whiteboard delivery"
 related_topics:
-  prerequisites: ["./03_Architecture-Patterns-Part1-A.md", "./04_Interview-Questions-Part1-A.md"]
+  prerequisites: ["./04_Interview-Questions-Part1-C.md"]
   builds_upon: ["../Common/02_SystemDesign/"]
   enables: ["./05_Whiteboard-Scenarios-Part1-B.md"]
   cross_refs: []

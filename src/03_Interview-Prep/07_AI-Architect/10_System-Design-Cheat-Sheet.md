@@ -8,7 +8,7 @@ learning_objectives:
   - "Review universal talking points"
   - "Prepare for confident whiteboard delivery"
 related_topics:
-  prerequisites: ["./08_System-Design-Diagrams-Part1-B.md", "./09_System-Design-Questions-Part1-B.md"]
+  prerequisites: ["./08_System-Design-Diagrams-Part1-B.md", "./09_System-Design-Questions-Part1-B-B.md"]
   builds_upon: ["./06_Cheat-Sheet.md"]
   enables: []
   cross_refs: []

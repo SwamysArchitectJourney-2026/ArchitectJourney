@@ -1,102 +1,21 @@
 ---
 learning_level: "Advanced"
-prerequisites: ["Azure services", "System design basics"]
-estimated_time: "25 minutes"
+prerequisites: ["./07_Glossary-and-KEDA-Part1-B-A.md"]
+estimated_time: "15 minutes"
 learning_objectives:
-  - "Master Azure AI and infrastructure terminology"
   - "Understand QPS (Queries Per Second) and capacity planning"
   - "Learn 10k QPS architecture design"
   - "Calculate pod and node requirements"
 related_topics:
-  prerequisites: ["./07_Glossary-and-KEDA-Part1-A.md"]
+  prerequisites: ["./07_Glossary-and-KEDA-Part1-B-A.md"]
   builds_upon: ["./03_Architecture-Patterns-Part1-A.md"]
-  enables: ["./04_Interview-Questions-Part1-A.md", "./05_Whiteboard-Scenarios-Part1-A.md"]
+  enables: ["./04_Interview-Questions-Part1-A-A.md"]
   cross_refs: []
 ---
 
-# Azure Services Glossary & QPS Architecture
+# QPS & Capacity Planning - Part 1-B-B
 
-**Complete terminology** and **10k QPS capacity planning** for interviews.
-
----
-
-## Azure Services Terminology
-
-### Private Link
-
-Securely connects services over Microsoft backbone — no public internet exposure.
-
-### Managed Identity
-
-Azure identity mechanism enabling secure service-to-service authentication without secrets.
-
-### Azure OpenAI
-
-Managed LLM service providing GPT models with enterprise-grade governance and security.
-
-### Azure Machine Learning (Azure ML)
-
-Platform for training, registering, deploying custom ML/LLM models.
-
-### APIM – Azure API Management
-
-Centralized API gateway for authentication, throttling, caching, and observability.
-
-### Ingress Controller
-
-Kubernetes component that routes external traffic into cluster services.
-
-### Seldon / KServe
-
-Model serving frameworks for hosting ML/LLM models on Kubernetes with autoscaling and canarying.
-
-### Cosmos DB / Cognitive Search (Vector Index)
-
-Databases used for storing embeddings and enabling fast retrieval for RAG systems.
-
-### Redis Cache
-
-In-memory cache used to reduce latency and load.
-
-### Key Vault
-
-Secure secrets, certificates, and keys store.
-
-### App Insights
-
-Telemetry provider for distributed tracing, logging, and metrics.
-
-### Prometheus + Grafana
-
-Monitoring stack for AKS metrics and dashboards.
-
----
-
-## Why Each Azure Service Is Used
-
-**Private Link** → To prevent exposing LLM endpoints to the public internet.
-
-**Managed Identity** → To eliminate secrets and increase security.
-
-**Azure OpenAI** → To consume LLMs without managing infrastructure.
-
-**Azure ML** → For custom model training, MLOps, and controlled model lifecycle.
-
-**APIM** → To enforce throttling, caching, auth, rate limits, and expose APIs securely.
-
-**Ingress Controller** → To route requests inside the AKS cluster.
-
-**Seldon/KServe** → For production-grade LLM hosting on GPU nodes.
-
-**Vector DB (Cosmos/CogSearch)** → For fast semantic search (RAG).
-
-**Redis** → To reduce LLM latency through caching.
-
-**Key Vault** → For secrets management and compliance.
-
-**Prometheus/Grafana** → For advanced monitoring/alerts.
-
-**App Insights** → For distributed tracing in .NET/AKS.
+**10k QPS capacity planning** and architecture design.
 
 ---
 
@@ -215,4 +134,4 @@ If Redis/APIM caches 40% of requests, only 60% go to origin:
 
 ---
 
-**Next**: Review **Interview Questions** (`./04_Interview-Questions-Part1-A.md`) to practice applying these concepts.
+**Next**: Review **Interview Questions** (`./04_Interview-Questions-Part1-A-A.md`) to practice applying these concepts.
