@@ -259,6 +259,7 @@ class ProductFactory:
 **Important Notes**:
 
 - ⚠️ **Files in `source-materials/` are NOT required to be compliant** - this is a staging area for raw source content
+- ❌ **NEVER MODIFY files in `source-materials/`** - AI assistants must ONLY READ these files for migration purposes, never edit, format, or change them
 - ✅ **Review rules apply DURING transformation** - ensure transformation process follows all Educational Content Rules
 - ✅ **When user requests migration**: Review ALL files in `source-materials/`, identify unique content, and migrate following Educational Content Rules
 - ✅ Files here will be transformed following Educational Content Rules into compliant content
