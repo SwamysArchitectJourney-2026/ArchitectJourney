@@ -8,7 +8,7 @@ learning_objectives:
   - "Implement Private Link and Managed Identity"
   - "Design model telemetry and drift detection"
 related_topics:
-  prerequisites: ["./03_Architecture-Patterns-Part1-B.md"]
+  prerequisites: ["./03_Architecture-Patterns-Part1-B-B.md"]
   builds_upon: ["./02_Study-Roadmap.md"]
   enables: ["./04_Interview-Questions-Part1-A.md"]
   cross_refs: []
