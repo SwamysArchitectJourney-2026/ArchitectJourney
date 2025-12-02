@@ -11,7 +11,7 @@ related_topics:
   prerequisites: ["./01_Interview-Glossary-Part1-A.md"]
   builds_upon: ["./01_Interview-Glossary-Part1-A.md"]
   enables: []
-  cross_refs: ["../AI-Architect/", "../TPM/"]
+  cross_refs: ["../07_AI-Architect/", "../04_TPM/"]
 ---
 
 # Interview Glossary - Part 1-B
@@ -177,9 +177,9 @@ related_topics:
 
 ## Quick Reference
 
-**For AI Architect Interviews**: See [AI-Architect Glossary](../AI-Architect/11_Glossary.md) for role-specific terms.
+**For AI Architect Interviews**: See [AI-Architect Glossary](../07_AI-Architect/11_Glossary.md) for role-specific terms.
 
-**For System Design**: See [System Design Scenarios](../SystemDesign/) for practical examples.
+**For System Design**: See [System Design Scenarios](../03_System-Design-Scenarios/) for practical examples.
 
 **For Behavioral Questions**: See [STAR Method](../02_Common/01_STAR-Method/01_STAR-Method.md) for answer framework.
 
@@ -187,6 +187,6 @@ related_topics:
 
 **Related Content**:
 - [Part 1-A](./01_Interview-Glossary-Part1-A.md) – System Design, Cloud, DevOps, Performance terms
-- [AI Architect Glossary](../AI-Architect/11_Glossary.md) – AI/ML specific terminology
+- [AI Architect Glossary](../07_AI-Architect/11_Glossary.md) – AI/ML specific terminology
 - [System Design Fundamentals](../02_Common/02_SystemDesign/) – System design concepts
 

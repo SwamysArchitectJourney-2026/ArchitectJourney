@@ -59,14 +59,14 @@ This glossary provides quick reference for:
 
 ### Role-Specific Glossaries
 
-- **[AI Architect Glossary](../AI-Architect/11_Glossary.md)** – AI/ML specific terms
-- **[AI Architect KEDA Glossary](../AI-Architect/07_Glossary-and-KEDA-Part1-A.md)** – KEDA and Kubernetes terms
+- **[AI Architect Glossary](../07_AI-Architect/11_Glossary.md)** – AI/ML specific terms
+- **[AI Architect KEDA Glossary](../07_AI-Architect/07_Glossary-and-KEDA-Part1-A.md)** – KEDA and Kubernetes terms
 
 ### Interview Prep Materials
 
 - **[STAR Method](../02_Common/01_STAR-Method/01_STAR-Method.md)** – Behavioral interview framework
 - **[System Design Fundamentals](../02_Common/02_SystemDesign/)** – System design concepts
-- **[System Design Scenarios](../SystemDesign/)** – Practical system design examples
+- **[System Design Scenarios](../03_System-Design-Scenarios/)** – Practical system design examples
 
 ---
 
