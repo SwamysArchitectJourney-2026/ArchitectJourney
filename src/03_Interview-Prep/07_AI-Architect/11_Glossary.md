@@ -1,3 +1,18 @@
+---
+content_type: "interview_prep"
+learning_level: "Beginner"
+prerequisites: []
+estimated_time: "10 minutes"
+learning_objectives:
+  - "Understand core acronyms for AI Architect interviews"
+  - "Review key technical terms for Azure and Kubernetes"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables: ["./01_Interview-Overview.md"]
+  cross_refs: ["../10_.NET-Architect/08_Glossary-and-KEDA-Part1-A.md"]
+---
+
 # AI Architect Interview Glossary
 
 > Fast reference for acronyms and terms used across this folder.

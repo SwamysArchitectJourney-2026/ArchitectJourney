@@ -126,8 +126,8 @@
 | **06_Solution-Architect** | ✅ Has Content | Solution architecture and Principal Consultant content |
 | **07_AI-Architect** | ✅ Has Content | AI/ML architect interview preparation |
 | **08_Engineering-Manager** | 📝 Ready | Ready for EM content |
-| **09_PrincipalConsultant-Data** | 📝 Ready | Ready for data-specific Principal Consultant content |
-| **10_.NET-Architect** | 📝 Ready | Ready for .NET-specific architect content |
+| **09_PrincipalConsultant-Data** | ✅ Complete | Data-specific Principal Consultant content (21 files) |
+| **10_.NET-Architect** | ✅ Complete | .NET-specific architect content (16 files) |
 
 ---
 
