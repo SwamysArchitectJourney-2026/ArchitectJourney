@@ -1,12 +1,12 @@
 ---
 learning_level: "Intermediate"
-prerequisites: ["./01_Database-Selection-Decision-Framework-Part1-A.md"]
+prerequisites: ["./01_Database-Selection-Decision-Framework-Part1-B-B.md"]
 estimated_time: "10 minutes"
 learning_objectives:
   - "Understand caching strategies for performance optimization"
   - "Identify when to use in-memory caching"
 related_topics:
-  builds_upon: ["./01_Database-Selection-Decision-Framework-Part1-B.md"]
+  builds_upon: ["./01_Database-Selection-Decision-Framework-Part1-B-B.md"]
   enables: ["./02_Additional-Storage-Types-Part1-A-A-B.md"]
 ---
 
