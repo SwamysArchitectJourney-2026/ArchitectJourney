@@ -1,13 +1,13 @@
 ---
 learning_level: "Intermediate"
-prerequisites: ["./02_Additional-Storage-Types-Part1-A-A.md"]
+prerequisites: ["./02_Additional-Storage-Types-Part1-A-A-B.md"]
 estimated_time: "10 minutes"
 learning_objectives:
   - "Recognize when search engines are appropriate"
   - "Understand full-text search architecture"
 related_topics:
-  builds_upon: ["./02_Additional-Storage-Types-Part1-A-A.md"]
-  enables: ["./02_Additional-Storage-Types-Part1-B.md"]
+  builds_upon: ["./02_Additional-Storage-Types-Part1-A-A-B.md"]
+  enables: ["./02_Additional-Storage-Types-Part1-B-A.md"]
 ---
 
 # Additional Storage Types (Part 1-A-B)
@@ -76,5 +76,5 @@ Search engines can handle spelling errors using edit distance algorithms:
 
 ## Related Topics
 
-- [Part 1-B: Time-Series and Analytical Storage](./02_Additional-Storage-Types-Part1-B.md)
+- [Part 1-B-A: Time-Series Databases](./02_Additional-Storage-Types-Part1-B-A.md)
 - [Database Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A.md)
