@@ -77,4 +77,4 @@ Search engines can handle spelling errors using edit distance algorithms:
 ## Related Topics
 
 - [Part 1-B-A: Time-Series Databases](./02_Additional-Storage-Types-Part1-B-A.md)
-- [Database Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A.md)
+- [Database Selection Framework](./01_Database-Selection-Decision-Framework-Part1-A-A.md)

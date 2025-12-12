@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["./01_Generative-AI-Systems-Overview-Part1-A.md"]
   builds_upon: ["./01_Generative-AI-Systems-Overview-Part1-A.md"]
-  enables: ["./04_RAG-Architecture-Fundamentals-Part1-B.md", "./04_Agentic-Systems-Design-Part1-A.md"]
+  enables: ["./03_RAG-Architecture-Fundamentals-Part1-B.md"]
   cross_refs: ["../01_Development/01_Python/01_Python-Execution-Model-Part1-A.md"]
 ---
 
