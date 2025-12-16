@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["../01_Development/01_Programming-Fundamentals/"]
   builds_upon: ["../02_AI-and-ML/02_Deep-Learning-Basics/"]
-  enables: ["../02_AI-and-ML/03_RAG-Architecture-Fundamentals-Part1-A.md", "../02_AI-and-ML/04_Agentic-Systems-Design-Part1-A.md"]
+  enables: ["./03_RAG-Architecture-Fundamentals-Part1-A.md"]
   cross_refs: ["../01_Development/01_Python/01_Python-Execution-Model-Part1-A.md"]
 ---
 
