@@ -9,185 +9,56 @@ learning_objectives:
 related_topics:
   prerequisites: ["./01_Interview-Overview.md"]
   builds_upon: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
-   enables: []
+  enables: []
   cross_refs: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
 ---
 # DevOps & Azure Cloud Architect Study Roadmap
 
-**Timeline**: 6-week preparation plan for DevOps & Azure Cloud Architect interviews
+**Timeline**: 6-week preparation plan
 
 ## 📅 Week 1-2: Foundation & Core Services
-
-### Azure Cloud Platform Mastery
-**Key Topics**:
-- Azure compute services (App Service, Functions, Container Instances, AKS)
-- Azure storage (Blob, Files, Queues, Tables, Cosmos DB)
-- Azure networking (VNet, Load Balancer, Application Gateway, Front Door)
-- Azure identity and security (Entra ID, Managed Identity, Key Vault, RBAC)
-- Azure monitoring (Monitor, Application Insights, Log Analytics)
-
-**Practice Scenarios**:
-- Design a multi-tier web application on Azure
-- Plan a cloud migration strategy
-- Design a disaster recovery solution
-
-**Resources**:
-- [Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md)
-- [Solution Architect Prep](../06_Solution-Architect/)
+- **Key topics**: compute (App Service, Functions, Container Instances, AKS); storage (Blob, Files, Queues, Tables, Cosmos DB); networking (VNet, Load Balancer, App Gateway, Front Door); identity/security (Entra ID, Managed Identity, Key Vault, RBAC); monitoring (Monitor, App Insights, Log Analytics)
+- **Practice scenarios**: multi-tier web app; cloud migration strategy; disaster recovery design
+- **Resources**: [Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md), [Solution Architect Prep](../06_Solution-Architect/)
 
 ## 📅 Week 3: Kubernetes & AKS Deep Dive
-
-### Container Orchestration Expertise
-**Key Topics**:
-- Kubernetes architecture and core concepts
-- AKS cluster design (node pools, networking, scaling)
-- Pod scheduling (affinity, anti-affinity, taints, tolerations)
-- Service types (ClusterIP, LoadBalancer, NodePort, ExternalName)
-- Ingress controllers and application routing
-- ConfigMaps and Secrets management
-- Persistent volumes and storage classes
-
-**Practice Scenarios**:
-- Design an AKS cluster for multi-tenant workloads
-- Plan GPU node pools for ML workloads
-- Design a high-availability AKS architecture
-
-**Key Talking Points**:
-- "I design AKS clusters with separate node pools for different workload types - CPU pools for web services, GPU pools for ML inference, and spot instances for batch jobs."
-- "I use pod disruption budgets and multiple availability zones to ensure high availability."
-- "I implement network policies and private endpoints for secure multi-tenant architectures."
+- **Key topics**: Kubernetes architecture; AKS node pools/networking/scaling; scheduling (affinity/anti-affinity/taints/tolerations); service types; ingress; ConfigMaps/Secrets; PVs/storage classes
+- **Practice scenarios**: multi-tenant AKS cluster; GPU node pools for ML; HA AKS design
+- **Talking points**:
+  - "I separate AKS node pools by workload (CPU web services, GPU inference, spot for batch)."
+  - "I use PDBs + multi-AZ to protect availability during upgrades and failures."
+  - "I apply network policies + private endpoints for secure multi-tenant designs."
 
 ## 📅 Week 4: Infrastructure as Code & DevOps Automation
-
-### IaC and CI/CD Mastery
-**Key Topics**:
-- Terraform fundamentals and Azure provider
-- Bicep language and ARM templates
-- GitOps practices (Flux, ArgoCD)
-- CI/CD pipeline design (Azure DevOps, GitHub Actions)
-- Infrastructure testing and validation
-- Multi-environment deployment strategies
-
-**Practice Scenarios**:
-- Write Terraform/Bicep for a complete Azure environment
-- Design a GitOps workflow for infrastructure changes
-- Create a CI/CD pipeline for containerized applications
-
-**Key Talking Points**:
-- "I use Terraform for multi-cloud infrastructure and Bicep for Azure-native deployments."
-- "I implement GitOps workflows where infrastructure changes are version-controlled and automatically applied."
-- "I design pipelines with approval gates, automated testing, and rollback capabilities."
+- **Key topics**: Terraform (Azure provider); Bicep/ARM; GitOps (Flux/ArgoCD); CI/CD (Azure DevOps, GitHub Actions); infra testing/validation; multi-env deployments
+- **Practice scenarios**: IaC for a complete Azure environment; GitOps workflow; CI/CD for containerized apps
+- **Talking points**: "Terraform for multi-cloud"; "Bicep for Azure-native"; "pipelines with gates, tests, and rollback"
 
 ## 📅 Week 5: MLOps & Advanced Patterns
-
-### Machine Learning Operations
-**Key Topics**:
-- MLOps architecture patterns
-- Model training pipelines
-- Model deployment strategies (A/B testing, canary, blue/green)
-- Model monitoring and drift detection
-- Feature stores and model registries
-- GPU resource management and optimization
-
-**Practice Scenarios**:
-- Design an MLOps pipeline for model training and deployment
-- Plan GPU resource allocation for ML workloads
-- Design model versioning and governance
-
-**Resources**:
-- [AI Architect Prep](../07_AI-Architect/) - MLOps patterns
-
-**Key Talking Points**:
-- "I design MLOps pipelines that support automated model training, validation, and deployment with rollback capabilities."
-- "I use AKS GPU node pools for model inference with autoscaling based on request patterns."
-- "I implement model monitoring to detect data drift and performance degradation."
+- **Key topics**: MLOps patterns; training pipelines; deployment (A/B, canary, blue/green); monitoring + drift; feature store/model registry; GPU optimization
+- **Practice scenarios**: end-to-end MLOps pipeline; GPU allocation plan; model versioning + governance
+- **Resources**: [AI Architect Prep](../07_AI-Architect/)
+- **Talking points**: "automated train/validate/deploy with rollback"; "AKS GPU pools + autoscale"; "monitor drift + performance"
 
 ## 📅 Week 6: System Design & Interview Practice
+- **Scenarios**: multi-product cloud foundation; AKS microservices platform; MLOps platform; migration strategy
+- **For each scenario**: explain trade-offs, scalability, security, and cost; do 45-60 minute whiteboard sessions
 
-### Architecture Scenarios
-**Key Scenarios to Practice**:
-1. **Multi-Product Cloud Foundation**
-   - Design shared infrastructure for multiple product lines
-   - Cost allocation and resource isolation
-   - Security and compliance across products
+## 📚 Daily Routine (Repeat)
+- Morning (1-2h): theory (one topic/day)
+- Afternoon (1-2h): hands-on practice (IaC, labs, designs)
+- Evening (30-60m): review + talking points + STAR stories
 
-2. **AKS-Based Microservices Platform**
-   - Container orchestration for microservices
-   - Service mesh and API gateway patterns
-   - Observability and monitoring
-
-3. **MLOps Platform**
-   - End-to-end ML lifecycle infrastructure
-   - Model serving at scale
-   - Experiment tracking and model governance
-
-4. **Cloud Migration Strategy**
-   - Lift-and-shift vs. cloud-native approaches
-   - Migration planning and risk assessment
-   - Cutover strategies and rollback plans
-
-**Practice Format**:
-- Whiteboard system design (45-60 minutes per scenario)
-- Explain trade-offs and design decisions
-- Discuss scalability, security, and cost considerations
-
-## 📚 Daily Study Routine
-### Morning (1-2 hours)
-- **Theory**: Read documentation, watch tutorials, review architecture patterns
-- **Focus**: One key topic per day
-
-### Afternoon (1-2 hours)
-- **Practice**: Hands-on labs, write IaC code, design scenarios
-- **Focus**: Apply morning learning to practical scenarios
-
-### Evening (30-60 minutes)
-- **Review**: Review notes, practice talking points, prepare STAR stories
-- **Focus**: Reinforcement and interview preparation
-
-## 🎯 Key Competencies to Master
-
-### Technical Skills
-- ✅ Azure cloud services and architecture
-- ✅ Kubernetes and AKS
-- ✅ Infrastructure as Code (Terraform, Bicep)
-- ✅ CI/CD pipeline design
-- ✅ MLOps architecture
-- ✅ Cloud security and compliance
-
-### Soft Skills
-- ✅ System design and architecture thinking
-- ✅ Problem-solving and troubleshooting
-- ✅ Communication and explanation skills
-- ✅ Leadership and collaboration
-
-## 📝 Interview Preparation Checklist
-
-### Technical Preparation
-- [ ] Mastered Azure core services
-- [ ] Deep understanding of AKS and Kubernetes
-- [ ] Proficient in Terraform and/or Bicep
-- [ ] Understand MLOps patterns
-- [ ] Practiced system design scenarios
-- [ ] Reviewed cloud migration strategies
-
-### Interview Skills
-- [ ] Prepared 2-minute introduction
-- [ ] Practiced whiteboard system design
-- [ ] Prepared STAR stories (3-5 examples)
-- [ ] Reviewed common technical questions
-- [ ] Practiced explaining complex concepts simply
-
-### Research
-- [ ] Researched company and role
-- [ ] Understood team structure and projects
-- [ ] Prepared thoughtful questions to ask
+## 🎯 Competencies + Checklist
+- **Technical**: Azure; AKS/Kubernetes; IaC; CI/CD; MLOps; security/compliance
+- **Soft skills**: system design thinking; troubleshooting; communication; leadership
+- **Checklist**: Azure core; AKS deep dive; Terraform/Bicep; MLOps; system design; migrations; intro + STAR stories; explain complex ideas simply
 
 ## 🔗 Additional Resources
-
-- **[Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md)** - Self-assessment tool
-- **[Solution Architect Prep](../06_Solution-Architect/)** - Cloud architecture scenarios
-- **[AI Architect Prep](../07_AI-Architect/)** - MLOps and AI patterns
-- **[System Design Scenarios](../03_System-Design-Scenarios/)** - Practice scenarios
+- [Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md)
+- [Solution Architect Prep](../06_Solution-Architect/)
+- [AI Architect Prep](../07_AI-Architect/)
+- [System Design Scenarios](../03_System-Design-Scenarios/)
 
 **Next**: Revisit [Interview Overview](./01_Interview-Overview.md) and run 2-3 timed system-design practice sessions.
 
