@@ -1,8 +1,39 @@
 # Educational Content Rules (ArchitectJourney Knowledge Base)
 
-**Version**: 1.0  
-**Last Updated**: November 6, 2025  
+**Version**: 1.1  
+**Last Updated**: December 24, 2025  
 **Priority**: MANDATORY - All content creation must follow these rules without exception
+
+---
+
+## 📋 Rule Applicability
+
+**IMPORTANT**: These rules apply differently based on content type:
+
+### Educational Content (`src/01_Reference/`, `src/02_Learning/`, `src/03_Interview-Prep/`)
+- ✅ **File naming**: Must follow numbering conventions (01_, 02_, etc., no 00_) OR semantic names (see [File Naming Conventions](./07_file-naming-conventions.mdc))
+- ✅ **Line limits**: Recommended ≤150 lines (split, don't trim)
+- ✅ **YAML frontmatter**: Required for all educational content files (all 5 metadata fields)
+- ✅ **Zero-copy policy**: Applies (content must be transformative)
+- ✅ **File references**: Must point to existing files
+
+### Reference Materials (`src/01_Reference/` subfolders)
+- ✅ **File naming**: Semantic names preferred (e.g., `core-concepts.md`, `system-design.md`)
+- ✅ **Numbering**: Optional - use only when sequence matters
+- ✅ **YAML frontmatter**: Required
+- ✅ **Line limits**: Recommended ≤150 lines
+
+### Interview Preparation (`src/03_Interview-Prep/`)
+- ✅ **File naming**: Semantic names preferred (e.g., `interview-overview.md`, `study-roadmap.md`)
+- ✅ **Structure**: Use folders for grouping (e.g., `azure-architect/`, `devops-architect/`)
+- ✅ **YAML frontmatter**: Required
+- ✅ **Line limits**: Recommended ≤150 lines
+
+### Documentation (`docs/`)
+- ✅ **File naming**: Logical names (date-based for reports, descriptive for guides)
+- ⚠️ **Numbering**: Optional - use only when sequence matters
+- ⚠️ **YAML frontmatter**: Not required (documentation files)
+- ⚠️ **Line limits**: Flexible (documentation may exceed 150 lines)
 
 ---
 

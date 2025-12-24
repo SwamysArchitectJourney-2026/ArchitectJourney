@@ -35,12 +35,16 @@
 
 **After ANY structural change, IMMEDIATELY update**:
 
-1. ✅ This file (.github/copilot-instructions.md) - Repository Structure section
-2. ✅ README.md - Repository Structure section
-3. ✅ Relevant documentation files
-4. ✅ Run verification: `.\Quick-HealthCheck.ps1` from tools/psscripts/
+1. ✅ **`docs/02_repository-structure.md`** - **UPDATE THIS FIRST** (Single source of truth, if exists)
+2. ✅ This file (.github/copilot-instructions.md) - Repository Structure section
+3. ✅ `.cursor/rules/02_repository-structure.mdc` - Repository structure rules
+4. ✅ README.md - Repository Structure section
+5. ✅ Relevant documentation files
+6. ✅ Run verification: `.\Quick-HealthCheck.ps1` from tools/psscripts/
 
-**Self-Check Question**: "Did I update the instruction file?" - If no, STOP and do it NOW.
+**Self-Check Question**: "Did I update the repository structure documentation?" - If no, STOP and do it NOW.
+
+**Note**: If `docs/02_repository-structure.md` doesn't exist, create it as the single source of truth for repository structure, then reference it from other files.
 
 ### 3. Chain-of-Thought + ReAct + Reasoning
 
@@ -590,6 +594,15 @@ Before committing:
 - [ ] Prerequisites come before dependent content
 - [ ] `enables:` relationships point to content numbered after
 - [ ] Learning order is logical and sequential
+
+##### 8. Reasoning Quality Review (Architecture Content)
+- [ ] Does the content follow a logical progression from problem to solution?
+- [ ] Are concepts introduced before they're used?
+- [ ] Is each design decision backed by explicit reasoning?
+- [ ] Are trade-offs clearly articulated (not just mentioned)?
+- [ ] Can a reader understand WHY this approach was chosen?
+- [ ] Are alternative approaches mentioned with reasons for rejection?
+- [ ] Does the content teach HOW to think, not just WHAT to build?
 
 #### Deep Dive Review Process
 

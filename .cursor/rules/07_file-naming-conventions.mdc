@@ -385,6 +385,63 @@ question-bank/
 
 ---
 
+## 📝 Applying Naming Conventions
+
+### When Creating New Content
+
+**Before writing**:
+
+1. **Choose the right folder** based on learning progression or content type
+   - For learning content: Use numbered folders (`01_Reference/`, `02_Learning/`)
+   - For reference-style content: Create a folder with `README.md` index (e.g., `glossary/`)
+
+2. **Choose a filename that matches the concept boundary**:
+   - Prefer `NN_concept-name.md` for sequence-based modules (e.g., `01_fundamentals.md`)
+   - Prefer `concept-name.md` inside reference-style folders (e.g., `core-concepts.md`)
+
+3. **Keep names URL-friendly**: lowercase, hyphen-separated words, avoid spaces
+
+### When Splitting a File
+
+**Decision process**:
+
+1. **First try to split by concept** (new file) instead of by "Part"
+   - Example: `fundamentals.md` and `advanced.md` instead of `topic-part1.md` and `topic-part2.md`
+
+2. **If you still need parts** (mechanical splitting for 150-line limit):
+   - Use `-part1`, `-part2` (not `A/B/C`)
+   - Preserve the base slug so links remain predictable
+   - Example: `03_consistency-models-part1.md`, `03_consistency-models-part2.md`
+
+3. **If hierarchy is needed**: Move structure into folders + `README.md` indexes instead of growing filename suffixes
+
+### When Reviewing/Editing Content
+
+**During review, treat naming as part of "maintainability"**:
+
+- **Does the filename match the scope?** If the file title/scope drifted, rename the file or split it
+- **Is hierarchy in the right place?** Move structure into folders + `README.md` indexes instead of growing filename suffixes
+- **Is ordering intentional?** If numbers exist, they should reflect a real learning sequence. Don't renumber casually (it creates churn and breaks links)
+- **Are split files clean?** Prefer `-partN` over letter suffixes; ensure parts are similarly sized and self-contained
+- **Are links updated?** If any rename happened, update all inbound links and re-run validation
+
+### Recommended Patterns by Folder Type
+
+**In main learning folders** (e.g., `src/01_Reference/`, `src/02_Learning/`):
+- Use ordered files: `NN_topic-slug.md`
+- If you must split: `NN_topic-slug-part1.md`, `NN_topic-slug-part2.md` (keep the same `NN_` prefix)
+
+**In reference-style subfolders** (e.g., `glossary/`, `interview-prep/`):
+- Prefer `README.md` as the index + semantic topic files like `core-concepts.md`, `security.md`
+- Add ordering numbers only if there is a deliberate reading sequence
+
+**In interview prep folders** (e.g., `src/03_Interview-Prep/`):
+- Use semantic names: `interview-overview.md`, `study-roadmap.md`, `skills-checklist.md`
+- Use folders for grouping: `azure-architect/`, `devops-architect/`
+- Use `README.md` for navigation within each folder
+
+---
+
 ## 📝 Quick Reference
 
 ### Decision Tree
@@ -396,7 +453,7 @@ Is content > 150 lines?
     ├─ Yes → Separate files with semantic names
     └─ No → Is there a learning sequence?
         ├─ Yes → Numbered files: 01_, 02_, etc.
-        └─ No → Semantic names: fundamentals.md, advanced.md
+        └─ No → Use -part1, -part2 for mechanical splitting
 ```
 
 ### Rules of Thumb
@@ -404,6 +461,7 @@ Is content > 150 lines?
 - **If you feel the need to add `A/B/C` → you need folders**
 - **If you feel the need to add `Part1/Part2` → you need better conceptual boundaries**
 - **If the filename is doing structural work → it's already wrong**
+- **Use `-part1`, `-part2` only for mechanical splitting** (to respect ~150 line limit), not as a long-term hierarchy
 
 ---
 
