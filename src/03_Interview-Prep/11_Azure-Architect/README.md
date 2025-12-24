@@ -13,10 +13,12 @@ This folder contains interview preparation materials for Azure Architect roles, 
 ## 📖 Study Path
 
 ### 1. Start Here
+
 - **`01_Skills-Checklist.md`** - Comprehensive skills assessment checklist
 - Use this to identify your strengths and areas for improvement
 
 ### 2. Interview Preparation
+
 - **`02_Interview-Overview.md`** - Interview structure and expectations (coming soon)
 - **`03_Interview-Questions-Part1-A.md`** - Common technical questions (coming soon)
 
@@ -25,11 +27,13 @@ This folder contains interview preparation materials for Azure Architect roles, 
 ## 🎯 Key Topics Covered
 
 ### Programming & Frameworks
+
 - Python, C#, .NET Core, Node.js/TypeScript
 - ASP.NET Core, Express.js, FastAPI
 - Frontend integration patterns
 
 ### Azure Cloud Services
+
 - Compute: App Service, Functions, AKS
 - Storage: Blob, Files, Queues, SQL Database, Cosmos DB
 - Integration: API Management, Service Bus, Event Grid, Logic Apps
@@ -37,11 +41,13 @@ This folder contains interview preparation materials for Azure Architect roles, 
 - Monitoring: Application Insights, Log Analytics, Azure Monitor
 
 ### Infrastructure & DevOps
+
 - Infrastructure as Code: Terraform, Bicep, ARM Templates
 - CI/CD: Azure DevOps Pipelines, YAML Pipelines
 - GitOps practices
 
 ### AI & Search
+
 - Azure OpenAI, Cognitive Services
 - Azure AI Search (vector & semantic search)
 - RAG architecture patterns
@@ -71,4 +77,3 @@ This folder contains interview preparation materials for Azure Architect roles, 
 ---
 
 **Last Updated**: December 24, 2025
-
