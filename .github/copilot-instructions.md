@@ -155,6 +155,7 @@ ArchitectJourney/
 │       ├── 04_markdown-standards.mdc
 │       ├── 05_primary-directives.mdc
 │       ├── 06_cross-domain-integration.mdc
+│       ├── 07_file-naming-conventions.mdc
 │       └── README.md
 ├── .github/                               # GitHub configuration
 │   ├── copilot-instructions.md            # THIS FILE - Update when structure changes
@@ -478,9 +479,10 @@ related_topics:
 
 #### Reference Patterns
 
-- **Prerequisites/Builds Upon**: Use first part (`-Part1-A.md`) or specific part if needed
-- **Enables**: Can reference any part, typically next part in sequence
+- **Prerequisites/Builds Upon**: Use semantic file names (e.g., `fundamentals.md`) or specific file if needed
+- **Enables**: Can reference any related file, typically next in learning sequence
 - **Planned Content**: References to files that don't exist yet are acceptable IF clearly marked as planned
+- **Note**: With new semantic naming, references should use meaningful names rather than `Part1-A` patterns
 
 #### Validation Checklist
 
@@ -553,11 +555,13 @@ Before committing:
 - [ ] Follows 25-minute learning segment principle
 
 ##### 3. File Naming Review
-- [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
+- [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.) - only when sequence matters
 - [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
-- [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
+- [ ] **NEW STANDARD**: Split files use semantic names (e.g., `fundamentals.md`, `advanced.md`) - see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc)
+- [ ] **DEPRECATED**: Old `Part1-A.md`, `Part1-B.md` pattern is deprecated for new content
 - [ ] Hyphens used for multi-word names
 - [ ] Rule applies to educational content AND documentation files
+- [ ] Filenames represent concepts, not editorial accidents
 
 ##### 4. File References Review
 - [ ] All `enables:` references point to existing files
@@ -727,7 +731,7 @@ All content must demonstrate:
      - Ensure content is transformative (not copied) during transformation
      - Check line count as you build content (≤ 150 lines) - **SPLIT if exceeds, NEVER TRIM**
      - **Preserve ALL educational content through splitting, not condensing**
-     - Validate file naming conventions during creation
+     - Validate file naming conventions during creation (use semantic names, not `Part1-A` patterns)
      - Verify file references as you add them
      - Ensure zero-copy policy compliance during transformation
      - Confirm learning progression logic as you structure content
@@ -1047,7 +1051,7 @@ ASCII Fallback:
 
 **Questions about content placement?** → Check `02_RepositoryStructure.md`
 
-**Content too long?** → Create multi-part structure (01A, 01B, 01C)
+**Content too long?** → Split into semantic files (e.g., `fundamentals.md`, `advanced.md`) - see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc)
 
 **Encoding issues?** → Search for �, replace with Unicode equivalents
 
@@ -1091,7 +1095,7 @@ ASCII Fallback:
 
 **Critical Reminder**: This file MUST be updated whenever repository structure changes. No exceptions.
 
-**Note**: This file now includes all educational content rules equivalent to `.cursor/rules/01_educational-content-rules.mdc`, including File Naming Convention for Split Files and File Reference Requirements.
+**Note**: This file now includes all educational content rules equivalent to `.cursor/rules/01_educational-content-rules.mdc`. For the latest file naming conventions, see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) - the new standard uses semantic names instead of `Part1-A` patterns.
 
 ---
 
