@@ -1,7 +1,7 @@
 ﻿# GitHub Copilot Instructions for ArchitectJourney
 
-**Version**: 3.2  
-**Last Updated**: November 23, 2025  
+**Version**: 3.3  
+**Last Updated**: December 24, 2025  
 **Critical Principle**: Update this file IMMEDIATELY when repository structure changes
 
 ---
@@ -351,8 +351,10 @@ When including code examples in educational content:
 1. **Identify logical breakpoints** - Split at natural topic boundaries
 2. **Preserve all content** - Move content to appropriate part, don't delete
 3. **Maintain completeness** - Each part should be self-contained and complete
-4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
+4. **Use semantic naming** - Name files by their content concept (e.g., `fundamentals.md`, `advanced.md`). See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for the new standard.
 5. **Update references** - Update all file references after splitting
+
+**⚠️ NAMING CONVENTION UPDATE**: The `Part1-A`, `Part1-B` pattern is deprecated. All new content must use semantic names. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for details.
 
 ### 📋 Required Content Structure
 
@@ -421,32 +423,35 @@ related_topics:
 
 #### File Naming Convention for Split Files
 
-**CRITICAL**: When files are split into multiple parts, use simplified letter suffixes.
+**⚠️ DEPRECATED**: The `Part1-A`, `Part1-B` pattern is deprecated. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for the new standard.
 
-**Pattern**:
-- `Topic-Part1-Part1.md` → `Topic-Part1-A.md`
-- `Topic-Part1-Part2.md` → `Topic-Part1-B.md`
-- `Topic-Part2-Part1.md` → `Topic-Part2-A.md`
-- `Topic-Part2-Part2.md` → `Topic-Part2-B.md`
-- `Topic-Part1-Part2-Part1.md` → `Topic-Part1-B-A.md`
-- `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
+**NEW STANDARD**: Use semantic names that describe the content concept.
 
-**Rules**:
-1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
-2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
-3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
-4. ✅ **Maintain order** - Letters reflect the original Part number sequence
+**Core Principle**: Files should represent concepts. Folders should represent structure. Numbers should represent ordering — sparingly.
 
-**Examples**:
-- ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
-- ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
-- ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
-- ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
+**When splitting files**:
+1. **Identify distinct concepts** - Split at natural topic boundaries
+2. **Use semantic names** - Name files by their content, not by sequence
+3. **Use folders for structure** - When content groups naturally, use folders
 
-**Benefits**:
-- Cleaner, more readable file names
-- Easier to understand part relationships
-- Consistent naming pattern
+**Examples** (New Standard):
+- ✅ `fundamentals.md`, `advanced.md` (semantic names)
+- ✅ `core-concepts.md`, `system-design.md` (semantic names)
+- ✅ `01_fundamentals.md`, `02_advanced.md` (only if sequence matters)
+
+**Examples** (Old Pattern - Deprecated):
+- ❌ `Topic-Part1-A.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B-A.md` (avoid - brittle and confusing)
+
+**Migration**: Existing files using `Part1-A` patterns remain for backward compatibility, but all new content must use semantic names. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for details and migration strategy.
+
+**Decision Framework**:
+- If content > 150 lines → Can it be split into distinct concepts?
+  - Yes → Separate files with semantic names
+  - No → Is there a learning sequence?
+    - Yes → Numbered files: `01_`, `02_`, etc.
+    - No → Semantic names: `fundamentals.md`, `advanced.md`
 
 ### 🔗 File Reference Requirements (CRITICAL)
 
