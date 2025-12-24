@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
-  enables: ["./02_Study-Roadmap.md", "./03_Interview-Questions-Part1-A.md"]
+  enables: ["./02_Study-Roadmap.md"]
   cross_refs: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
 ---
 

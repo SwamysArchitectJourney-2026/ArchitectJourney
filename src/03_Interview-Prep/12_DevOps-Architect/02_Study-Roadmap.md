@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: ["./01_Interview-Overview.md"]
   builds_upon: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
-  enables: ["./03_Interview-Questions-Part1-A.md"]
+   enables: []
   cross_refs: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
 ---
 
@@ -216,5 +216,5 @@ related_topics:
 
 ---
 
-**Next**: [Interview Questions](./03_Interview-Questions-Part1-A.md) - Common technical questions
+**Next**: Revisit [Interview Overview](./01_Interview-Overview.md) and run 2-3 timed system-design practice sessions.
 

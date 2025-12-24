@@ -9,7 +9,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: ["../06_Solution-Architect/", "../07_AI-Architect/", "../10_.NET-Architect/"]
-  enables: ["./02_Interview-Overview.md"]
+  enables: []
   cross_refs: ["../06_Solution-Architect/", "../07_AI-Architect/", "../10_.NET-Architect/"]
 ---
 
@@ -17,24 +17,13 @@ related_topics:
 
 **Purpose**: Use this checklist to assess your readiness for Azure Architect positions and identify areas for focused preparation.
 
----
-
 ## 📋 How to Use This Checklist
 
-1. **Self-Assessment**: Mark each skill as:
-   - ✅ **Strong** - Confident and experienced
-   - ⚠️ **Moderate** - Some experience, needs practice
-   - ❌ **Weak** - Limited or no experience
-
-2. **Prioritize**: Focus on skills marked as ⚠️ or ❌ for interview preparation
-
+1. **Self-Assessment**: Mark each skill as ✅ **Strong**, ⚠️ **Moderate**, or ❌ **Weak**
+2. **Prioritize**: Focus on ⚠️ and ❌ areas
 3. **Study Plan**: Use related interview prep materials to strengthen weak areas
 
----
-
 ## 🔹 Programming Languages
-
-**Core Competencies**:
 
 - ✅/⚠️/❌ **Python** - Scripting, automation, data processing
 - ✅/⚠️/❌ **C# and .NET Core** - Enterprise application development
@@ -46,8 +35,6 @@ related_topics:
 
 ## 🔹 Web Frameworks
 
-**Primary Frameworks**:
-
 - ✅/⚠️/❌ **ASP.NET Core** - Enterprise web applications, microservices
 - ✅/⚠️/❌ **Express.js / FastAPI** - Lightweight APIs, serverless functions (good to have)
 
@@ -56,8 +43,6 @@ related_topics:
 ---
 
 ## 🔹 Frontend Integration
-
-**Key Areas**:
 
 - ✅/⚠️/❌ **React or Angular** - Frontend framework understanding
 - ✅/⚠️/❌ **JWT/OAuth flows** - Authentication with Single Page Applications (SPAs)
@@ -265,12 +250,8 @@ related_topics:
 1. **Review Your Assessment**: Identify your strongest and weakest areas
 2. **Create Study Plan**: Prioritize skills marked as ⚠️ or ❌
 3. **Use Related Materials**:
-   - [Solution Architect Prep](../06_Solution-Architect/) - Cloud architecture patterns
-   - [AI Architect Prep](../07_AI-Architect/) - Azure AI services and patterns
-   - [.NET Architect Prep](../10_.NET-Architect/) - .NET and Azure integration
+  - [Solution Architect Prep](../06_Solution-Architect/) - Cloud architecture patterns
+  - [AI Architect Prep](../07_AI-Architect/) - Azure AI services and patterns
+  - [.NET Architect Prep](../10_.NET-Architect/) - .NET and Azure integration
 4. **Practice Scenarios**: Work through system design scenarios relevant to your weak areas
-
----
-
-**Related Content**: See [Interview Overview](./02_Interview-Overview.md) for interview structure and expectations.
 
