@@ -12,17 +12,13 @@ related_topics:
    enables: []
   cross_refs: ["../06_Solution-Architect/", "../11_Azure-Architect/"]
 ---
-
 # DevOps & Azure Cloud Architect Study Roadmap
 
 **Timeline**: 6-week preparation plan for DevOps & Azure Cloud Architect interviews
 
----
-
 ## 📅 Week 1-2: Foundation & Core Services
 
 ### Azure Cloud Platform Mastery
-
 **Key Topics**:
 - Azure compute services (App Service, Functions, Container Instances, AKS)
 - Azure storage (Blob, Files, Queues, Tables, Cosmos DB)
@@ -39,12 +35,9 @@ related_topics:
 - [Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md)
 - [Solution Architect Prep](../06_Solution-Architect/)
 
----
-
 ## 📅 Week 3: Kubernetes & AKS Deep Dive
 
 ### Container Orchestration Expertise
-
 **Key Topics**:
 - Kubernetes architecture and core concepts
 - AKS cluster design (node pools, networking, scaling)
@@ -64,12 +57,9 @@ related_topics:
 - "I use pod disruption budgets and multiple availability zones to ensure high availability."
 - "I implement network policies and private endpoints for secure multi-tenant architectures."
 
----
-
 ## 📅 Week 4: Infrastructure as Code & DevOps Automation
 
 ### IaC and CI/CD Mastery
-
 **Key Topics**:
 - Terraform fundamentals and Azure provider
 - Bicep language and ARM templates
@@ -88,12 +78,9 @@ related_topics:
 - "I implement GitOps workflows where infrastructure changes are version-controlled and automatically applied."
 - "I design pipelines with approval gates, automated testing, and rollback capabilities."
 
----
-
 ## 📅 Week 5: MLOps & Advanced Patterns
 
 ### Machine Learning Operations
-
 **Key Topics**:
 - MLOps architecture patterns
 - Model training pipelines
@@ -115,12 +102,9 @@ related_topics:
 - "I use AKS GPU node pools for model inference with autoscaling based on request patterns."
 - "I implement model monitoring to detect data drift and performance degradation."
 
----
-
 ## 📅 Week 6: System Design & Interview Practice
 
 ### Architecture Scenarios
-
 **Key Scenarios to Practice**:
 1. **Multi-Product Cloud Foundation**
    - Design shared infrastructure for multiple product lines
@@ -147,10 +131,7 @@ related_topics:
 - Explain trade-offs and design decisions
 - Discuss scalability, security, and cost considerations
 
----
-
 ## 📚 Daily Study Routine
-
 ### Morning (1-2 hours)
 - **Theory**: Read documentation, watch tutorials, review architecture patterns
 - **Focus**: One key topic per day
@@ -162,8 +143,6 @@ related_topics:
 ### Evening (30-60 minutes)
 - **Review**: Review notes, practice talking points, prepare STAR stories
 - **Focus**: Reinforcement and interview preparation
-
----
 
 ## 🎯 Key Competencies to Master
 
@@ -180,8 +159,6 @@ related_topics:
 - ✅ Problem-solving and troubleshooting
 - ✅ Communication and explanation skills
 - ✅ Leadership and collaboration
-
----
 
 ## 📝 Interview Preparation Checklist
 
@@ -205,16 +182,12 @@ related_topics:
 - [ ] Understood team structure and projects
 - [ ] Prepared thoughtful questions to ask
 
----
-
 ## 🔗 Additional Resources
 
 - **[Azure Architect Skills Checklist](../11_Azure-Architect/01_Skills-Checklist.md)** - Self-assessment tool
 - **[Solution Architect Prep](../06_Solution-Architect/)** - Cloud architecture scenarios
 - **[AI Architect Prep](../07_AI-Architect/)** - MLOps and AI patterns
 - **[System Design Scenarios](../03_System-Design-Scenarios/)** - Practice scenarios
-
----
 
 **Next**: Revisit [Interview Overview](./01_Interview-Overview.md) and run 2-3 timed system-design practice sessions.
 

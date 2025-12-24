@@ -12,7 +12,6 @@ related_topics:
   enables: []
   cross_refs: ["../06_Solution-Architect/", "../07_AI-Architect/", "../10_.NET-Architect/"]
 ---
-
 # Azure Architect Skills Checklist
 
 **Purpose**: Use this checklist to assess your readiness for Azure Architect positions and identify areas for focused preparation.
@@ -28,19 +27,13 @@ related_topics:
 - ✅/⚠️/❌ **Python** - Scripting, automation, data processing
 - ✅/⚠️/❌ **C# and .NET Core** - Enterprise application development
 - ✅/⚠️/❌ **Node.js / TypeScript** - Serverless functions, API development
-
 **Interview Focus**: Be prepared to discuss when to use each language and demonstrate understanding of their strengths in cloud-native architectures.
-
----
 
 ## 🔹 Web Frameworks
 
 - ✅/⚠️/❌ **ASP.NET Core** - Enterprise web applications, microservices
 - ✅/⚠️/❌ **Express.js / FastAPI** - Lightweight APIs, serverless functions (good to have)
-
 **Interview Focus**: Understand framework selection criteria, performance characteristics, and integration patterns with Azure services.
-
----
 
 ## 🔹 Frontend Integration
 
@@ -49,8 +42,6 @@ related_topics:
 - ✅/⚠️/❌ **API integration design** - Multi-tenant UI architectures
 
 **Interview Focus**: Design secure, scalable frontend-backend integration patterns for enterprise applications.
-
----
 
 ## 🔹 Cloud Platform Services
 
@@ -119,8 +110,6 @@ related_topics:
 - ✅/⚠️/❌ **Encryption in transit** - TLS/SSL for data in motion
 - ✅/⚠️/❌ **Key management** - Cryptographic key lifecycle management
 
----
-
 ## 🔹 Infrastructure as Code (IaC)
 
 **Primary Tools**:
@@ -134,8 +123,6 @@ related_topics:
 - ✅/⚠️/❌ **GitOps practices** - Infrastructure changes via Git workflows
 
 **Interview Focus**: Understand when to use each tool, version control strategies, and infrastructure testing approaches.
-
----
 
 ## 🔹 DevOps & Automation
 
@@ -154,8 +141,6 @@ related_topics:
 - ✅/⚠️/❌ **Automated deployments** - Dev/UAT/Prod environment automation
 - ✅/⚠️/❌ **Branching strategy** - Git workflow for code and infrastructure
 - ✅/⚠️/❌ **Deployment governance** - Approval gates, compliance checks
-
----
 
 ## 🔹 Data & Storage
 
@@ -185,8 +170,6 @@ related_topics:
 - ✅/⚠️/❌ **Azure Data Factory** - ETL/ELT orchestration
 - ✅/⚠️/❌ **Azure Synapse Analytics** - Analytics and data warehousing
 
----
-
 ## 🔹 AI & Search Technologies
 
 **Azure AI Services**:
@@ -203,8 +186,6 @@ related_topics:
 
 - ✅/⚠️/❌ **Embedding generation** - Vector embeddings for semantic search
 - ✅/⚠️/❌ **Index design** - Search index architecture and optimization
-
----
 
 ## 🔹 Integration Services
 
