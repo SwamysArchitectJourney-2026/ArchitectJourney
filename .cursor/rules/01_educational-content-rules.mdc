@@ -1,8 +1,39 @@
 # Educational Content Rules (ArchitectJourney Knowledge Base)
 
-**Version**: 1.0  
-**Last Updated**: November 6, 2025  
+**Version**: 1.1  
+**Last Updated**: December 24, 2025  
 **Priority**: MANDATORY - All content creation must follow these rules without exception
+
+---
+
+## 📋 Rule Applicability
+
+**IMPORTANT**: These rules apply differently based on content type:
+
+### Educational Content (`src/01_Reference/`, `src/02_Learning/`, `src/03_Interview-Prep/`)
+- ✅ **File naming**: Must follow numbering conventions (01_, 02_, etc., no 00_) OR semantic names (see [File Naming Conventions](./07_file-naming-conventions.mdc))
+- ✅ **Line limits**: Recommended ≤150 lines (split, don't trim)
+- ✅ **YAML frontmatter**: Required for all educational content files (all 5 metadata fields)
+- ✅ **Zero-copy policy**: Applies (content must be transformative)
+- ✅ **File references**: Must point to existing files
+
+### Reference Materials (`src/01_Reference/` subfolders)
+- ✅ **File naming**: Semantic names preferred (e.g., `core-concepts.md`, `system-design.md`)
+- ✅ **Numbering**: Optional - use only when sequence matters
+- ✅ **YAML frontmatter**: Required
+- ✅ **Line limits**: Recommended ≤150 lines
+
+### Interview Preparation (`src/03_Interview-Prep/`)
+- ✅ **File naming**: Semantic names preferred (e.g., `interview-overview.md`, `study-roadmap.md`)
+- ✅ **Structure**: Use folders for grouping (e.g., `azure-architect/`, `devops-architect/`)
+- ✅ **YAML frontmatter**: Required
+- ✅ **Line limits**: Recommended ≤150 lines
+
+### Documentation (`docs/`)
+- ✅ **File naming**: Logical names (date-based for reports, descriptive for guides)
+- ⚠️ **Numbering**: Optional - use only when sequence matters
+- ⚠️ **YAML frontmatter**: Not required (documentation files)
+- ⚠️ **Line limits**: Flexible (documentation may exceed 150 lines)
 
 ---
 
@@ -62,12 +93,16 @@
 1. **Identify logical breakpoints** - Split at natural topic boundaries (e.g., "Foundation" → "Implementation" → "Advanced")
 2. **Preserve all content** - Move content to appropriate part, don't delete
 3. **Maintain completeness** - Each part should be self-contained and complete
-4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
+4. **Use semantic naming** - Name files by their content concept (e.g., `fundamentals.md`, `advanced.md`). See [File Naming Conventions](./07_file-naming-conventions.mdc) for details.
 5. **Update references** - Update all file references after splitting
 
 **Example**: If a file has 300 lines covering "Factory Pattern Fundamentals" and "Factory Pattern Advanced", split into:
-- `01_Factory-Pattern-Part1-A.md` (Fundamentals - 150 lines)
-- `01_Factory-Pattern-Part1-B.md` (Advanced - 150 lines)
+- `factory-pattern-fundamentals.md` (Fundamentals - 150 lines)
+- `factory-pattern-advanced.md` (Advanced - 150 lines)
+
+**Or** (if sequence matters):
+- `01_factory-pattern-fundamentals.md` (Fundamentals - 150 lines)
+- `02_factory-pattern-advanced.md` (Advanced - 150 lines)
 
 **NOT**: Condense to 150 lines by removing examples or explanations.
 
@@ -142,33 +177,26 @@ related_topics:
 
 ### File Naming Convention for Split Files
 
-**CRITICAL**: When files are split into multiple parts, use simplified letter suffixes.
+**⚠️ DEPRECATED**: The `Part1-A`, `Part1-B` pattern is deprecated. See [File Naming Conventions](./07_file-naming-conventions.mdc) for the new standard.
 
-**Pattern**:
+**NEW STANDARD**: Use semantic names that describe the content concept.
 
-- `Topic-Part1-Part1.md` → `Topic-Part1-A.md`
-- `Topic-Part1-Part2.md` → `Topic-Part1-B.md`
-- `Topic-Part2-Part1.md` → `Topic-Part2-A.md`
-- `Topic-Part2-Part2.md` → `Topic-Part2-B.md`
-- `Topic-Part1-Part2-Part1.md` → `Topic-Part1-B-A.md`
-- `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
+**When splitting files**:
+1. **Identify distinct concepts** - Split at natural topic boundaries
+2. **Use semantic names** - Name files by their content, not by sequence
+3. **Use folders for structure** - When content groups naturally, use folders
 
-**Rules**:
-1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
-2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
-3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
-4. ✅ **Maintain order** - Letters reflect the original Part number sequence
+**Examples** (New Standard):
+- ✅ `fundamentals.md`, `advanced.md` (semantic names)
+- ✅ `core-concepts.md`, `system-design.md` (semantic names)
+- ✅ `01_fundamentals.md`, `02_advanced.md` (only if sequence matters)
 
-**Examples**:
-- ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
-- ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
-- ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
-- ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
+**Examples** (Old Pattern - Deprecated):
+- ❌ `Topic-Part1-A.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B-A.md` (avoid - brittle and confusing)
 
-**Benefits**:
-- Cleaner, more readable file names
-- Easier to understand part relationships
-- Consistent naming pattern
+**Migration**: Existing files using `Part1-A` patterns remain for backward compatibility, but all new content must use semantic names. See [File Naming Conventions](./07_file-naming-conventions.mdc) for details.
 
 ---
 

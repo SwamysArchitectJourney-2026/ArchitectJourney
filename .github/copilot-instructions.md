@@ -1,7 +1,7 @@
 ﻿# GitHub Copilot Instructions for ArchitectJourney
 
-**Version**: 3.2  
-**Last Updated**: November 23, 2025  
+**Version**: 3.3  
+**Last Updated**: December 24, 2025  
 **Critical Principle**: Update this file IMMEDIATELY when repository structure changes
 
 ---
@@ -35,12 +35,16 @@
 
 **After ANY structural change, IMMEDIATELY update**:
 
-1. ✅ This file (.github/copilot-instructions.md) - Repository Structure section
-2. ✅ README.md - Repository Structure section
-3. ✅ Relevant documentation files
-4. ✅ Run verification: `.\Quick-HealthCheck.ps1` from tools/psscripts/
+1. ✅ **`docs/02_repository-structure.md`** - **UPDATE THIS FIRST** (Single source of truth, if exists)
+2. ✅ This file (.github/copilot-instructions.md) - Repository Structure section
+3. ✅ `.cursor/rules/02_repository-structure.mdc` - Repository structure rules
+4. ✅ README.md - Repository Structure section
+5. ✅ Relevant documentation files
+6. ✅ Run verification: `.\Quick-HealthCheck.ps1` from tools/psscripts/
 
-**Self-Check Question**: "Did I update the instruction file?" - If no, STOP and do it NOW.
+**Self-Check Question**: "Did I update the repository structure documentation?" - If no, STOP and do it NOW.
+
+**Note**: If `docs/02_repository-structure.md` doesn't exist, create it as the single source of truth for repository structure, then reference it from other files.
 
 ### 3. Chain-of-Thought + ReAct + Reasoning
 
@@ -155,6 +159,7 @@ ArchitectJourney/
 │       ├── 04_markdown-standards.mdc
 │       ├── 05_primary-directives.mdc
 │       ├── 06_cross-domain-integration.mdc
+│       ├── 07_file-naming-conventions.mdc
 │       └── README.md
 ├── .github/                               # GitHub configuration
 │   ├── copilot-instructions.md            # THIS FILE - Update when structure changes
@@ -351,8 +356,10 @@ When including code examples in educational content:
 1. **Identify logical breakpoints** - Split at natural topic boundaries
 2. **Preserve all content** - Move content to appropriate part, don't delete
 3. **Maintain completeness** - Each part should be self-contained and complete
-4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
+4. **Use semantic naming** - Name files by their content concept (e.g., `fundamentals.md`, `advanced.md`). See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for the new standard.
 5. **Update references** - Update all file references after splitting
+
+**⚠️ NAMING CONVENTION UPDATE**: The `Part1-A`, `Part1-B` pattern is deprecated. All new content must use semantic names. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for details.
 
 ### 📋 Required Content Structure
 
@@ -421,32 +428,35 @@ related_topics:
 
 #### File Naming Convention for Split Files
 
-**CRITICAL**: When files are split into multiple parts, use simplified letter suffixes.
+**⚠️ DEPRECATED**: The `Part1-A`, `Part1-B` pattern is deprecated. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for the new standard.
 
-**Pattern**:
-- `Topic-Part1-Part1.md` → `Topic-Part1-A.md`
-- `Topic-Part1-Part2.md` → `Topic-Part1-B.md`
-- `Topic-Part2-Part1.md` → `Topic-Part2-A.md`
-- `Topic-Part2-Part2.md` → `Topic-Part2-B.md`
-- `Topic-Part1-Part2-Part1.md` → `Topic-Part1-B-A.md`
-- `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
+**NEW STANDARD**: Use semantic names that describe the content concept.
 
-**Rules**:
-1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
-2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
-3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
-4. ✅ **Maintain order** - Letters reflect the original Part number sequence
+**Core Principle**: Files should represent concepts. Folders should represent structure. Numbers should represent ordering — sparingly.
 
-**Examples**:
-- ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
-- ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
-- ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
-- ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
+**When splitting files**:
+1. **Identify distinct concepts** - Split at natural topic boundaries
+2. **Use semantic names** - Name files by their content, not by sequence
+3. **Use folders for structure** - When content groups naturally, use folders
 
-**Benefits**:
-- Cleaner, more readable file names
-- Easier to understand part relationships
-- Consistent naming pattern
+**Examples** (New Standard):
+- ✅ `fundamentals.md`, `advanced.md` (semantic names)
+- ✅ `core-concepts.md`, `system-design.md` (semantic names)
+- ✅ `01_fundamentals.md`, `02_advanced.md` (only if sequence matters)
+
+**Examples** (Old Pattern - Deprecated):
+- ❌ `Topic-Part1-A.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B.md` (avoid - encodes hierarchy in filename)
+- ❌ `Topic-Part1-B-A.md` (avoid - brittle and confusing)
+
+**Migration**: Existing files using `Part1-A` patterns remain for backward compatibility, but all new content must use semantic names. See [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) for details and migration strategy.
+
+**Decision Framework**:
+- If content > 150 lines → Can it be split into distinct concepts?
+  - Yes → Separate files with semantic names
+  - No → Is there a learning sequence?
+    - Yes → Numbered files: `01_`, `02_`, etc.
+    - No → Semantic names: `fundamentals.md`, `advanced.md`
 
 ### 🔗 File Reference Requirements (CRITICAL)
 
@@ -473,9 +483,10 @@ related_topics:
 
 #### Reference Patterns
 
-- **Prerequisites/Builds Upon**: Use first part (`-Part1-A.md`) or specific part if needed
-- **Enables**: Can reference any part, typically next part in sequence
+- **Prerequisites/Builds Upon**: Use semantic file names (e.g., `fundamentals.md`) or specific file if needed
+- **Enables**: Can reference any related file, typically next in learning sequence
 - **Planned Content**: References to files that don't exist yet are acceptable IF clearly marked as planned
+- **Note**: With new semantic naming, references should use meaningful names rather than `Part1-A` patterns
 
 #### Validation Checklist
 
@@ -548,11 +559,13 @@ Before committing:
 - [ ] Follows 25-minute learning segment principle
 
 ##### 3. File Naming Review
-- [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.)
+- [ ] Uses zero-padded numeric prefix (`01_`, `02_`, etc.) - only when sequence matters
 - [ ] **CRITICAL**: Never uses `00_` prefix - **NO EXCEPTIONS** (applies to ALL files including `docs/`)
-- [ ] Split files use correct naming: `Part1-A.md`, `Part1-B.md` (not `Part1A.md`)
+- [ ] **NEW STANDARD**: Split files use semantic names (e.g., `fundamentals.md`, `advanced.md`) - see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc)
+- [ ] **DEPRECATED**: Old `Part1-A.md`, `Part1-B.md` pattern is deprecated for new content
 - [ ] Hyphens used for multi-word names
 - [ ] Rule applies to educational content AND documentation files
+- [ ] Filenames represent concepts, not editorial accidents
 
 ##### 4. File References Review
 - [ ] All `enables:` references point to existing files
@@ -581,6 +594,15 @@ Before committing:
 - [ ] Prerequisites come before dependent content
 - [ ] `enables:` relationships point to content numbered after
 - [ ] Learning order is logical and sequential
+
+##### 8. Reasoning Quality Review (Architecture Content)
+- [ ] Does the content follow a logical progression from problem to solution?
+- [ ] Are concepts introduced before they're used?
+- [ ] Is each design decision backed by explicit reasoning?
+- [ ] Are trade-offs clearly articulated (not just mentioned)?
+- [ ] Can a reader understand WHY this approach was chosen?
+- [ ] Are alternative approaches mentioned with reasons for rejection?
+- [ ] Does the content teach HOW to think, not just WHAT to build?
 
 #### Deep Dive Review Process
 
@@ -722,7 +744,7 @@ All content must demonstrate:
      - Ensure content is transformative (not copied) during transformation
      - Check line count as you build content (≤ 150 lines) - **SPLIT if exceeds, NEVER TRIM**
      - **Preserve ALL educational content through splitting, not condensing**
-     - Validate file naming conventions during creation
+     - Validate file naming conventions during creation (use semantic names, not `Part1-A` patterns)
      - Verify file references as you add them
      - Ensure zero-copy policy compliance during transformation
      - Confirm learning progression logic as you structure content
@@ -1042,7 +1064,7 @@ ASCII Fallback:
 
 **Questions about content placement?** → Check `02_RepositoryStructure.md`
 
-**Content too long?** → Create multi-part structure (01A, 01B, 01C)
+**Content too long?** → Split into semantic files (e.g., `fundamentals.md`, `advanced.md`) - see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc)
 
 **Encoding issues?** → Search for �, replace with Unicode equivalents
 
@@ -1086,7 +1108,7 @@ ASCII Fallback:
 
 **Critical Reminder**: This file MUST be updated whenever repository structure changes. No exceptions.
 
-**Note**: This file now includes all educational content rules equivalent to `.cursor/rules/01_educational-content-rules.mdc`, including File Naming Convention for Split Files and File Reference Requirements.
+**Note**: This file now includes all educational content rules equivalent to `.cursor/rules/01_educational-content-rules.mdc`. For the latest file naming conventions, see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc) - the new standard uses semantic names instead of `Part1-A` patterns.
 
 ---
 
