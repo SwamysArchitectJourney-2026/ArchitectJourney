@@ -9,9 +9,9 @@ accept = ["200", "206", "429"]
 # Timeouts
 timeout = 20
 
-# `source-material/` is a staging area and is git-ignored.
+# `source-materials/` is a staging area and is git-ignored.
 exclude_path = [
-  "source-material/**"
+  "source-materials/**"
 ]
 
 # Exclude patterns (examples)
