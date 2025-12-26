@@ -95,4 +95,4 @@ related_topics:
 
 ---
 
-**Next**: [Databricks, Spark, and PySpark Scenarios](./03_Question-Bank-Part1-B-B.md)
+**Next**: [Databricks, Spark, and PySpark Scenarios](./03_Question-Bank-Part1-B-B-A.md)

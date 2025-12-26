@@ -172,5 +172,5 @@ related_topics:
 
 ---
 
-**Next**: [Interview Questions - Part 1-B](./04_Interview-Questions-Part1-B.md) - Advanced questions and scenarios
+**Next**: [Interview Questions - Part 1-B-A](./04_Interview-Questions-Part1-B-A.md) - Advanced questions and scenarios
 

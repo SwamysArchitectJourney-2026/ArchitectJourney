@@ -108,4 +108,4 @@ Central landing zone (Hub) with team-specific workspaces (Spokes) for enterprise
 
 ---
 
-**Next**: [Advanced Patterns and Integration](./04_Architecture-Patterns-Part1-B.md)
+**Next**: [Advanced Patterns and Integration - Part 1-B-A](./04_Architecture-Patterns-Part1-B-A.md)

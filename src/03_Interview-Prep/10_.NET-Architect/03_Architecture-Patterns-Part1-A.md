@@ -191,5 +191,5 @@ spec:
 
 ---
 
-**Next**: [Architecture Patterns - Part 1-B](./03_Architecture-Patterns-Part1-B.md) - Security and observability patterns
+**Next**: [Architecture Patterns - Part 1-B-A](./03_Architecture-Patterns-Part1-B-A.md) - Security and observability patterns
 

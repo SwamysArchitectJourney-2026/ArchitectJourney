@@ -81,16 +81,16 @@
 → Start with [Interview Overview](./01_Interview-Overview.md)
 
 **Need a study plan?**
-→ Follow the [Study Roadmap](./02_Study-Roadmap.md)
+→ Follow the [Study Roadmap - Part 1-A](./02_Study-Roadmap-Part1-A.md)
 
 **Preparing for questions?**
-→ Review [Question Bank - Easy Level](./03_Question-Bank-Part1-A.md)
+→ Review [Question Bank - Easy Level](./03_Question-Bank-Part1-A-A.md)
 
 **For architecture practice:**
-→ Study [Architecture Patterns](./04_Architecture-Patterns-Part1-A.md)
+→ Study [Architecture Patterns - Part 1-A-A](./04_Architecture-Patterns-Part1-A-A.md)
 
 **For case study practice:**
-→ Review [Case Studies](./05_Case-Studies-Part1-A.md)
+→ Review [Case Studies - Part 1-A-A](./05_Case-Studies-Part1-A-A.md)
 
 **For additional preparation:**
 1. Review [Common Interview Materials](../02_Common/) for shared preparation content

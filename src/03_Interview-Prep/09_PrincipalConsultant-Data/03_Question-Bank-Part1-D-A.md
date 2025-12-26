@@ -127,4 +127,4 @@ related_topics:
 
 ---
 
-**Next**: [AI Strategy and Leadership](./03_Question-Bank-Part1-D-B.md)
+**Next**: [AI Strategy and Leadership - Part 1](./03_Question-Bank-Part1-D-B-A.md)

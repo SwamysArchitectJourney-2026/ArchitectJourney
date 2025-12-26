@@ -14,11 +14,11 @@
 
 ### 3. Architecture Patterns
 - [03_Architecture-Patterns-Part1-A.md](./03_Architecture-Patterns-Part1-A.md) - Hybrid LLM and compute patterns
-- [03_Architecture-Patterns-Part1-B.md](./03_Architecture-Patterns-Part1-B.md) - Security and observability patterns
+- [03_Architecture-Patterns-Part1-B-A.md](./03_Architecture-Patterns-Part1-B-A.md) - Security and observability patterns
 
 ### 4. Interview Questions
 - [04_Interview-Questions-Part1-A.md](./04_Interview-Questions-Part1-A.md) - Common technical questions
-- [04_Interview-Questions-Part1-B.md](./04_Interview-Questions-Part1-B.md) - Advanced questions
+- [04_Interview-Questions-Part1-B-A.md](./04_Interview-Questions-Part1-B-A.md) - Advanced questions
 
 ### 5. Whiteboard Scenarios
 - [05_Whiteboard-Scenarios-Part1-A.md](./05_Whiteboard-Scenarios-Part1-A.md) - Core system design scenarios
@@ -27,7 +27,8 @@
 ### 6. Cheat Sheets and Reference
 - [06_Cheat-Sheet.md](./06_Cheat-Sheet.md) - Quick reference guide
 - [07_STAR-Stories.md](./07_STAR-Stories.md) - Behavioral interview stories
-- [08_Glossary-and-KEDA.md](./08_Glossary-and-KEDA.md) - Essential terminology and KEDA guide
+- [08_Glossary-and-KEDA-Part1-A.md](./08_Glossary-and-KEDA-Part1-A.md) - Essential terminology and KEDA guide (Part 1)
+- [08_Glossary-and-KEDA-Part1-B.md](./08_Glossary-and-KEDA-Part1-B.md) - Essential terminology and KEDA guide (Part 2)
 - [09_Capacity-Planning.md](./09_Capacity-Planning.md) - QPS capacity planning and calculations
 
 ---
