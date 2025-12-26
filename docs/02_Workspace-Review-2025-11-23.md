@@ -441,6 +441,6 @@ This is a clean slate with a solid foundation. You're ready to proceed with cont
 ## 📚 Related Documents
 
 - [GitHub Organization Strategy](./01_GitHub-Organization-Strategy.md) - Complete setup guide
-- [Repository Structure](./02_RepositoryStructure.md) - Repository organization details
+- [Repository Structure](./02_repository-structure.md) - Repository organization details
 - [Main README](../README.md) - Main repository documentation
 

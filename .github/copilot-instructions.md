@@ -175,7 +175,7 @@ ArchitectJourney/
 │       └── .gitkeep
 ├── LICENSE                                 # MIT License
 ├── README.md                               # Main repository documentation
-├── source-materials/                       # Staging area (at repository root, git-ignored)
+├── source-material/                        # Staging area (at repository root, git-ignored)
 ├── src/                                    # Source content (organized)
 │   ├── 01_Reference/                      # Reference library
 │   ├── 02_Learning/                       # Learning paths
@@ -203,7 +203,7 @@ ArchitectJourney/
 │       ├── Architect/                    # Software Architect prep
 │       ├── Solution-Architect/           # Solution Architect prep
 │       └── Engineering-Manager/          # Engineering Manager prep
-├── source-materials/                      # Staging area (at repository root, git-ignored)
+├── source-material/                       # Staging area (at repository root, git-ignored)
 └── tools/                                 # Automation and utilities
     └── psscripts/                         # PowerShell automation scripts
 ```
@@ -225,7 +225,7 @@ ArchitectJourney/
 **Planned Documentation** (to be created):
 
 - **01_UnifiedArchitectMasteryRoadmap.md** - Complete 9-stage learning roadmap (planned)
-- **02_RepositoryStructure.md** - Repository organization reference (planned)
+- **02_repository-structure.md** - Repository organization reference (single source of truth)
 - Additional documentation as content is developed
 
 ---
@@ -707,32 +707,32 @@ All content must demonstrate:
 
 #### Source Materials Staging Area
 
-**Location**: `source-materials/` (at repository root, git-ignored)
+**Location**: `source-material/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
 **Critical Workflow**:
 
-1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder (at repository root)
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-material/` folder (at repository root)
 2. **Review and migrate**: AI assistant reviews content, identifies unique topics, and migrates/transforms following Educational Content Rules
 3. **Verify migration**: Confirm all unique content has been migrated to `01_Reference/` or `02_Learning/`
-4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
+4. **Keep source files**: After successful migration, keep source files in `source-material/` folder - user will delete manually
 
 **Important Notes**:
-- ⚠️ **Files in `source-materials/` are NOT required to be compliant** - this is a staging area for raw source content
+- ⚠️ **Files in `source-material/` are NOT required to be compliant** - this is a staging area for raw source content
 - ✅ **Review rules apply DURING transformation** - ensure transformation process follows all Educational Content Rules
-- ✅ **When user requests migration**: Review ALL files in `source-materials/`, identify unique content, and migrate following Educational Content Rules
+- ✅ **When user requests migration**: Review ALL files in `source-material/`, identify unique content, and migrate following Educational Content Rules
 - ✅ Files here will be transformed following Educational Content Rules into compliant content
 - ✅ After transformation, create compliant content in `01_Reference/` or `02_Learning/`
-- ✅ **After successful migration**: Keep source files in `source-materials/` folder - user will delete manually
-- ❌ **Never commit `source-materials/` content** - it's git-ignored for a reason
-- ✅ **Keep `source-materials/` folder** - it's a permanent staging area for future migrations
+- ✅ **After successful migration**: Keep source files in `source-material/` folder - user will delete manually
+- ❌ **Never commit `source-material/` content** - it's git-ignored for a reason
+- ✅ **Keep `source-material/` folder** - it's a permanent staging area for future migrations
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
 **🚨 CRITICAL**: This workflow uses **THE EXACT SAME 7-CATEGORY REVIEW CHECKLIST** as the Comprehensive Content Review Process. Every file created during migration MUST pass all review checks before being considered complete.
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-material/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies
@@ -763,11 +763,11 @@ All content must demonstrate:
    - **Create migration verification report** in `docs/review-reports/` with date-based naming (e.g., `24Nov2025.md`)
 
 5. **ACT**: After successful migration and verification:
-   - Keep source files in `source-materials/` folder - user will delete manually
+   - Keep source files in `source-material/` folder - user will delete manually
    - Save migration verification report to `docs/review-reports/` with date-based filename (format: `DDMonYYYY.md`)
 
 **Compliance Requirements**:
-- ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
+- ❌ `source-material/` files: **NO compliance required** (staging area - raw source content)
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
 - ✅ `01_Reference/` files: **FULL compliance required** (final content - must pass all review checks)
 - ✅ `02_Learning/` files: **FULL compliance required** (final content - must pass all review checks)
@@ -1062,7 +1062,7 @@ ASCII Fallback:
 
 ## 📞 Support & Escalation
 
-**Questions about content placement?** → Check `02_RepositoryStructure.md`
+**Questions about content placement?** → Check `docs/02_repository-structure.md`
 
 **Content too long?** → Split into semantic files (e.g., `fundamentals.md`, `advanced.md`) - see [File Naming Conventions](../.cursor/rules/07_file-naming-conventions.mdc)
 
@@ -1127,7 +1127,7 @@ ASCII Fallback:
 
 - **Repository**: <https://github.com/Swamy-s-Tech-Skills-Academy/ArchitectJourney>
 - **Master Roadmap**: `docs/01_UnifiedArchitectMasteryRoadmap.md`
-- **Structure Reference**: `docs/02_RepositoryStructure.md`
+- **Structure Reference**: `docs/02_repository-structure.md`
 - **Learning vs Reference Strategy**: `docs/03_Learning-vs-Reference-Strategy.md`
 - **Automation Scripts**: `tools/psscripts/README.md`
 - **Debugging Commands**: `docs/debugging/README.md`

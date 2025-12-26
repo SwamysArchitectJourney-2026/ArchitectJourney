@@ -273,34 +273,34 @@ class ProductFactory:
 
 ### Source Materials Staging Area
 
-**Location**: `source-materials/` (at repository root, git-ignored)
+**Location**: `source-material/` (at repository root, git-ignored)
 
 **Purpose**: **Staging folder for migration** - Temporary staging area where source content is placed before review and transformation into ArchitectJourney educational content.
 
 **Critical Workflow**:
 
-1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-materials/` folder
+1. **Place materials**: User places source materials (transcripts, notes, documents) in `source-material/` folder
 2. **Review and migrate**: AI assistant reviews content, identifies unique topics, and migrates/transforms following Educational Content Rules
 3. **Verify migration**: Confirm all unique content has been migrated to `Reference/` or `Learning/`
-4. **Keep source files**: After successful migration, keep source files in `source-materials/` folder - user will delete manually
+4. **Keep source files**: After successful migration, keep source files in `source-material/` folder - user will delete manually
 
 **Important Notes**:
 
-- ⚠️ **Files in `source-materials/` are NOT required to be compliant** - this is a staging area for raw source content
-- ❌ **NEVER MODIFY files in `source-materials/`** - AI assistants must ONLY READ these files for migration purposes, never edit, format, or change them
+- ⚠️ **Files in `source-material/` are NOT required to be compliant** - this is a staging area for raw source content
+- ❌ **NEVER MODIFY files in `source-material/`** - AI assistants must ONLY READ these files for migration purposes, never edit, format, or change them
 - ✅ **Review rules apply DURING transformation** - ensure transformation process follows all Educational Content Rules
-- ✅ **When user requests migration**: Review ALL files in `source-materials/`, identify unique content, and migrate following Educational Content Rules
+- ✅ **When user requests migration**: Review ALL files in `source-material/`, identify unique content, and migrate following Educational Content Rules
 - ✅ Files here will be transformed following Educational Content Rules into compliant content
 - ✅ After transformation, create compliant content in `Reference/` or `Learning/`
-- ✅ **After successful migration**: Keep source files in `source-materials/` folder - user will delete manually
-- ❌ **Never commit `source-materials/` content** - it's git-ignored for a reason
-- ✅ **Keep `source-materials/` folder** - it's a permanent staging area for future migrations
+- ✅ **After successful migration**: Keep source files in `source-material/` folder - user will delete manually
+- ❌ **Never commit `source-material/` content** - it's git-ignored for a reason
+- ✅ **Keep `source-material/` folder** - it's a permanent staging area for future migrations
 
 **Transformation Workflow** (Using CoT, ReAct, and Reasoning):
 
 **🚨 CRITICAL**: This workflow uses **THE EXACT SAME 7-CATEGORY REVIEW CHECKLIST** as the Comprehensive Content Review Process. Every file created during migration MUST pass all review checks before being considered complete.
 
-1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-materials/` (at repository root)
+1. **OBSERVE**: Place source materials (transcripts, notes, etc.) in `source-material/` (at repository root)
    - Scan and catalog source content
    - Identify key concepts and learning objectives
    - Understand source structure and dependencies
@@ -331,11 +331,11 @@ class ProductFactory:
    - **Create migration verification report** in `docs/review-reports/` with date-based naming (e.g., `24Nov2025.md`)
 
 5. **ACT**: After successful migration and verification:
-   - Keep source files in `source-materials/` folder - user will delete manually
+   - Keep source files in `source-material/` folder - user will delete manually
    - Save migration verification report to `docs/review-reports/` with date-based filename
 
 **Compliance Requirements**:
-- ❌ `source-materials/` files: **NO compliance required** (staging area - raw source content)
+- ❌ `source-material/` files: **NO compliance required** (staging area - raw source content)
 - ✅ **Transformation process**: **MUST follow review rules** (apply checklist during transformation)
 - ✅ `01_Reference/` files: **FULL compliance required** (final content - must pass all review checks)
 - ✅ `02_Learning/` files: **FULL compliance required** (final content - must pass all review checks)
