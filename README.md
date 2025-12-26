@@ -383,6 +383,6 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 
 ---
 
-> 🧠 **ArchitectJourney** — Designed and maintained by Viswanatha Swamy P K
+> 🧠 **ArchitectJourney** — Designed and maintained by `Viswanatha Swamy P K`
 > Empowering developers to evolve into visionary architects and technical leaders.
 > © 2025 Swamy's Tech Skills Academy, ShyvnTech & Srivari Software Solutions
