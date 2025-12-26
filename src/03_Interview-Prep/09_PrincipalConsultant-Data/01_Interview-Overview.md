@@ -121,13 +121,13 @@ This preparation module is organized into focused learning segments:
 ## 🚀 Quick Start
 
 **For immediate preparation:**
-→ Start with [Study Roadmap](./02_Study-Roadmap.md) to understand priority topics
+→ Start with [Study Roadmap - Part 1-A](./02_Study-Roadmap-Part1-A.md) to understand priority topics
 
 **For question practice:**
-→ Review [Question Bank - Easy Level](./03_Question-Bank-Part1-A.md) to build confidence
+→ Review [Question Bank - Easy Level](./03_Question-Bank-Part1-A-A.md) to build confidence
 
 **For architecture practice:**
-→ Study [Architecture Patterns](./04_Architecture-Patterns-Part1-A.md) for design scenarios
+→ Study [Architecture Patterns - Part 1-A-A](./04_Architecture-Patterns-Part1-A-A.md) for design scenarios
 
 ---
 
@@ -139,5 +139,5 @@ This preparation module is organized into focused learning segments:
 
 ---
 
-**Next**: [Study Roadmap](./02_Study-Roadmap.md) - Prioritized learning path
+**Next**: [Study Roadmap - Part 1-A](./02_Study-Roadmap-Part1-A.md) - Prioritized learning path
 

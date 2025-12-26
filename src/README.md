@@ -117,7 +117,7 @@ Engineering manager interview materials (coming soon).
 
 ## 🔄 Content Migration Workflow
 
-1. **Raw Content** → Place in `source-materials/` (at repository root)
+1. **Raw Content** → Place in `source-material/` (at repository root)
 2. **Review & Categorize** → Determine appropriate destination
 3. **Transform & Organize** → Structure according to rules
 4. **Migrate** → Move to appropriate folder in `01_Reference/`, `02_Learning/`, or `03_Interview-Prep/`

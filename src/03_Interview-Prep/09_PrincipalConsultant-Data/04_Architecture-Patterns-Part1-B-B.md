@@ -104,4 +104,4 @@ Design data platform spanning multiple regions for global scale, disaster recove
 
 ---
 
-**Next**: [Case Studies](./05_Case-Studies-Part1-A.md)
+**Next**: [Case Studies - Part 1-A-A](./05_Case-Studies-Part1-A-A.md)

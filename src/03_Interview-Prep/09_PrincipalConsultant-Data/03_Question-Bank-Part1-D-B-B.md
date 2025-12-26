@@ -98,4 +98,4 @@ related_topics:
 
 ---
 
-**Next**: [Architecture Patterns](../04_Architecture-Patterns-Part1-A.md)
+**Next**: [Architecture Patterns - Part 1-A-A](./04_Architecture-Patterns-Part1-A-A.md)

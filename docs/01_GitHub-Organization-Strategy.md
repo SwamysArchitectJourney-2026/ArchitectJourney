@@ -3,7 +3,7 @@
 **Version**: 1.0  
 **Last Updated**: November 22, 2025  
 **Status**: Active - Implementation Guide  
-**Related Documents**: `05_Multi-Repo-Strategy.md`, `02_RepositoryStructure.md`
+**Related Documents**: `05_Multi-Repo-Strategy.md`, `02_repository-structure.md`
 
 ---
 
@@ -530,7 +530,7 @@ SwamysArchitectJourney-2026 (Organization)
 ## 🔗 Related Documents
 
 - [`05_Multi-Repo-Strategy.md`](./05_Multi-Repo-Strategy.md) - Multi-repository architecture details
-- [`02_RepositoryStructure.md`](./02_RepositoryStructure.md) - Repository structure guidelines
+- [`02_repository-structure.md`](./02_repository-structure.md) - Repository structure guidelines
 - [`03_Learning-vs-Reference-Strategy.md`](./03_Learning-vs-Reference-Strategy.md) - Content organization
 
 ---

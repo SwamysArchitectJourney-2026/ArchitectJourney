@@ -79,4 +79,4 @@ Memorize these phrases for interviews:
 
 ---
 
-**Next**: [Cheat Sheet](./09_Cheat-Sheet.md)
+**Next**: [Cheat Sheet](./06_Cheat-Sheet.md)

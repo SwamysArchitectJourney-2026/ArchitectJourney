@@ -2,16 +2,23 @@
 
 A comprehensive learning and reference repository for aspiring software architects — providing a structured 9-level journey from foundational development principles to strategic leadership impact.
 
-![Status](https://img.shields.io/badge/status-active-success)
-![Roadmap](https://img.shields.io/badge/roadmap-9%20Levels-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Built%20with](https://img.shields.io/badge/built%20with-AI%20%26%20DevOps-purple)
-![Maintainer](https://img.shields.io/badge/maintainer-Viswanatha%20Swamy%20P%20K-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-purple)
+![Roadmap](https://img.shields.io/badge/Roadmap-9%20Levels-orange)
+![Built%20with](https://img.shields.io/badge/Built%20with-AI%20%26%20DevOps-success)
+![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)
+
+---
+
+## 📌 Disclaimer
+
+This is **Swamy's personal learning** repository and reference workspace, not official course material or a packaged curriculum.
 
 ---
 
 ## 📘 Table of Contents
 
+- [Disclaimer](#-disclaimer)
 - [Overview](#-overview)
 - [Organization Context](#-organization-context)
 - [What You'll Find](#-what-youll-find)
@@ -20,6 +27,8 @@ A comprehensive learning and reference repository for aspiring software architec
 - [Learning Domains](#-learning-domains-covered)
 - [Repository Structure](#-repository-structure)
 - [Developer Git Setup](#-developer-git-setup)
+- [Contributing](#-contributing)
+- [About & Community](#-about--community)
 - [License](#-license)
 
 ---
@@ -51,15 +60,15 @@ This repository is part of the **SwamysArchitectJourney-2026** GitHub organizati
 
 All code implementations are organized by language/domain:
 
-- 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (coming soon)
-- 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (coming soon)
-- 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (coming soon)
-- ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (coming soon)
-- 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (coming soon)
-- ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (coming soon)
-- 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (coming soon)
+- 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (repositories will be created incrementally as implementations are developed)
+- 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (repositories will be created incrementally as implementations are developed)
+- 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (repositories will be created incrementally as implementations are developed)
+- ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (repositories will be created incrementally as implementations are developed)
+- 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (repositories will be created incrementally as implementations are developed)
+- ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (repositories will be created incrementally as implementations are developed)
+- 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (repositories will be created incrementally as implementations are developed)
 
-> **Note**: Code repositories will be created as implementations are developed. This repository contains only educational content and documentation.
+> **Note**: This repository contains only educational content and documentation.
 
 ---
 
@@ -319,8 +328,8 @@ This design serves different learning modalities and supports professionals at a
 For consistent commit authorship across machines, configure your global Git identity:
 
 ```bash
-git config --global user.email "vishipayyallore@yahoo.com"
-git config --global user.name "Viswanatha Swamy"
+git config --global user.email "yourname@youremail.com"
+git config --global user.name "Your Name"
 ```
 
 You only need to run these commands once per machine.
@@ -343,12 +352,37 @@ py -m pip install uv
 
 ---
 
+## 🤝 Contributing
+
+Contributions are welcome and encouraged. You may contribute in the following ways:
+
+- Bug fixes and corrections
+- Documentation improvements
+- New learning content or explanations
+- Additional case studies, examples, or diagrams
+- Curated learning resources
+- Tooling, scripts, or automation enhancements
+
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
+## 📞 About & Community
+
+### [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy) & [ShyvnTech](https://www.linkedin.com/company/shyvntech)
+
+This repository is part of the **ArchitectJourney** initiative, stewarded and supported by `Swamy's Tech Skills Academy` and `ShyvnTech`. It is focused on helping developers and senior engineers strengthen system design skills through structured learning and real-world architectural practice.
+
+You can connect with the community to:
+
+- Follow structured learning journeys and deep-dive content
+- Participate in knowledge-sharing discussions
+- Explore mentoring, workshops, and custom training opportunities
+
 ## 📜 License
 
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ---
 
-> 🧠 **ArchitectJourney** — Designed and maintained by *Viswanatha Swamy P K*  
-> Empowering developers to evolve into visionary architects and technical leaders.  
-> © 2025 Sri Vari Software Solutions
+> 🧠 **ArchitectJourney** — Designed and maintained by `Viswanatha Swamy P K`
+> Empowering developers to evolve into visionary architects and technical leaders.
+> © 2025 Swamy's Tech Skills Academy, ShyvnTech & Srivari Software Solutions
