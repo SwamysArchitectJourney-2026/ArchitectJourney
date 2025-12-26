@@ -379,7 +379,7 @@ You can connect with the community to:
 
 ## 📜 License
 
-This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ---
 
