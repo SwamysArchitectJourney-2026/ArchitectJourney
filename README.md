@@ -2,9 +2,9 @@
 
 A comprehensive learning and reference repository for aspiring software architects — providing a structured 9-level journey from foundational development principles to strategic leadership impact.
 
+![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Roadmap](https://img.shields.io/badge/Roadmap-9%20Levels-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Built%20with](https://img.shields.io/badge/Built%20with-AI%20%26%20DevOps-purple)
 ![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)
 
