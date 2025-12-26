@@ -10,8 +10,15 @@ A comprehensive learning and reference repository for aspiring software architec
 
 ---
 
+## 📌 Disclaimer
+
+This is a personal learning repository, not official course material or a structured curriculum.
+
+---
+
 ## 📘 Table of Contents
 
+- [Disclaimer](#-disclaimer)
 - [Overview](#-overview)
 - [Organization Context](#-organization-context)
 - [What You'll Find](#-what-youll-find)
@@ -319,8 +326,8 @@ This design serves different learning modalities and supports professionals at a
 For consistent commit authorship across machines, configure your global Git identity:
 
 ```bash
-git config --global user.email "vishipayyallore@yahoo.com"
-git config --global user.name "Viswanatha Swamy"
+git config --global user.email "yourname@youremail.com"
+git config --global user.name "Your Name"
 ```
 
 You only need to run these commands once per machine.
