@@ -343,17 +343,6 @@ py -m pip install uv
 
 ---
 
-## Prompt For Daily Usage
-
-```plaintext
-1. Read the copilot-instructions.md / .cursor rules.
-2. Ensure all the content inside D:\SAJ-2026\ArchitectJourney\source-materials and its child folders are completely migrated into our educational content.
-3. Review the content of src folder.
-4. Do a deep dive.
-```
-
----
-
 ## 📜 License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
