@@ -27,6 +27,8 @@ This is **Swamy's personal learning** repository, not official course material o
 - [Learning Domains](#-learning-domains-covered)
 - [Repository Structure](#-repository-structure)
 - [Developer Git Setup](#-developer-git-setup)
+- [Contributing](#-contributing)
+- [About & Community](#-about--community)
 - [License](#-license)
 
 ---
@@ -367,7 +369,7 @@ Please review [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guide
 
 ### [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy) & [ShyvnTech](https://www.linkedin.com/company/shyvntech)
 
-This repository is part of the **ArchitectJourney** initiative, supported by Swamy's Tech Skills Academy and ShyvnTech. It is focused on helping developers and senior engineers strengthen system design skills through structured learning and real-world architectural practice.
+This repository is part of the **ArchitectJourney** initiative, stewarded and supported by `Swamy's Tech Skills Academy` and `ShyvnTech`. It is focused on helping developers and senior engineers strengthen system design skills through structured learning and real-world architectural practice.
 
 You can connect with the community to:
 
