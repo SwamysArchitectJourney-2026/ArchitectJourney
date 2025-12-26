@@ -12,7 +12,7 @@ A comprehensive learning and reference repository for aspiring software architec
 
 ## 📌 Disclaimer
 
-This is **Swamy's personal learning** repository, not official course material or a structured curriculum.
+This is **Swamy's personal learning** repository and reference workspace, not official course material or a packaged curriculum.
 
 ---
 
@@ -60,15 +60,15 @@ This repository is part of the **SwamysArchitectJourney-2026** GitHub organizati
 
 All code implementations are organized by language/domain:
 
-- 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (coming soon)
-- 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (coming soon)
-- 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (coming soon)
-- ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (coming soon)
-- 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (coming soon)
-- ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (coming soon)
-- 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (coming soon)
+- 🐍 [Python](https://github.com/SwamysArchitectJourney-2026/Python) - Python implementations (repositories will be created incrementally as implementations are developed)
+- 🔷 [C#](https://github.com/SwamysArchitectJourney-2026/CSharp) - C# and .NET projects (repositories will be created incrementally as implementations are developed)
+- 📜 [JavaScript](https://github.com/SwamysArchitectJourney-2026/JavaScript) - JavaScript/TypeScript projects (repositories will be created incrementally as implementations are developed)
+- ☕ [Java](https://github.com/SwamysArchitectJourney-2026/Java) - Java and Spring Boot (repositories will be created incrementally as implementations are developed)
+- 🐹 [Go](https://github.com/SwamysArchitectJourney-2026/Go) - Go projects (repositories will be created incrementally as implementations are developed)
+- ☁️ [Cloud](https://github.com/SwamysArchitectJourney-2026/Cloud) - Infrastructure as Code (repositories will be created incrementally as implementations are developed)
+- 🤖 [AI-ML](https://github.com/SwamysArchitectJourney-2026/AI-ML) - AI/ML implementations (repositories will be created incrementally as implementations are developed)
 
-> **Note**: Code repositories will be created as implementations are developed. This repository contains only educational content and documentation.
+> **Note**: This repository contains only educational content and documentation.
 
 ---
 
