@@ -1,7 +1,7 @@
 # Improvements Adopted from Source Materials
 
 **Date**: December 24, 2025  
-**Source**: `source-materials/Today/` (from `system-design-in-practice` repository)
+**Source**: `source-material/Today/` (from `system-design-in-practice` repository)
 
 ---
 
