@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/SwamysArchitectJourney-2026/ArchitectJourney#readme
+    about: Check the README and documentation for answers
+  - name: 💬 Discussions
+    url: https://github.com/SwamysArchitectJourney-2026/ArchitectJourney/discussions
+    about: Ask questions and share ideas in Discussions
+  - name: 📖 Educational Content Rules
+    url: https://github.com/SwamysArchitectJourney-2026/ArchitectJourney/blob/main/.cursor/rules/01_educational-content-rules.mdc
+    about: Review content contribution guidelines
+
