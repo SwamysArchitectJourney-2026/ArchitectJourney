@@ -350,12 +350,37 @@ py -m pip install uv
 
 ---
 
+## 🤝 Contributing
+
+Contributions are welcome and encouraged. You may contribute in the following ways:
+
+- Bug fixes and corrections
+- Documentation improvements
+- New learning content or explanations
+- Additional case studies, examples, or diagrams
+- Curated learning resources
+- Tooling, scripts, or automation enhancements
+
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
+## 📞 About & Community
+
+### [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy) & [ShyvnTech](https://www.linkedin.com/company/shyvntech)
+
+This repository is part of the **ArchitectJourney** initiative, supported by Swamy's Tech Skills Academy and ShyvnTech. It is focused on helping developers and senior engineers strengthen system design skills through structured learning and real-world architectural practice.
+
+You can connect with the community to:
+
+- Follow structured learning journeys and deep-dive content
+- Participate in knowledge-sharing discussions
+- Explore mentoring, workshops, and custom training opportunities
+
 ## 📜 License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
 ---
 
-> 🧠 **ArchitectJourney** — Designed and maintained by *Viswanatha Swamy P K*  
-> Empowering developers to evolve into visionary architects and technical leaders.  
+> 🧠 **ArchitectJourney** — Designed and maintained by Viswanatha Swamy P K
+> Empowering developers to evolve into visionary architects and technical leaders.
 > © 2025 Srivari Software Solutions
