@@ -351,4 +351,4 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 > 🧠 **ArchitectJourney** — Designed and maintained by *Viswanatha Swamy P K*  
 > Empowering developers to evolve into visionary architects and technical leaders.  
-> © 2025 Sri Vari Software Solutions
+> © 2025 Srivari Software Solutions
