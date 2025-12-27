@@ -5,7 +5,7 @@ A comprehensive learning and reference repository for aspiring software architec
 ![License](https://img.shields.io/badge/License-MIT-purple)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Roadmap](https://img.shields.io/badge/Roadmap-9%20Levels-orange)
-![Built%20with](https://img.shields.io/badge/Built%20with-AI%20%26%20DevOps-green)
+![Built%20with](https://img.shields.io/badge/Built%20with-AI%20%26%20DevOps-yellow)
 ![Maintainer](https://img.shields.io/badge/Maintainer-Viswanatha%20Swamy%20P%20K-blue)
 
 ---
