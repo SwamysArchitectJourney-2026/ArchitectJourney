@@ -1,4 +1,4 @@
-# Interview Preparation Materials
+# Preparation Materials
 
 **Organized by role type** for easy navigation and targeted preparation.
 
@@ -8,27 +8,27 @@
 
 ### 📂 Common
 
-**Shared interview content applicable to all roles:**
+**Shared preparation content applicable to all roles:**
 
 - Behavioral questions (STAR method)
 - General Agile/Scrum basics
-- Common interview tips
+- Common preparation tips
 - General system design fundamentals
 
 ### 📂 TPM (Technical Project Manager)
 
-**TPM-specific interview preparation:**
+**TPM-specific preparation:**
 
 - TPM question banks (Easy → Expert)
 - Model answers for TPM role
 - System design from TPM perspective
 - Agile/Scrum scenarios for TPMs
-- Mock interview questions
+- Mock evaluation questions
 - Technical topics for TPMs
 
 ### 📂 Software-Architect
 
-**Software Architect interview preparation:**
+**Software Architect preparation:**
 
 - Architecture-focused questions
 - System design from architect perspective
@@ -37,7 +37,7 @@
 
 ### 📂 Solution-Architect
 
-**Solution Architect interview preparation:**
+**Solution Architect preparation:**
 
 - Cloud architecture questions
 - Enterprise solution design
@@ -47,7 +47,7 @@
 
 ### 📂 Engineering-Manager
 
-**Engineering Manager interview preparation:**
+**Engineering Manager preparation:**
 
 - People management questions
 - Team scaling strategies
@@ -57,9 +57,9 @@
 
 ### 📂 PrincipalConsultant-Data
 
-**Principal Consultant - Data interview preparation:**
+**Principal Consultant - Data preparation:**
 
-- Data engineering interview prep (Azure Data Engineering, Databricks, Fabric, PySpark)
+- Data engineering preparation (Azure Data Engineering, Databricks, Fabric, PySpark)
 - Data platform architecture
 - Big data technologies (Spark, Databricks, Fabric)
 - Data pipeline design
@@ -68,7 +68,7 @@
 
 ### 📂 .NET-Architect
 
-**.NET Architect interview preparation:**
+**.NET Architect preparation:**
 
 - .NET-specific architecture patterns
 - Enterprise .NET application design
@@ -82,32 +82,32 @@
 
 - Video Conferencing system design (comprehensive 15-file module)
 - Live Streaming system design
-- Complete interview-style system design scenarios
+- Complete evaluation-style system design scenarios
 
 ---
 
 ## 🎯 Quick Start
 
-**For TPM Interview:**
+**For TPM Preparation:**
 → Start with `TPM/01_Interview-Overview.md`
 
-**For Software Architect Interview:**
+**For Software Architect Preparation:**
 → Start with `Software-Architect/` folder (content coming soon)
 
-**For Principal Consultant - Data Interview:**
+**For Principal Consultant - Data Preparation:**
 → Start with `PrincipalConsultant-Data/` folder (content coming soon)
 
-**For Solution Architect Interview:**
+**For Solution Architect Preparation:**
 → Start with `Solution-Architect/` folder (content coming soon)
 
-**For Engineering Manager Interview:**
+**For Engineering Manager Preparation:**
 → Start with `Engineering-Manager/` folder (content coming soon)
 
-**For .NET Architect Interview:**
+**For .NET Architect Preparation:**
 → Start with `10_.NET-Architect/` folder (content coming soon)
 
 **Common Content:**
-→ Check `02_Common/` for shared interview preparation materials
+→ Check `02_Common/` for shared preparation materials
 
 **System Design Scenarios:**
 → Check `03_System-Design-Scenarios/` for deep-dive case studies
@@ -118,8 +118,8 @@
 
 | Folder | Status | Description |
 |--------|--------|-------------|
-| **01_Glossary** | ✅ Complete | Interview terminology and acronyms |
-| **02_Common** | 🏗️ Ready | Shared interview materials |
+| **01_Glossary** | ✅ Complete | Evaluation terminology and acronyms |
+| **02_Common** | 🏗️ Ready | Shared preparation materials |
 | **03_System-Design-Scenarios** | ✅ Has Content | Video Conferencing, Live Streaming case studies |
 | **04_TPM** | ✅ Complete | Full TPM interview prep |
 | **05_Software-Architect** | 📝 Ready | Ready for architecture-focused content |
@@ -133,8 +133,8 @@
 
 ## 🔗 Navigation
 
-- [Glossary](./01_Glossary/) - Interview terminology and acronyms
-- [Common Interview Materials](./02_Common/) - Shared content for all roles
+- [Glossary](./01_Glossary/) - Evaluation terminology and acronyms
+- [Common Preparation Materials](./02_Common/) - Shared content for all roles
 - [System Design Scenarios](./03_System-Design-Scenarios/) - Deep-dive case studies
 - [TPM Interview Prep](./04_TPM/) - Complete TPM interview preparation
 - [Software Architect Prep](./05_Software-Architect/) - Software architect preparation

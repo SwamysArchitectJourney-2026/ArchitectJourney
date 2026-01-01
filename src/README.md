@@ -4,7 +4,7 @@ This directory contains the **organized educational content** for ArchitectJourn
 
 - **`01_Reference/`** — Static knowledge and reference materials
 - **`02_Learning/`** — Progressive learning paths and courses
-- **`03_Interview-Prep/`** — Interview preparation materials organized by role
+- **`03_Interview-Prep/`** — Preparation materials organized by role
 
 ---
 
@@ -19,8 +19,8 @@ src/
 │
 ├── 02_Learning/           # Progressive learning paths (coming soon)
 │
-├── 03_Interview-Prep/     # Interview preparation by role
-│   ├── Common/            # Shared interview content (STAR method, etc.)
+├── 03_Interview-Prep/     # Preparation by role
+│   ├── Common/            # Shared preparation content (STAR method, etc.)
 │   ├── TPM/               # Technical Project Manager prep
 │   ├── Architect/         # Software Architect prep
 │   ├── Solution-Architect/ # Solution Architect prep
@@ -71,47 +71,47 @@ This directory will contain progressive learning materials organized by:
 
 ---
 
-## 💼 03_Interview-Prep — Interview Preparation
+## 💼 03_Interview-Prep — Preparation
 
-**Purpose**: Role-specific interview preparation materials.
+**Purpose**: Role-specific preparation materials.
 
 ### Common
 
-Shared interview content:
+Shared preparation content:
 - STAR method guide
-- Common interview frameworks
+- Common evaluation frameworks
 
 ### TPM (Technical Project Manager)
 
-Complete TPM interview preparation:
-- Interview overview and rounds
+Complete TPM preparation:
+- Overview and rounds
 - Question banks (Easy → Expert)
 - Model answers
 - System design questions
 - Agile scenarios
 - Technical topics
-- Mock interview questions
+- Mock evaluation questions
 - Additional system designs
-- Interview cheatsheet
+- Preparation cheatsheet
 - STAR stories
 
 ### Solution-Architect
 
 Comprehensive solution architect prep:
-- Azure Data Engineering interview prep
+- Azure Data Engineering preparation
 - ML Platform design answers
 - Principal Consultant question bank
-- Complete interview prep pack
-- Architecture diagrams & mock interview
+- Complete preparation pack
+- Architecture diagrams & mock evaluations
 - Enterprise ML platform design
 
 ### Architect
 
-Software architect interview materials (coming soon).
+Software architect preparation materials (coming soon).
 
 ### Engineering-Manager
 
-Engineering manager interview materials (coming soon).
+Engineering manager preparation materials (coming soon).
 
 ---
 
@@ -141,7 +141,7 @@ All content follows these principles:
 - [Main README](../README.md) — Repository overview and roadmap
 - [Reference Materials](./01_Reference/) — Static knowledge base
 - [Learning Paths](./02_Learning/) — Progressive courses
-- [Interview Prep](./03_Interview-Prep/) — Role-specific prep
+- [Preparation](./03_Interview-Prep/) — Role-specific prep
 
 ---
 

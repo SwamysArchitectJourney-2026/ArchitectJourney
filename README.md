@@ -280,9 +280,9 @@ ArchitectJourney/
 ├── 02_Learning/                          # 🎓 TIER 2: Progressive Learning Paths
 │   ├── 01_Core-Architecture-Path/         # Levels 1-9: Developer to Architect
 │   └── 02_Lead-Architect-Path/            # Phases 1-9: Architect to Enterprise Leader
-├── 03_Interview-Prep/                    # 🎯 Interview Preparation Materials
+├── 03_Interview-Prep/                    # 🎯 Preparation Materials
 │   ├── 01_System-Design/                  # System design questions & solutions
-│   ├── 02_Behavioral/                     # Behavioral interview prep
+│   ├── 02_Behavioral/                     # Behavioral preparation
 │   ├── 03_Technical-Questions/           # Coding & technical questions
 │   ├── 04_Mock-Interviews/                # Practice scenarios
 │   └── 05_Company-Specific/               # Company-specific prep
@@ -303,7 +303,7 @@ The repository uses a **dual-folder approach** at the root level:
 
 - **`01_Reference/`** — Static knowledge library for immediate lookup without dependencies
 - **`02_Learning/`** — Sequential, scaffolded learning paths with prerequisites and progressive skill-building
-- **`03_Interview-Prep/`** — Time-bound interview preparation materials for architecture and technical roles
+- **`03_Interview-Prep/`** — Time-bound preparation materials for architecture and technical roles
 
 This design serves different learning modalities and supports professionals at all career stages. The structure will be implemented incrementally as content is developed.
 
