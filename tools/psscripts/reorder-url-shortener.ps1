@@ -8,4 +8,4 @@
 #>
 
 Write-Host "This script is legacy and not applicable in this repository." -ForegroundColor Yellow
-exit 0
+return
