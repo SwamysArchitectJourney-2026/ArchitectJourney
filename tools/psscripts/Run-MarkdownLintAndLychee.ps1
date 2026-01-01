@@ -63,7 +63,13 @@ if (-not $MarkdownGlobs -or $MarkdownGlobs.Count -eq 0) {
   )
 
   if ($IncludeSourceMaterials) {
-    $MarkdownGlobs += "source-material/**/*.md"
+    # Support both legacy and current folder names.
+    if (Test-Path (Join-Path $repoRoot 'source-material')) {
+      $MarkdownGlobs += "source-material/**/*.md"
+    }
+    if (Test-Path (Join-Path $repoRoot 'source-materials')) {
+      $MarkdownGlobs += "source-materials/**/*.md"
+    }
   }
 }
 
