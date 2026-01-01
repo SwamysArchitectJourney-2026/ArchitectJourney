@@ -1,8 +1,11 @@
 ﻿# GitHub Copilot Instructions for ArchitectJourney
 
 **Version**: 3.3  
-**Last Updated**: December 24, 2025  
+**Last Updated**: January 1, 2026  
 **Critical Principle**: Update this file IMMEDIATELY when repository structure changes
+
+**Environment**: Windows 11, PowerShell  
+**Note**: All commands and scripts should use PowerShell syntax. File paths use Windows format.
 
 ---
 
@@ -1101,7 +1104,7 @@ ASCII Fallback:
 ## 📚 Document Information
 
 **Version**: 3.2  
-**Last Updated**: November 10, 2025  
+**Last Updated**: January 1, 2026  
 **Maintained By**: ArchitectJourney Learning System  
 **Review Cycle**: After every structural change (immediate) + quarterly review  
 **Audience**: GitHub Copilot agents, content creators, maintainers

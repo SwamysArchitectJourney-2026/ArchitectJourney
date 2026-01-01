@@ -1,7 +1,7 @@
-# File Naming Conventions (ArchitectJourney)
+# File Naming Conventions
 
 **Version**: 2.0  
-**Last Updated**: December 24, 2025  
+**Last Updated**: January 1, 2026  
 **Priority**: MANDATORY - All new content must follow these conventions
 
 ---
@@ -392,7 +392,7 @@ question-bank/
 **Before writing**:
 
 1. **Choose the right folder** based on learning progression or content type
-   - For learning content: Use numbered folders (`01_Reference/`, `02_Learning/`)
+   - For learning content: Use numbered folders (`01_Reference/`, `02_Learning/`, `src/01_introduction/`, etc.)
    - For reference-style content: Create a folder with `README.md` index (e.g., `glossary/`)
 
 2. **Choose a filename that matches the concept boundary**:
@@ -427,7 +427,7 @@ question-bank/
 
 ### Recommended Patterns by Folder Type
 
-**In main learning folders** (e.g., `src/01_Reference/`, `src/02_Learning/`):
+**In main learning folders** (e.g., `src/01_Reference/`, `src/02_Learning/`, `src/01_introduction/`):
 - Use ordered files: `NN_topic-slug.md`
 - If you must split: `NN_topic-slug-part1.md`, `NN_topic-slug-part2.md` (keep the same `NN_` prefix)
 
@@ -435,7 +435,7 @@ question-bank/
 - Prefer `README.md` as the index + semantic topic files like `core-concepts.md`, `security.md`
 - Add ordering numbers only if there is a deliberate reading sequence
 
-**In interview prep folders** (e.g., `src/03_Interview-Prep/`):
+**In interview prep folders** (e.g., `src/03_Interview-Prep/`, `src/02_interview-prep/`):
 - Use semantic names: `interview-overview.md`, `study-roadmap.md`, `skills-checklist.md`
 - Use folders for grouping: `azure-architect/`, `devops-architect/`
 - Use `README.md` for navigation within each folder
