@@ -100,7 +100,7 @@ related_topics:
 
 - **Reference Content**: `src/01_Reference/` - Static knowledge base
 - **Learning Paths**: `src/02_Learning/` - Sequential learning content
-- **Interview Prep**: `src/03_Interview-Prep/` - Interview preparation materials
+- **Preparation**: `src/03_Interview-Prep/` - Preparation materials
 
 ---
 

@@ -63,7 +63,13 @@ if (-not $MarkdownGlobs -or $MarkdownGlobs.Count -eq 0) {
   )
 
   if ($IncludeSourceMaterials) {
-    $MarkdownGlobs += "source-material/**/*.md"
+    # Support both legacy and current folder names.
+    if (Test-Path (Join-Path $repoRoot 'source-material')) {
+      $MarkdownGlobs += "source-material/**/*.md"
+    }
+    if (Test-Path (Join-Path $repoRoot 'source-materials')) {
+      $MarkdownGlobs += "source-materials/**/*.md"
+    }
   }
 }
 
@@ -119,8 +125,8 @@ Write-Host ""
 
 if ($mdExitCode -ne 0 -or $lycheeExitCode -ne 0) {
   Write-Host "Overall: ISSUES FOUND" -ForegroundColor Yellow
-  exit 1
+  throw "Markdown/Lychee validation failed."
 }
 
 Write-Host "Overall: PASSED" -ForegroundColor Green
-exit 0
+return

@@ -1,7 +1,10 @@
 # Cursor AI Project Rules
 
 **Version**: 1.0  
-**Last Updated**: November 6, 2025
+**Last Updated**: January 1, 2026
+
+**Environment**: Windows 11, PowerShell  
+**Note**: All commands and scripts should use PowerShell syntax. File paths use Windows format.
 
 This directory contains modular rule files for Cursor AI, following the recommended Project Rules structure.
 
@@ -27,6 +30,11 @@ This directory contains modular rule files for Cursor AI, following the recommen
 
 ### `06_cross-domain-integration.mdc`
 **Content**: Cross-domain integration requirements, connection patterns
+
+### `07_file-naming-conventions.mdc`
+**Priority**: MANDATORY  
+**Content**: File naming conventions, semantic naming patterns, splitting strategies, folder structure best practices  
+**Applicability**: All new content must follow these conventions. Existing content may use `-part1`, `-part2` patterns (acceptable for mechanical splitting)
 
 ---
 
