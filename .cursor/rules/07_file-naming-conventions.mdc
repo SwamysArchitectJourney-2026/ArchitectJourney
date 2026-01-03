@@ -70,7 +70,7 @@ Glossary-Part2.md
 **Use semantic names that describe the content**:
 
 ```
-interview/
+evaluation-prep/
 ├── glossary/
 │   ├── README.md
 │   ├── core-concepts.md
@@ -92,7 +92,7 @@ interview/
 **Use numbered prefixes ONLY when there's a deliberate learning order**:
 
 ```
-interview/
+evaluation-prep/
 ├── glossary/
 │   ├── 01_fundamentals.md
 │   ├── 02_system-design.md
@@ -112,7 +112,7 @@ interview/
 **When content naturally groups, use folders**:
 
 ```
-interview/
+evaluation-prep/
 ├── glossary/
 │   ├── README.md        # Index + navigation
 │   ├── core-concepts.md
@@ -140,7 +140,7 @@ interview/
 - `core-concepts.md`
 - `system-design.md`
 - `azure-fundamentals.md`
-- `interview-questions.md`
+- `evaluation-questions.md`
 
 **❌ Bad**:
 - `Part1-A.md`
@@ -152,7 +152,7 @@ interview/
 **✅ Good**:
 - `system-design.md`
 - `azure-fundamentals.md`
-- `interview-questions.md`
+- `evaluation-questions.md`
 
 **❌ Bad**:
 - `system_design.md` (underscores)
@@ -181,7 +181,7 @@ interview/
 
 **✅ Good**:
 ```
-interview/
+evaluation-prep/
 ├── questions/
 │   ├── fundamentals.md
 │   ├── system-design.md
@@ -190,7 +190,7 @@ interview/
 
 **❌ Bad**:
 ```
-interview/
+evaluation-prep/
 ├── questions-fundamentals.md
 ├── questions-system-design.md
 └── questions-cloud.md
@@ -222,9 +222,9 @@ interview/
 
 **Before** (problematic):
 ```
-01_Interview-Glossary-Part1-A.md  (150 lines)
-01_Interview-Glossary-Part1-B.md  (150 lines)
-01_Interview-Glossary-Part1-C.md  (150 lines)
+01_Technical-Evaluation-Glossary-Part1-A.md  (150 lines)
+01_Technical-Evaluation-Glossary-Part1-B.md  (150 lines)
+01_Technical-Evaluation-Glossary-Part1-C.md  (150 lines)
 ```
 
 **After** (semantic):
@@ -253,7 +253,7 @@ glossary/
 
 1. **Content naturally groups**:
    ```
-   interview/
+   evaluation-prep/
    ├── questions/
    │   ├── fundamentals.md
    │   ├── system-design.md
@@ -262,7 +262,7 @@ glossary/
 
 2. **You expect expansion**:
    ```
-   interview/
+   evaluation-prep/
    ├── scenarios/
    │   ├── README.md
    │   ├── e-commerce.md
@@ -272,7 +272,7 @@ glossary/
 
 3. **You need navigation**:
    ```
-   interview/
+   evaluation-prep/
    ├── glossary/
    │   ├── README.md  # Index with links
    │   ├── core-concepts.md
@@ -289,12 +289,12 @@ glossary/
 
 ## 🔍 Examples: Current vs. Recommended
 
-### Example 1: Interview Glossary
+### Example 1: Technical Evaluation Glossary
 
 **Current** (problematic):
 ```
-01_Interview-Glossary-Part1-A.md
-01_Interview-Glossary-Part1-B.md
+01_Technical-Evaluation-Glossary-Part1-A.md
+01_Technical-Evaluation-Glossary-Part1-B.md
 ```
 
 **Recommended**:
@@ -431,12 +431,12 @@ question-bank/
 - Use ordered files: `NN_topic-slug.md`
 - If you must split: `NN_topic-slug-part1.md`, `NN_topic-slug-part2.md` (keep the same `NN_` prefix)
 
-**In reference-style subfolders** (e.g., `glossary/`, `interview-prep/`):
+**In reference-style subfolders** (e.g., `glossary/`, `evaluation-prep/`):
 - Prefer `README.md` as the index + semantic topic files like `core-concepts.md`, `security.md`
 - Add ordering numbers only if there is a deliberate reading sequence
 
-**In interview prep folders** (e.g., `src/03_Interview-Prep/`, `src/02_interview-prep/`):
-- Use semantic names: `interview-overview.md`, `study-roadmap.md`, `skills-checklist.md`
+**In technical evaluation prep folders** (e.g., `src/03_Technical-Evaluation-Prep/`, `src/02_evaluation-prep/`):
+- Use semantic names: `evaluation-overview.md`, `study-roadmap.md`, `skills-checklist.md`
 - Use folders for grouping: `azure-architect/`, `devops-architect/`
 - Use `README.md` for navigation within each folder
 
