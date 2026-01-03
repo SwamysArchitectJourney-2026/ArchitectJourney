@@ -222,9 +222,9 @@ evaluation-prep/
 
 **Before** (problematic):
 ```
-01_Technical-Evaluation-Glossary-Part1-A.md  (150 lines)
-01_Technical-Evaluation-Glossary-Part1-B.md  (150 lines)
-01_Technical-Evaluation-Glossary-Part1-C.md  (150 lines)
+01_Glossary-Part1-A.md  (150 lines)
+01_Glossary-Part1-B.md  (150 lines)
+01_Glossary-Part1-C.md  (150 lines)
 ```
 
 **After** (semantic):
@@ -289,12 +289,12 @@ glossary/
 
 ## 🔍 Examples: Current vs. Recommended
 
-### Example 1: Technical Evaluation Glossary
+### Example 1: Glossary
 
 **Current** (problematic):
 ```
-01_Technical-Evaluation-Glossary-Part1-A.md
-01_Technical-Evaluation-Glossary-Part1-B.md
+01_Glossary-Part1-A.md
+01_Glossary-Part1-B.md
 ```
 
 **Recommended**:
