@@ -78,7 +78,15 @@ function Parse-YamlReferences {
             $value = $matches[1].Trim()
             # Handle array format: - file.md or [file1.md, file2.md]
             if ($value -match '^\[(.+)\]$') {
-                $items = $matches[1] -split ',' | ForEach-Object { $_.Trim().Trim("'`\"\"") }
+                if ([string]::IsNullOrWhiteSpace($matches[1])) { continue }
+                $items = $matches[1] -split ',' | ForEach-Object { 
+                    $trimmed = $_.Trim()
+                    if ($trimmed.Length -ge 2 -and (($trimmed[0] -eq [char]39 -or $trimmed[0] -eq [char]34) -and ($trimmed[-1] -eq [char]39 -or $trimmed[-1] -eq [char]34))) {
+                        $trimmed.Substring(1, $trimmed.Length - 2)
+                    } else {
+                        $trimmed
+                    }
+                }
                 foreach ($item in $items) {
                     if (-not [string]::IsNullOrWhiteSpace($item)) {
                         $references += [PSCustomObject]@{
@@ -86,27 +94,39 @@ function Parse-YamlReferences {
                             Key = $key
                             Target = $item
                             File = $FilePath
+                            Line = $null
                         }
                     }
                 }
             } elseif ($value -match '^-\s*(.+)$') {
-                $item = $matches[1].Trim().Trim("'`\"")
+                $item = $matches[1].Trim()
+                if ($item.Length -ge 2 -and (($item[0] -eq [char]39 -or $item[0] -eq [char]34) -and ($item[-1] -eq [char]39 -or $item[-1] -eq [char]34))) {
+                    $item = $item.Substring(1, $item.Length - 2)
+                }
                 if (-not [string]::IsNullOrWhiteSpace($item)) {
                     $references += [PSCustomObject]@{
                         Type = 'yaml'
                         Key = $key
                         Target = $item
                         File = $FilePath
+                        Line = $null
                     }
                 }
             } else {
-                $item = $value.Trim().Trim("'`\"")
+                # Remove surrounding quotes if present
+                $item = $value.Trim()
+                $firstChar = $item[0]
+                $lastChar = $item[-1]
+                if ($item.Length -ge 2 -and (($firstChar -eq [char]39 -or $firstChar -eq [char]34) -and ($lastChar -eq [char]39 -or $lastChar -eq [char]34))) {
+                    $item = $item.Substring(1, $item.Length - 2)
+                }
                 if (-not [string]::IsNullOrWhiteSpace($item)) {
                     $references += [PSCustomObject]@{
                         Type = 'yaml'
                         Key = $key
                         Target = $item
                         File = $FilePath
+                        Line = $null
                     }
                 }
             }
