@@ -4,7 +4,7 @@ param(
     [string]$RepoRoot = ((Resolve-Path (Join-Path $PSScriptRoot "..\..") | Select-Object -First 1 -ExpandProperty Path)),
 
     [Parameter()]
-    [string[]]$SourceFiles = @(),
+    [string[]]$AdditionalSourceFiles = @(),
 
     [Parameter()]
     [switch]$Strict
@@ -46,13 +46,13 @@ if (Test-Path $sourceMaterialPath) {
     }
 }
 
-if ($SourceFiles.Count -gt 0) {
-    $sourceFiles += @($SourceFiles | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue })
+if ($AdditionalSourceFiles.Count -gt 0) {
+    $sourceFiles += @($AdditionalSourceFiles | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue })
 }
 
 $sourceFiles = @(
     $sourceFiles | Where-Object {
-        $_ -and $_.PSObject -and ($_.PSObject.Properties.Match('FullName').Count -gt 0)
+        $_ -and $_.PSObject -and ($null -ne $_.PSObject.Properties['FullName'])
     }
 )
 Write-Verbose "Source files after FullName property filter: $($sourceFiles.Count)"
