@@ -1,10 +1,10 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")),
+    [string]$RepoRoot = ((Resolve-Path (Join-Path $PSScriptRoot "..\..") | Select-Object -First 1 -ExpandProperty Path)),
 
     [Parameter()]
-    [string[]]$SourceFiles = @(),
+    [string[]]$AdditionalSourceFiles = @(),
 
     [Parameter()]
     [switch]$Strict
@@ -12,6 +12,8 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+Write-Verbose "RepoRoot: '$RepoRoot'"
 
 function Write-ZeroCopyWarning {
     param([string]$Message)
@@ -32,15 +34,28 @@ function Write-ZeroCopySuccess {
 $sourceMaterialPath = Join-Path $RepoRoot "source-material"
 $sourceFiles = @()
 
+Write-Verbose "Source material path: '$sourceMaterialPath'"
+Write-Verbose "Source material exists: $((Test-Path $sourceMaterialPath))"
+
 if (Test-Path $sourceMaterialPath) {
     $sourceFiles = @(Get-ChildItem -Path $sourceMaterialPath -Filter "*.md" -Recurse -ErrorAction SilentlyContinue)
+    Write-Verbose "Source .md files found (pre-filter): $($sourceFiles.Count)"
+    if ($sourceFiles.Count -gt 0) {
+        Write-Verbose "SourceFiles[0] type: $($sourceFiles[0].GetType().FullName)"
+        Write-Verbose "SourceFiles[0] has FullName property: $([bool]($sourceFiles[0].PSObject.Properties.Match('FullName').Count))"
+    }
 }
 
-if ($SourceFiles.Count -gt 0) {
-    $sourceFiles += @($SourceFiles | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue })
+if ($AdditionalSourceFiles.Count -gt 0) {
+    $sourceFiles += @($AdditionalSourceFiles | ForEach-Object { Get-Item $_ -ErrorAction SilentlyContinue })
 }
 
-$sourceFiles = @($sourceFiles | Where-Object { $_ -and ($_ | Get-Member -Name 'FullName' -ErrorAction SilentlyContinue) })
+$sourceFiles = @(
+    $sourceFiles | Where-Object {
+        $_ -and $_.PSObject -and ($null -ne $_.PSObject.Properties['FullName'])
+    }
+)
+Write-Verbose "Source files after FullName property filter: $($sourceFiles.Count)"
 
 if ($sourceFiles.Count -eq 0) {
     Write-Host "No source material files found to check against." -ForegroundColor Yellow
